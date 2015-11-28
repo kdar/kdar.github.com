@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Rconsoft - HL1 chat command rcon tool  &middot; Kevin Darlington</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+
+<meta property="og:title" content="Rconsoft - HL1 chat command rcon tool  &middot; Kevin Darlington ">
+<meta property="og:site_name" content="Kevin Darlington"/>
+<meta property="og:url" content="http://blog.outroot.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2009-12-02T20:31:25Z" />
+<meta property="og:article:modified_time" content="2009-12-02T20:31:25Z" />
+
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="Rconsoft - HL1 chat command rcon tool" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="http://blog.outroot.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/" />
+<meta name="twitter:domain" content="http://blog.outroot.com">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Rconsoft - HL1 chat command rcon tool",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2009-12-02",
+    "description": "",
+    "wordCount":  892 
+  }
+</script>
+
+
+
+<link rel="canonical" href="http://blog.outroot.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.outroot.com/touch-icon-144-precomposed.png">
+<link href="http://blog.outroot.com/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.16-DEV" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://blog.outroot.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://blog.outroot.com/css/style.css">
+
+
+  
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="http://blog.outroot.com">
+  Kevin Darlington
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+
+  
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>Rconsoft - HL1 chat command rcon tool
+</h1>
+
+  <div class="metas">
+<time datetime="2009-12-02">2 Dec, 2009</time>
+
+
+  
+  &middot; Read in about 5 min
+  &middot; (892 Words)
+  <br>
+  
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  
+
+
+<figure >
+    
+        <img src="http://farm3.static.flickr.com/2793/4157272118_88cff59f17_o.png" />
+    
+    
+    <figcaption>
+        <h4>rconsoft</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us. He didn&rsquo;t just do that, but he made it so you could type commands inside the game chat and have the bot/program do what he wanted. It did other things as well, like getting the CAL info of the players, restarting the round, doing lo3, etc&hellip;</p>
+
+<p>Around this time I started getting into python and decided to remake his rcon.pl (yes, it was perl). I turned it into what is now known as rconsoft, with a pluggable architecture and more features.</p>
+
+<h4 id="what-it-does:1d0e710f67ccf5111f2305b437be6f37">What it does</h4>
+
+<p>The program allows you to type commands in the half-life/counter-strike chat. You can do stuff like .lo3 and have the server do the live on three sequence, .k <player> and kick the player from the server, or .id <player> and get the player&rsquo;s league information.</p>
+
+<h4 id="how-it-works:1d0e710f67ccf5111f2305b437be6f37">How it works</h4>
+
+<p>In the HL rcon protocol there is something called logaddress. This allows you to add an ip/port to the log address list, and the real-time server log will be sent to this ip/port via UDP. Here are a few examples of what is sent:</p>
+
+<ul>
+<li><p>Player chat. Both global and team.</p></li>
+
+<li><p>Bomb drop/pickup.</p></li>
+
+<li><p>Player damage.</p></li>
+
+<li><p>Player kill and with what weapon.</p></li>
+
+<li><p>Round over/win/restart.</p></li>
+
+<li><p>etc&hellip;</p></li>
+</ul>
+
+<p>So, what rconsoft does is log into the rcon of the server, set up the logaddress, and receive this log information. Since you can see chat text, it is trivial to have your program respond to commands in the chat. So you can type something like &ldquo;.lo3&rdquo;, and rconsoft will do the live on three sequence. All without having to minimize your game!</p>
+
+<h4 id="features:1d0e710f67ccf5111f2305b437be6f37">Features</h4>
+
+<ul>
+<li><p>Rconsoft was built with plugins in mind. All the commands that rconsoft supports are implemented in these plugins. The plugins are also very simple.</p></li>
+
+<li><p>There is a central configuration file where you can configure rconsoft.</p></li>
+
+<li><p>A tiered user system. You can restrict access to rconsoft&rsquo;s different commands. If you&rsquo;re a higher level user, you can use the higher level functions. Users are identified by their steamid.</p></li>
+
+<li><p>Contains an IRC bot to automatically find scrims for you. It will not only find scrims, but it will  generate a random password and send the server information to the challenger.</p></li>
+
+<li><p>Can do steamid checking (such as what leagues they&rsquo;re in).</p></li>
+
+<li><p>Can do location checking. Find out why the players have such high ping by finding where they live.</p></li>
+
+<li><p>Find out the rates of the players. Such as cl_updaterate and rate. This way, you can kick them if they&rsquo;re trying to lag on purpose.</p></li>
+
+<li><p>A good amount of commands built in. Check out the commands below.</p></li>
+</ul>
+
+<p>There may be more features, but this list was compiled off the top of my head. The feature list was going to grow as James and I had a lot of ideas for it (like score tracking). However, I no longer play counter-strike anymore so I don&rsquo;t have an interest in expanding it.</p>
+
+<h4 id="commands:1d0e710f67ccf5111f2305b437be6f37">Commands</h4>
+
+<p>You can look in the plugins directory and in the corresponding source files to find the commands rconsoft supports. I never got around to making a help system. All these commands are typed in the chat with the prefix &ldquo;.&rdquo;.</p>
+
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>r, rr</td>
+<td>restart round</td>
+</tr>
+
+<tr>
+<td>map, changelevel</td>
+<td>change the map</td>
+</tr>
+
+<tr>
+<td>say, hsay</td>
+<td>make the server say something</td>
+</tr>
+
+<tr>
+<td>pass, password</td>
+<td>change the password of the server</td>
+</tr>
+
+<tr>
+<td>k, kick</td>
+<td>kick players based on a regexp</td>
+</tr>
+
+<tr>
+<td>rk, rkick</td>
+<td>reverse kick players based on a regexp</td>
+</tr>
+
+<tr>
+<td>b, ban, kb</td>
+<td>kick and ban players based on a regexp</td>
+</tr>
+
+<tr>
+<td>rb, rban, rkb</td>
+<td>reverse kick and ban players based on a regexp</td>
+</tr>
+
+<tr>
+<td>exec, execr</td>
+<td>execute a server side script/config</td>
+</tr>
+
+<tr>
+<td>lo3</td>
+<td>do the live on three sequence</td>
+</tr>
+
+<tr>
+<td>id, idteam</td>
+<td>look up the id of a player or team based on a regexp</td>
+</tr>
+
+<tr>
+<td>ip2l</td>
+<td>look up the location of  a player</td>
+</tr>
+
+<tr>
+<td>msg</td>
+<td>message a person on IRC; this person must have messaged the bot previously</td>
+</tr>
+
+<tr>
+<td>privmsg, lmsg</td>
+<td>directly message a person on IRC</td>
+</tr>
+
+<tr>
+<td>find</td>
+<td>start finding a scrim</td>
+</tr>
+
+<tr>
+<td>stopfind, findstop</td>
+<td>stop finding a scrim</td>
+</tr>
+
+<tr>
+<td>ad</td>
+<td>view or modify your scrim IRC advertisement</td>
+</tr>
+
+<tr>
+<td>accept</td>
+<td>accept a scrim from IRC</td>
+</tr>
+
+<tr>
+<td>rate, rateteam</td>
+<td>get the rate of a player or team based on a regexp</td>
+</tr>
+</tbody>
+</table>
+
+<p>There could be more but this is what I saw from browsing the source code. I was also working on a plugin that would track the team scores and output them. I ran into some problems because of how the protocol does it.</p>
+
+<h4 id="source:1d0e710f67ccf5111f2305b437be6f37">Source</h4>
+
+<p>The source code is free for anyone to use and hack. If you decide to fork the repository and add stuff, let me know so I can marvel in your magnificence.</p>
+
+<p>Get it here: <a href="http://github.com/kdar/rconsoft">http://github.com/kdar/rconsoft</a>.</p>
+
+<h4 id="notes:1d0e710f67ccf5111f2305b437be6f37">Notes</h4>
+
+<p>I mainly ran this on ubuntu linux. It <em>should</em> work on windows but there is no guarantee.</p>
+
+<p>I&rsquo;m sorry if there are bugs in the program. I don&rsquo;t really have time to dedicate myself to fix it nor do I have a server to test it on. It worked perfectly the last time I was using it.</p>
+
+<p>I&rsquo;m happy to answer questions that people may have. I&rsquo;ll provide as much guidance as I can.</p>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+    
+    <a class="prev" href="http://blog.outroot.com/2009/12/01/high-performance-diy-fume-extractor/" title="High performance DIY fume extractor">
+      Previous
+    </a>
+    
+
+    
+    <a class="next" href="http://blog.outroot.com/2009/12/12/boduino-projector-blackout-device-v1/" title="Boduino - projector blackout device (v1)">
+      Next
+    </a>
+    
+
+  
+
+
+</div>
+
+  <div class="container comments">
+  <h2>Comments</h2>
+  
+
+</div>
+
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+
+</div>
+
+
+  
+<div class="container copyright">
+  
+  &copy; Kevin Darlington, 2015
+
+
+</div>
+
+
+</div>
+
+</footer>
+
+    </main>
+    
+
+
+
+
+
+    
+  </body>
+</html>
+

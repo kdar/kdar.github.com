@@ -1,0 +1,27 @@
+baseurl = "http://192.168.0.2"
+disablePathToLower = true
+languageCode = "en-us"
+title = "Kevin Darlington"
+theme = "kdar"
+copyright = "&copy; Kevin Darlington, 2015"
+disqusShortname = "kdarsblog"
+colors=["teal","red","pink","purple","deep-purple","indigo","blue","light-blue","cyan","teal","green","light-green","lime","amber","deep-orange"]
+
+[indexes]
+  tag = "tags"
+
+[params]
+  Pagination = 25
+  Author = "Kevin Darlington."
+  DateForm = "Mon, Jan 2, 2006"
+  Facebook = "Your ID."
+  Github = "Your ID."
+  GoogleAnalyticsUserID = "Your ID."
+  GravatarHash = "6a3c588b1566318bdb2d4ef94e2a9e74"
+  ShowRelatedPost = true
+  ShowTagCloud = true
+  SyntaxHighlightTheme = "solarized_dark.min.css"
+  Twitter = "Your ID."
+
+[permalinks]
+  post = "/blog/:year/:month/:day/:title/"

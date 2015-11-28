@@ -1,0 +1,57 @@
+      <!-- </div>
+    </div> -->
+  </main>
+
+  <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">Title</div>
+      <ul class="mdl-mini-footer__link-list">
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy & Terms</a></li>
+      </ul>
+    </div>
+    <div class="mdl-mini-footer__right-section">
+      <p>&copy; {{ .Site.LastChange.Year }} {{ if isset .Site.Params "Author" }} {{ .Site.Params.Author }} {{ else }} {{ .Site.Title }} {{ end }}</p>
+      <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>, designed by <a href="http://github.com/kdar" target="_blank">Kevin Darlington</a></p>
+    </div>
+  </footer>
+</div>
+
+<script src="//storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="{{ .Site.BaseURL }}/js/base.js"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '{{ .Site.Params.GoogleAnalyticsUserID }}', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+<!-- Gravatar -->
+<script>
+$(function() {
+  var url = "https://ja.gravatar.com/{{ .Site.Params.GravatarHash }}.json?callback=?";
+  $.getJSON(url)
+    .done(function(data) {
+      var entry = data.entry[0];
+      $("#photo").attr("src", entry.photos[0].value);
+      $("#username").html(entry.name.familyName + " " + entry.name.givenName);
+      $("#description").html(entry.aboutMe);
+      entry.urls.forEach(function(el){
+        $("#urls").append($("<li><a href='" + el.value + "'>" + el.title + "</a></li>"));
+      });
+      $("#profile").show();
+    });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+body {
+  /*background-color: #DADFE1;*/
+  background-color: #30373D;
+  font-family: "Open Sans";
+  color: #5c6a70;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #287BAC;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.site-layout .mdl-layout__header {
+  background-color: #262B2F;
+  background: url(/images/mac-computer-desktop99.jpg) bottom / cover;
+  background-repeat: no-repeat;
+}
+
+.site-nav {
+  position: relative;
+  background-color: rgba(81, 205, 34, 0.5);
+  /*transition: all 0.2s;*/
+}
+
+.site-nav.nav-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 150;
+  background-color: #91CE78;
+  /*transition: all 0.2s;*/
+}
+
+/*background-image: url(http://alana.io.s3.amazonaws.com/wood-notepad-pen11.jpg);*/
+.site-layout  {
+  overflow-x: visible;
+  overflow-y: visible;
+  /*background: url('http://www.getmdl.io/assets/demos/transparent.jpg') top / cover;*/
+  /*background-image: radial-gradient(circle at 50% top, rgba(84,90,182,0.6) 0%, rgba(84,90,182,0) 75%),radial-gradient(circle at right top, #794aa2 0%, rgba(121,74,162,0) 57%),radial-gradient(ellipse at 0% bottom, rgba(118,72,160,0.7) 0%, rgba(118,72,160,0) 60%),radial-gradient(ellipse at 90% bottom, #523f8c 0%, rgba(82,63,140,0) 40%);*/
+  /*background-image: url(/images/wood-notepad-pen11.jpg);
+  background-size: 100% 350px;
+  background-repeat: no-repeat;*/
+}
+
+.site-layout > .mdl-layout__content {
+  overflow-x: visible;
+  overflow-y: visible;
+  padding: 10px;
+}
+
+.site-layout > .mdl-layout__content > .mdl-grid .mdl-cell {
+  margin: 0 auto;
+}
+
+.site-layout .mdl-navigation__link {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 500;
+
+  color: white;
+}
+
+.site-layout .mdl-navigation__link .material-icons,
+.site-layout .mdl-navigation__link .zmdi {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.site-header {
+  height: 200px;
+
+  /*background: url(/images/wood-notepad-pen11b.jpg) top / cover;
+  background-repeat: no-repeat;*/
+  background-color: rgba(81, 205, 34, 0.5);
+
+  /*background-image: radial-gradient(circle at 50% top, rgba(84,90,182,0.6) 0%, rgba(84,90,182,0) 75%),radial-gradient(circle at right top, #794aa2 0%, rgba(121,74,162,0) 57%),radial-gradient(ellipse at 0% bottom, rgba(118,72,160,0.7) 0%, rgba(118,72,160,0) 60%),radial-gradient(ellipse at 90% bottom, #523f8c 0%, rgba(82,63,140,0) 40%);*/
+
+  /*background: -webkit-linear-gradient(302deg, rgb(108, 57, 109) 0%, rgb(170, 84, 138) 98%, rgb(172, 86, 138) 100%);
+  background: -o-linear-gradient(302deg, rgb(108, 57, 109) 0%, rgb(170, 84, 138) 98%, rgb(172, 86, 138) 100%);
+  background: -ms-linear-gradient(302deg, rgb(108, 57, 109) 0%, rgb(170, 84, 138) 98%, rgb(172, 86, 138) 100%);
+  background: -moz-linear-gradient(302deg, rgb(108, 57, 109) 0%, rgb(170, 84, 138) 98%, rgb(172, 86, 138) 100%);
+  background: linear-gradient(148deg, rgb(108, 57, 109) 0%, rgb(170, 84, 138) 98%, rgb(172, 86, 138) 100%);*/
+
+
+  /*background: -webkit-linear-gradient(120deg, #001626 0%, #002d4d 100%);
+  background: linear-gradient(-30deg, #001626 0%, #002d4d 100%);*/
+  /*background-color: #203b4b;
+background-image: linear-gradient(-135deg,#203b4b 30%,#1f703d 70%);*/
+}
+
+
+.site-nav, .site-header, .content, .site-footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-title {
+  font-size: 70px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.site-title .logo-text {
+  color: #fff;
+  display: inline-block;
+  padding: 0px 30px;
+  text-decoration: none;
+}
+
+.site-title a.logo-text:hover {
+  /*background: #606669;*/
+}
+
+.site-description {
+  color: #5c6a70;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin-top: -4px;
+  text-align: center;
+}
+
+article.post {
+  background-color: white;
+  width: auto;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  max-width: 760px;
+}
+
+.post .mdl-card__title {
+  height: 176px;
+}
+
+.post .fakeimg {
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.post .fakeimg .material-icons {
+  font-size: 5em;
+  color: white;
+}
+
+article.post .mdl-card__supporting-text {
+  width: auto;
+}
+
+.post-tags {
+  margin-top: 15px;
+}
+
+.post-tag {
+  color: #adadad;
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  text-transform: uppercase;
+
+  height: auto;
+  width: auto;
+  padding-right: 6px;
+  padding-left: 8px;
+  margin-top: 8px;
+  margin-right: 8px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+.post .mdl-card__title-text {
+  padding-bottom: 10px;
+}

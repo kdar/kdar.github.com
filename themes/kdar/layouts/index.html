@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+{{ range first .Site.Params.Pagination .Data.Pages }}
+{{ if eq .Type "post"}}
+{{ .Render "list" }}
+{{ end }}
+{{ end }}
+
+{{ partial "footer.html" . }}

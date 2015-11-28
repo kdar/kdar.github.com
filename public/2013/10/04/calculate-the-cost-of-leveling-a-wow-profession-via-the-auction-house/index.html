@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Calculate the cost of leveling a WoW profession via the auction house  &middot; Kevin Darlington</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="A program to calculate the cost of leveling a WoW profession" />
+
+<meta name="keywords" content="wow,, auction,, house,, AH,, cost,, price, ">
+
+
+<meta property="og:title" content="Calculate the cost of leveling a WoW profession via the auction house  &middot; Kevin Darlington ">
+<meta property="og:site_name" content="Kevin Darlington"/>
+<meta property="og:url" content="http://blog.outroot.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content="A program to calculate the cost of leveling a WoW profession"/>
+<meta property="og:article:published_time" content="2013-10-04T00:00:00Z" />
+<meta property="og:article:modified_time" content="2013-10-04T00:00:00Z" />
+
+  
+    
+<meta property="og:article:tag" content="wow,">
+    
+<meta property="og:article:tag" content="auction,">
+    
+<meta property="og:article:tag" content="house,">
+    
+<meta property="og:article:tag" content="AH,">
+    
+<meta property="og:article:tag" content="cost,">
+    
+<meta property="og:article:tag" content="price">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="Calculate the cost of leveling a WoW profession via the auction house" />
+<meta name="twitter:description" content="A program to calculate the cost of leveling a WoW profession" />
+<meta name="twitter:url" content="http://blog.outroot.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/" />
+<meta name="twitter:domain" content="http://blog.outroot.com">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Calculate the cost of leveling a WoW profession via the auction house",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2013-10-04",
+    "description": "A program to calculate the cost of leveling a WoW profession",
+    "wordCount":  139 
+  }
+</script>
+
+
+
+<link rel="canonical" href="http://blog.outroot.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.outroot.com/touch-icon-144-precomposed.png">
+<link href="http://blog.outroot.com/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.16-DEV" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://blog.outroot.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://blog.outroot.com/css/style.css">
+
+
+  
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="http://blog.outroot.com">
+  Kevin Darlington
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+
+  
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>Calculate the cost of leveling a WoW profession via the auction house
+</h1>
+
+  <div class="metas">
+<time datetime="2013-10-04">4 Oct, 2013</time>
+
+
+  
+  &middot; Read in about 1 min
+  &middot; (139 Words)
+  <br>
+  
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  
+
+<h3 id="professioncost:312b0030eda3a3f8319159a797f2d256">ProfessionCost</h3>
+
+<p>Determines how much a WoW profession would cost if you bought everything from the AH.</p>
+
+<h3 id="download:312b0030eda3a3f8319159a797f2d256">Download</h3>
+
+<p><a href="https://raw.github.com/kdar/professioncost/master/professioncost.zip">ProfessionCost.zip</a></p>
+
+<h3 id="usage:312b0030eda3a3f8319159a797f2d256">Usage</h3>
+
+<p>Go to <a href="https://theunderminejournal.com/user.php">https://theunderminejournal.com/user.php</a> and download
+the Market Data XML file for your particular realm. Put this file into the data directory. Then, just run professioncost.exe.</p>
+
+<h3 id="examples:312b0030eda3a3f8319159a797f2d256">Examples</h3>
+
+<pre><code>A-Sargeras
+  -----------------------------------------------------
+  Profession            Low     High    Median  Average
+  Alchemy               3697g   3697g   3697g   3697g
+  Leatherworking        7488g   8866g   8134g   8177g
+  Engineering           8374g   8374g   8374g   8374g
+  Tailoring             11834g  11834g  11834g  11834g
+  Jewelcrafting         12451g  13051g  12703g  12751g
+  Inscription           1725g   26017g  5915g   13871g
+  Blacksmithing         16430g  16592g  16511g  16511g
+  Enchanting            18105g  18105g  18105g  18105g
+
+H-Tichondrius
+  -----------------------------------------------------
+  Profession            Low     High    Median  Average
+  Alchemy               4060g   4060g   4060g   4060g
+  Inscription           1417g   10241g  4359g   5829g
+  Engineering           8308g   8308g   8308g   8308g
+  Enchanting            11203g  11203g  11203g  11203g
+  Blacksmithing         17997g  18368g  18183g  18183g
+  Leatherworking        17999g  24804g  21419g  21401g
+  Jewelcrafting         23729g  24955g  24200g  24342g
+  Tailoring             25562g  25562g  25562g  25562g
+</code></pre>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+    
+    <a class="prev" href="http://blog.outroot.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/" title="MorphGEN - An application that helps in generating TMorph codes for WoW">
+      Previous
+    </a>
+    
+
+    
+
+  
+
+
+</div>
+
+  <div class="container comments">
+  <h2>Comments</h2>
+  
+
+</div>
+
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+
+</div>
+
+
+  
+<div class="container copyright">
+  
+  &copy; Kevin Darlington, 2015
+
+
+</div>
+
+
+</div>
+
+</footer>
+
+    </main>
+    
+
+
+
+
+
+    
+  </body>
+</html>
+

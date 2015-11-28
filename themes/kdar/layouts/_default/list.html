@@ -1,0 +1,53 @@
+<!-- <article class="post">
+  <figure class="post-media">
+    {{ if isset .Params "postmedia" }}
+    <a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}/images/{{ .Params.postmedia }}" alt="{{ .Title }}"></a>
+    {{ else }}
+    <a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}/images/nopicture.png" alt="no_picture"></a>
+    {{ end }}
+  </figure>
+  <section class="post-body">
+    <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
+    <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <div class="post-summary">{{ .Summary }}</div>
+  </section>
+  <footer class="post-footer">
+    <a href="{{ .Permalink }}">
+      <i class="fa fa-chevron-down"></i>
+    </a>
+  </footer>
+</article> -->
+
+<article class="post mdl-card mdl-shadow--2dp">
+  <div class="post-content">
+    {{ if isset .Params "postmedia" }}
+    <a href="{{ .Permalink }}">
+      <div class="mdl-card__title" style="background: url('{{ .Site.BaseURL }}/images/{{ .Params.postmedia }}') center / cover"></div>
+    </a>
+    {{ else }}
+    <a href="{{ .Permalink }}">
+      <div class="mdl-card__title fakeimg">
+        <i class="material-icons">chrome_reader_mode</i>
+      </div>
+    </a>
+    {{ end }}
+    <div class="mdl-card__supporting-text">
+      <h2 class="mdl-card__title-text">{{ .Title }}</h2>
+
+      {{ .Summary }}
+
+      <div class="post-tags">
+        {{ range .Params.tags }}
+        <a href="somehref" title="{{.}}" class="post-tag">
+          <span itemprop="keywords">{{.}}</span>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+        Read more
+      </a>
+    </div>
+  </div>
+</article>

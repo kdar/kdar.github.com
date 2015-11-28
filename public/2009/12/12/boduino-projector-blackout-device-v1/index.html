@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Boduino - projector blackout device (v1)  &middot; Kevin Darlington</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+
+<meta property="og:title" content="Boduino - projector blackout device (v1)  &middot; Kevin Darlington ">
+<meta property="og:site_name" content="Kevin Darlington"/>
+<meta property="og:url" content="http://blog.outroot.com/2009/12/12/boduino-projector-blackout-device-v1/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2009-12-12T14:35:36Z" />
+<meta property="og:article:modified_time" content="2009-12-12T14:35:36Z" />
+
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="Boduino - projector blackout device (v1)" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="http://blog.outroot.com/2009/12/12/boduino-projector-blackout-device-v1/" />
+<meta name="twitter:domain" content="http://blog.outroot.com">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Boduino - projector blackout device (v1)",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2009-12-12",
+    "description": "",
+    "wordCount":  1394 
+  }
+</script>
+
+
+
+<link rel="canonical" href="http://blog.outroot.com/2009/12/12/boduino-projector-blackout-device-v1/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.outroot.com/touch-icon-144-precomposed.png">
+<link href="http://blog.outroot.com/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.16-DEV" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://blog.outroot.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://blog.outroot.com/css/style.css">
+
+
+  
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="http://blog.outroot.com">
+  Kevin Darlington
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+
+  
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>Boduino - projector blackout device (v1)
+</h1>
+
+  <div class="metas">
+<time datetime="2009-12-12">12 Dec, 2009</time>
+
+
+  
+  &middot; Read in about 7 min
+  &middot; (1394 Words)
+  <br>
+  
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  
+
+
+<figure >
+    
+        <img src="http://farm3.static.flickr.com/2798/4176012612_021d6566fe_b.jpg" />
+    
+    
+    <figcaption>
+        <h4>Boduino</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>At church, we have a projector device that is hooked up to the computer that allows us to show words to a song or a video. The problem is the VGA to composite converter we have does not have a button to black out the projector. So, when I go to get a video ready to be shown, the whole congregation sees what I&rsquo;m doing.</p>
+
+<p>My solution was to take an arduino and build a device that would sit in the middle of the converter and projector, and allow me to black out the projector with a push button. There are several other solutions to this problem, but this seemed like the most fun. The project was named Boduino because it is a BlackOut arDUINO.</p>
+
+<h4 id="parts:b64f2c142a9badebbb2bab01f34518de">Parts</h4>
+
+<ul>
+<li><p>1x 5v SPDT 1A reed relay. I got mine from futurlec; <a href="http://futurlec.com/Relays/JRC-23F-05pr.shtml">JRC-23F-05</a></p></li>
+
+<li><p>1x momentary push button. Something like<a href="http://www.futurlec.com/Switches/PLBLUE.shtml"> this</a> should work.</p></li>
+
+<li><p>1x <a href="http://moderndevice.com/RBBB_revB">RBBB Arduino</a> from Modern Device Company</p></li>
+
+<li><p>1x 10k ohm resistor</p></li>
+
+<li><p>1x 1k ohm resistor</p></li>
+
+<li><p>1x 330 ohm resistor</p></li>
+
+<li><p>1x 1N914 diode. Really most diodes would work for this.</p></li>
+
+<li><p>1x common cathode RGB LED or 1x green and 1x blue LED</p></li>
+
+<li><p>2x <a href="http://www.futurlec.com/RCA-Chassis.shtml">gold plated panel mount RCA jacks</a>. I actually used one RCA jack and a cut RCA cable.</p></li>
+
+<li><p>1x male to male RCA cable</p></li>
+
+<li><p>1x <a href="http://www.radioshack.com/product/index.jsp?productId=2062280">4x2x1 project box</a> from RadioShack</p></li>
+
+<li><p>1x <a href="http://www.radioshack.com/product/index.jsp?productId=2104052">Dual mini board with 213 holes </a>from RadioShack</p></li>
+
+<li><p>1x 400mA 5v/9v DC adapter</p></li>
+</ul>
+
+<p>Optional:</p>
+
+<ul>
+<li><p><a href="http://www.seeedstudio.com/depot/1-pin-dualfemale-jumper-wire-100mm-50pcs-pack-p-260.html?cPath=34">dual-female jumper wires</a></p></li>
+
+<li><p>panel mount DC jack</p></li>
+</ul>
+
+<p>It should be noted that you do not have to match these parts exactly. Everything can be changed except for the resistor values. Try to get as many parts as you can from one distributer. Pay close attention to the actual size of the parts, because you could end up buying something that won&rsquo;t fit (like the first push button I bought).</p>
+
+<h4 id="schematic:b64f2c142a9badebbb2bab01f34518de">Schematic</h4>
+
+
+<figure >
+    
+        <img src="http://farm5.static.flickr.com/4003/4176007878_49c58383e3_b.jpg" />
+    
+    
+    <figcaption>
+        <h4>Boduino schematic</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>You can download the PDF of the schematic here: <a href="/downloads/wp-content/uploads/2009/12/boduino-schematic.pdf">boduino-schematic</a></p>
+
+<p>You can ignore the atmega328p chip on the right and just hook up your arduino to the pins I specified. Unless you know what you&rsquo;re doing, then you can do what you want.</p>
+
+<h4 id="assembly:b64f2c142a9badebbb2bab01f34518de">Assembly</h4>
+
+
+<figure >
+    
+        <img src="http://farm5.static.flickr.com/4044/4176012856_78446eddda_b.jpg" />
+    
+    
+    <figcaption>
+        <h4>Inside boduino</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>First, I recommend that you put the components together on a breadboard and test it out on your TV. If you bought the same relay I did, then you will not be able to hook it up to the breadboard directly. You can either use small gauge wire and wrap it around the terminals of the relay, or you can do your testing in stages. By testing in stages, I mean just hook the TV up to the arduino without the relay and make sure that your TV is blacked out (hopefully, your TV will indicate to you if there is no signal by a message or a blue screen). Then hook up an LED in place of the relay and make sure that pressing the push button switches the LED on and off.</p>
+
+<p>The hardest part of this project was soldering to the PCB board.</p>
+
+
+<figure >
+    
+        <img src="http://farm3.static.flickr.com/2582/4175252685_f882f70ffe_b.jpg" />
+    
+    
+    <figcaption>
+        <h4>Boduino PCB</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>I hooked up all the VCC and GND terminals together in one big soldering glob. At one point I no longer felt like adding to the glob so I decided to just solder one wire, and then connect all other wires that needed VCC or GND to that particular wire.</p>
+
+<p>Think about how you&rsquo;re going to place your components. Try to make it as compact as possible, because space is scarce.</p>
+
+<p>**Note: **If you get the same relay as me, be cautious about how that relay is designed. The VCC and GND terminals are not where you think they would be. These terminals are actually in the middle of the relay. <a href="http://futurlec.com/Datasheet/Relays/JRC-23F.pdf">Here</a> is the datasheet for the relay I used. If you are still unsure, use a resistance meter. If it shows close to 0 ohms then that is a switch contact. If it shows 100+ ohms, then that is VCC and GND.</p>
+
+<p>I decided not to attach the headers in the recommended way to my RBBB arduino. I attached them on the opposite side so I could connect components using the female-female jumper wires. This was also necessary to make it fit into the project box.</p>
+
+
+<figure >
+    
+        <img src="http://farm5.static.flickr.com/4008/4176012924_105387e402_b.jpg" />
+    
+    
+    <figcaption>
+        <h4>RBBB Arduino</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>I didn&rsquo;t want to solder too many things because I figured I would have to change some things after I tested it.</p>
+
+<p>Now, the second hardest thing was drilling and modifying the project box to get the components to fit. The button I used made fitting components a little difficult. I would suggest using the smallest button that you feel comfortable with. I wanted a good sized button so it would be easy to hit if in a panic.</p>
+
+<p>On the ceiling of the project box, there are screw hole mounts used to screw in a PCB. One of these prevented the RBBB from going far enough down to close the bottom of the box.</p>
+
+
+<figure >
+    
+        <img src="http://farm3.static.flickr.com/2521/4175252837_dcf45e95ab_b.jpg" />
+    
+    
+    <figcaption>
+        <h4>Inside boduino</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>In the picture above, you can see that screw mount hole just to the left of the main screw hole (bottom right of project box). I used a dremel tool to flatten the one on the top left out. You&rsquo;ll also notice that there is a connection from the main box to the main screw hole. This little piece of plastic was preventing me from inserting the RBBB perfectly. I also used the dremel to take this out on the top left.</p>
+
+<p>Attaching the RGB LED was pretty easy. I first thought that I would have to glue it into the box or have it poking out far. Instead, I drilled a hole slightly smaller than the LED itself, and then I forced it in there. That LED will not come out unless someone hammers it.</p>
+
+<p>Instead of using a panel mount DC jack, I opted to just drill a hole and attach the DC power permanently. I happened to get a cell phone charger from my brother that worked for this purpose.</p>
+
+<p>Finally, I used cable tie wraps to prevent the wires from being pulled on.</p>
+
+<h4 id="code:b64f2c142a9badebbb2bab01f34518de">Code</h4>
+
+<p>Get it here: <a href="/downloads/wp-content/uploads/2009/12/sketch_boduino.pde">sketch_boduino.pde</a>.</p>
+
+<p>It is important to note that this code outputs a PAL signal. This seemed to work on all my TVs and the projector. I couldn&rsquo;t for the life of me get any NTSC code to work. I&rsquo;ve downloaded about 5 people&rsquo;s code and even tried to do it myself following the specification. All I got was a blue screen (no signal).</p>
+
+<h4 id="conclusion:b64f2c142a9badebbb2bab01f34518de">Conclusion</h4>
+
+<p>I know the information here isn&rsquo;t well thought out or presented. I did not plan on publishing this device when I was making it, so I took pictures after it was all together. But, you should get an idea of how everything works and how it was put together. I&rsquo;ll be happy to answer any questions that anyone would have.</p>
+
+<h4 id="known-bugs:b64f2c142a9badebbb2bab01f34518de">Known bugs</h4>
+
+<ul>
+<li><p>If you hook boduino up to a TV, you can see the vertical refresh line. I didn&rsquo;t care to fix this because it is absolutely invisible on the projector. Any thoughts would be appreciated.</p></li>
+
+<li><p>On the projector, there is a bright green line visible at the top. This is strange to me because I do not see this on any of my TVs. Luckily, in my situation, the green line is outputting on a black background, so you can&rsquo;t really see it. I have a suspicion that if I get NTSC working, then this problem would go away.</p></li>
+
+<li><p>Sometimes when you switch to blackout, the projector will start to search as if it lost a signal. This is very rare and when it happens it quickly goes back to being blacked out. I don&rsquo;t think the projector likes interrupting an NTSC signal with a PAL one. Luckily the projector was designed well enough not to complain most of the time.</p></li>
+</ul>
+
+<h4 id="notes:b64f2c142a9badebbb2bab01f34518de">Notes</h4>
+
+<ul>
+<li><p>I used 1 RCA jack and a cut RCA cable. I suggest you use 2 RCA jacks and just use a male-to-male RCA cable. That way you can support any kind of female/male input/output RCA. In my design, the female RCA is the output and the male RCA is input (yes, that is backwards from the norm).</p></li>
+
+<li><p>Use shrink wrap everywhere. Everything is packed in tight and wires may touch each other.</p></li>
+
+<li><p>It would be cool if boduino could support both PAL and NTSC signals. I might have to look at the <a href="http://www.batsocks.co.uk/products/Other/TellyMate.htm">tellymate</a> code to achieve this.</p></li>
+</ul>
+
+<p>
+<figure >
+    
+        <img src="http://farm3.static.flickr.com/2573/4175252487_cb9400ee88_b.jpg" />
+    
+    
+    <figcaption>
+        <h4>Boduino in blackout mode</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+    
+    <a class="prev" href="http://blog.outroot.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/" title="Rconsoft - HL1 chat command rcon tool">
+      Previous
+    </a>
+    
+
+    
+    <a class="next" href="http://blog.outroot.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/" title="Workclipmini - Copy text and open URLs from one computer to another">
+      Next
+    </a>
+    
+
+  
+
+
+</div>
+
+  <div class="container comments">
+  <h2>Comments</h2>
+  
+
+</div>
+
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+
+</div>
+
+
+  
+<div class="container copyright">
+  
+  &copy; Kevin Darlington, 2015
+
+
+</div>
+
+
+</div>
+
+</footer>
+
+    </main>
+    
+
+
+
+
+
+    
+  </body>
+</html>
+
