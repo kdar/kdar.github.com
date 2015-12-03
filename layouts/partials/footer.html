@@ -1,0 +1,23 @@
+  <div class="ui inverted vertical footer segment">
+    <div class="ui container">
+      <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="twelve wide column">
+          <div class="ui inverted link list">
+            <p>&copy; {{ .Site.LastChange.Year }} {{ if isset .Site.Params "Author" }} {{ .Site.Params.Author }} {{ else }} {{ .Site.Title }} {{ end }}</p>
+            <p>Powered by <a href="http://gohugo.io" target="_blank" class="item">Hugo</a>, designed by <a href="http://github.com/kdar" target="_blank" class="item">Kevin Darlington</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ .Site.BaseURL }}/vendor/jquery/jquery.min.js"></script>
+  <script src="{{ .Site.BaseURL }}/vendor/semantic/semantic.min.js"></script>
+  <script src="{{ .Site.BaseURL }}/js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      {{template "partials/scripts/scroll-to-anchor.js"}}
+    });
+  </script>
+</body>
+</html>

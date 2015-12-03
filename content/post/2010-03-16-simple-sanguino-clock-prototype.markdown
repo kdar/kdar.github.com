@@ -10,7 +10,7 @@ status: publish
 title: Simple sanguino clock prototype
 url: /2010/03/16/simple-sanguino-clock-prototype/
 wordpress_id: "203"
-postmedia: "sanguinoclock.jpg"
+postmedia: "posts/sanguinoclock/postmedia.jpg"
 ---
 
 I've been wanting to make my own alarm clock for some time now, since I'm unsatisfied with any alarm clock on the market (neglecting overpriced ones). I just made a quick prototype to see if I liked it or not.

@@ -7,7 +7,7 @@ status: publish
 title: Open sourcing some of my projects
 url: /2009/12/19/open-sourcing-some-of-my-projects/
 wordpress_id: "80"
-postmedia: "opensourcing.jpg"
+postmedia: "posts/opensourcing/postmedia.jpg"
 ---
 
 There are a few projects that I worked on that I haven't yet made open source. Most of them I don't actively develop anymore. Below is a list of these projects and what they are. You can find all of my source code at [http://github.com/kdar/](http://github.com/kdar/).

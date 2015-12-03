@@ -10,7 +10,7 @@ status: publish
 title: STM32 Project template for HD devices
 url: /2010/02/26/stm32-project-template-for-hd-devices/
 wordpress_id: "176"
-postmedia: "stm32-hd-project-template1.jpg"
+postmedia: "posts/stm32template1/postmedia.jpg"
 ---
 
 Here is a STM32 project template that I based off of [http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template](http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template).

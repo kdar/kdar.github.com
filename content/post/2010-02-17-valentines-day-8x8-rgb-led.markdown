@@ -9,7 +9,7 @@ status: publish
 title: Valentine's Day 8x8 RGB LED
 url: /2010/02/17/valentines-day-8x8-rgb-led/
 wordpress_id: "128"
-postmedia: "valentinergbled.jpg"
+postmedia: "posts/valentinergbled/postmedia.jpg"
 ---
 
 I decided this year to make a 8x8 RGB LED device to give to my girlfriend for Valentine's Day. I had made her a heart of red LEDs two years ago and I decided to step it up a little. No, this was not a cheap solution (it cost around $100 in materials, including all the stuff I bought that I ended up not using). I spent more time on this thing than anything I have made before.

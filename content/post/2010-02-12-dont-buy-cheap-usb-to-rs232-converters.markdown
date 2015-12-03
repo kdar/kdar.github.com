@@ -8,7 +8,7 @@ status: publish
 title: Don't buy cheap USB to RS232 converters
 url: /2010/02/12/dont-buy-cheap-usb-to-rs232-converters/
 wordpress_id: "115"
-postmedia: "cheapusbrs232.jpg"
+postmedia: "posts/cheapusbrs232/postmedia.jpg"
 ---
 
 So, my girlfriend bought me a STM32F103 board to play around with that has a RS-232 serial port on it to program it. Since I haven't owned any computer in the last few years that has a serial port, I needed to get a converter.

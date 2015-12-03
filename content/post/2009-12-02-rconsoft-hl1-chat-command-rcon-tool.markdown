@@ -12,7 +12,7 @@ tags:
 title: Rconsoft - HL1 chat command rcon tool
 url: /2009/12/02/rconsoft-hl1-chat-command-rcon-tool/
 wordpress_id: "33"
-postmedia: "rconsoft.png"
+postmedia: "posts/rconsoft/postmedia.png"
 ---
 
 A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us. He didn't just do that, but he made it so you could type commands inside the game chat and have the bot/program do what he wanted. It did other things as well, like getting the CAL info of the players, restarting the round, doing lo3, etc...

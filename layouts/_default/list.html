@@ -1,0 +1,38 @@
+<article class="post">
+  <div class="image dimmable">
+    <div class="ui inverted dimmer transition hidden">
+      <div class="content">
+        <div class="center">
+          <a class="ui teal button" href="{{ .Permalink }}">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="img" style="background: url('{{ .Site.BaseURL }}/images/{{ .Params.postmedia }}') center / cover"></div>
+  </div>
+  <div class="post-box">
+    <header class="post-header">
+      <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="post-meta">
+        <div class="post-reading-time"><i class="small clock icon"></i><span>{{ .ReadingTime }} min</span></div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>{{ .Summary }}</p>
+
+      <div class="post-tags">
+        {{ range .Params.tags }}
+        <a href="somehref" title="{{.}}" class="post-tag">
+          <span itemprop="keywords">{{.}}</span>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="post-footer-wrapper">
+    <div class="post-footer">
+      <div class="post-footer-left">{{ .Date.Format .Site.Params.DateForm }}</div>
+      <div class="post-spacer"></div>
+      <div class="post-footer-right">{{ index .Site.Author "kdar" }}</div>
+    </div>
+  </div>
+</article>

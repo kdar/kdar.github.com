@@ -9,7 +9,7 @@ status: publish
 title: Airwick motion sensor PIR with an arduino
 url: /2010/01/10/airwick-motion-sensor-pir-with-an-arduino/
 wordpress_id: "102"
-postmedia: "airwickpir.jpg"
+postmedia: "posts/airwickpir/postmedia.jpg"
 ---
 
 I've obtained two Airwick Freshmatics from a yard sale for $2. These were used in my house for a while, but it quickly became annoying to be sprayed in the face every time.  So I decided to hook it up to my arduino for no reason whatsoever.

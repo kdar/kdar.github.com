@@ -9,7 +9,7 @@ status: publish
 title: Boduino - projector blackout device (v1)
 url: /2009/12/12/boduino-projector-blackout-device-v1/
 wordpress_id: "45"
-postmedia: "boduinov1.jpg"
+postmedia: "posts/boduinov1/postmedia.jpg"
 ---
 
 At church, we have a projector device that is hooked up to the computer that allows us to show words to a song or a video. The problem is the VGA to composite converter we have does not have a button to black out the projector. So, when I go to get a video ready to be shown, the whole congregation sees what I'm doing.

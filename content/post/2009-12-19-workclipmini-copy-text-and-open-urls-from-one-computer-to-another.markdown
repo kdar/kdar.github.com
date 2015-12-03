@@ -8,7 +8,7 @@ status: publish
 title: Workclipmini - Copy text and open URLs from one computer to another
 url: /2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/
 wordpress_id: "82"
-postmedia: "workclipmini.jpg"
+postmedia: "posts/workclipmini/postmedia.jpg"
 ---
 
 My computer setup at home involves two computers. The first computer is my quad core workhorse. I do all my programming and gaming on this machine. My second computer is my chat/fileserver machine. I use this primiarly as a backup computer and so I can talk to people while gaming or programming.

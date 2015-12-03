@@ -9,7 +9,7 @@ status: publish
 title: Repurposed tv-b-gone to turn off benq projector
 url: /2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/
 wordpress_id: "157"
-postmedia: "tvbgonebenq.jpg"
+postmedia: "posts/tvbgonebenq/postmedia.jpg"
 ---
 
 At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn't only annoying for me, but I'm sure it was distracting for the church members.

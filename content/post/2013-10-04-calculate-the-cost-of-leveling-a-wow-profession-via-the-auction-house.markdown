@@ -7,11 +7,14 @@ description: A program to calculate the cost of leveling a WoW profession
 keywords: wow, auction, house, AH, cost, price
 title: Calculate the cost of leveling a WoW profession via the auction house
 url: /2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/
+postmedia: "posts/professioncost/postmedia.png"
 ---
 
 ### ProfessionCost
 
 Determines how much a WoW profession would cost if you bought everything from the AH.
+
+<!--more-->
 
 ### Download
 

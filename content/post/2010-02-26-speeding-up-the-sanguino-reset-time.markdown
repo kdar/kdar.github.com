@@ -9,7 +9,7 @@ status: publish
 title: Speeding up the Sanguino reset time
 url: /2010/02/26/speeding-up-the-sanguino-reset-time/
 wordpress_id: "168"
-postmedia: "sanguino.jpg"
+postmedia: "posts/sanguinospeed/postmedia.jpg"
 ---
 
 I decided to use a [Sanguino](http://sanguino.cc/) for my next project and I noticed that every time I reset it with the pushbutton, it would take around 10 seconds to start the program. I thought this was absurd since the regular Arduino doesn't take that long. I decided to dive into the bootloader firmware and find out the problem. The Sanguino version I'm dealing with is v1.4 r1.

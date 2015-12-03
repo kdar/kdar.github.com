@@ -14,7 +14,7 @@ status: publish
 title: Nokia 6100/6610 LCD PIC24H minibully
 url: /2010/04/06/nokia-6100-lcd-pic24h-minibully/
 wordpress_id: "213"
-postmedia: "nokia6100.jpg"
+postmedia: "posts/nokia6100/postmedia.jpg"
 ---
 
 I recently bought a Nokia 6100 LCD from Ebay because I am in an LCD craze phase. Since I have no need for this LCD right now, I decided to port some code over to the [PIC24H minibully](http://www.sparkfun.com/commerce/product_info.php?products_id=9148) from Sparkfun.

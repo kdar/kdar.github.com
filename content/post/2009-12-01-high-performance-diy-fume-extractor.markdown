@@ -12,7 +12,7 @@ tags:
 title: High performance DIY fume extractor
 url: /2009/12/01/high-performance-diy-fume-extractor/
 wordpress_id: "7"
-postmedia: "fume_extractor.jpg"
+postmedia: "posts/fumeextractor/postmedia.jpg"
 ---
 
 Lately, I've been inhaling a little too much flux fumes so I decided that I needed a fume extractor. I saw a lot of DIY fume extractors on the web but I wasn't satisfied with the performance of those extractors. A lot of the demonstrations showed that you had to be within 2 inches of the fan in order for it to work properly.

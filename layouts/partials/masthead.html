@@ -1,0 +1,25 @@
+<div id="masthead">
+  <div class="ui vertical masthead center aligned segment">
+    <div class="ui container menu-wrapper">
+      <div class="ui large inverted secondary pointing menu">
+        <div class="header item">
+          <img src="{{ .Site.BaseURL }}/images/layout/kdar-logo-white.png">
+        </div>
+        <a class="toc item">
+          <i class="sidebar icon"></i>
+        </a>
+        {{partial "menu" .}}
+        <div class="right item">
+          <a class="ui inverted blue button">Github</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui text container">
+      <h1 class="ui inverted header">
+        {{.Site.Title}}
+      </h1>
+      <h2 class="ui inverted header">Hello World!</h2>
+    </div>
+  </div>
+</div>
