@@ -36,7 +36,11 @@ func main() {
 			log.Fatal(err)
 		}
 
-		fmt.Println(string(figureRe.ReplaceAllFunc(data, fixFigure)))
+		newdata := figureRe.ReplaceAllFunc(data, fixFigure)
+		err = ioutil.WriteFile(file, newdata, os.ModePerm)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 }
 

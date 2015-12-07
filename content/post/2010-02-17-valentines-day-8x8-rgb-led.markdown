@@ -23,19 +23,19 @@ After I had programmed the basic animations, now comes the task on how to power 
 
 The[ circuit](http://www.ladyada.net/images/mintyboost/mintyboostv2sch.png) I chose to use was the one based on the [Minty Boost](http://www.ladyada.net/make/mintyboost/index.html) from [adafruit](http://www.adafruit.com/). There are plenty of circuits out there involving the [LT1302](http://www.linear.com/pc/productDetail.jsp?navId=H0,C1,C1003,C1042,C1031,C1060,P1029) that I could use, but I figured if it's good enough to be charging iphones, ipods, etc.. it'd be good enough to run my device. The only thing I cut out of that design were the 100K charging resistors. I also used a 22uH inductor as recommended by the [design process](http://www.ladyada.net/make/mintyboost/process.html).
 
-{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0015.jpg" title="Back of device">}}
+{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0015.jpg" title="Back of device" size="1024x575" link="/downloads/wp-content/uploads/2010/02/IMG_0015.jpg">}}
 
 Originally I was going to make the step-up converter be on a board that covered the whole back of the device, then put the batteries on the board with it, but then I would have to add extra buttons as it would cover the buttons already on the board. The decision to put the batteries on the side came about because they would not fit on the back properly. It just looked weird. What I did here had a nice side-effect of giving it handles to hold on like a hand-held game.
 
-{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0020.jpg" title="Step-up converter board">}}
+{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0020.jpg" title="Step-up converter board" size="1024x575" link="/downloads/wp-content/uploads/2010/02/IMG_0020.jpg">}}
 
 I had to use some hot glue on the headers and the switch to keep them from moving.
 
-{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0019.jpg" title="Bottom of step-up converter">}}
+{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0019.jpg" title="Bottom of step-up converter" size="1024x575" link="/downloads/wp-content/uploads/2010/02/IMG_0019.jpg">}}
 
 Was it worth it? It sure was. My girl appreciates this a lot more than if I were to buy her jewelry (she has enough of it anyway).
 
-{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0021.jpg" title="Red heart">}}
+{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0021.jpg" title="Red heart" size="1024x575" link="/downloads/wp-content/uploads/2010/02/IMG_0021.jpg">}}
 
 
 #### Source code

@@ -21,19 +21,19 @@ This kit was simple to put together and I was able to turn off all of my TVs in 
 
 Now I needed to get this code onto the tv-b-gone. I read through the [design](http://www.ladyada.net/make/tvbgone/design.html) document for the tv-b-gone, and was easily able to translate the raw IR code into the compressed tv-b-gone format.
 
-{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0067.jpg" title="Tv-b-gone at church">}}
+{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0067.jpg" title="Tv-b-gone at church" size="1024x768" link="/downloads/wp-content/uploads/2010/02/IMG_0067.jpg">}}
 
 Verdict? It worked perfectly. I didn't have to move from my seat to turn off/on the projector (in the picture, I'm hanging over the booth to get a good picture).
 
 You may have noticed but I put the tv-b-gone inside a [Maxim](http://www.maxim-ic.com/) case I got when I ordered some samples.
 
-{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0080.jpg" title="Maxim case">}}
+{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0080.jpg" title="Maxim case" size="1024x768" link="/downloads/wp-content/uploads/2010/02/IMG_0080.jpg">}}
 
 All I did extra was drill 4 holes and put a small pushbutton in the front of it, then solder wires to it and the button on the PCB. The battery case is stuck on the bottom with double sided sticky tape.
 
-{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0078.jpg" title="Pushbutton on case">}}
+{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0078.jpg" title="Pushbutton on case" size="1024x768" link="/downloads/wp-content/uploads/2010/02/IMG_0078.jpg">}}
 
-{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0079.jpg" title="Soldered to pushbutton on PCB">}}
+{{<figure src="/downloads/wp-content/uploads/2010/02/IMG_0079.jpg" title="Soldered to pushbutton on PCB" size="1024x768" link="/downloads/wp-content/uploads/2010/02/IMG_0079.jpg">}}
 
 
 #### Code

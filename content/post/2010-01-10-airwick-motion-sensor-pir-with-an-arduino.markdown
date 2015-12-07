@@ -17,15 +17,15 @@ I've obtained two Airwick Freshmatics from a yard sale for $2. These were used i
 
 This model seems to be an older one as I cannot find it on the internet. I'm unsure what the newer models have, but I'm pretty certain they wouldn't need to change the design. This model actuates a motor which uses gears to press down on the nozzle of the aroma can.
 
-{{<figure src="http://farm5.static.flickr.com/4049/4264353274_2012434a9c_b.jpg" title="Airwick Freshmatic">}}
+{{<figure src="http://farm5.static.flickr.com/4049/4264353274_2012434a9c_b.jpg" title="Airwick Freshmatic" size="1024x768" link="http://farm5.static.flickr.com/4049/4264353274_2012434a9c_b.jpg">}}
 
 It only takes 4 philips head screws to get the backplate of it off. You'll immediately see the motor there.
 
-{{<figure src="http://farm5.static.flickr.com/4031/4264353390_0df46bcd9d_b.jpg" title="Inside the Airwick Freshmatic">}}
+{{<figure src="http://farm5.static.flickr.com/4031/4264353390_0df46bcd9d_b.jpg" title="Inside the Airwick Freshmatic" size="1024x768" link="http://farm5.static.flickr.com/4031/4264353390_0df46bcd9d_b.jpg">}}
 
 It takes just one more screw to pop the rest of it out.
 
-{{<figure src="http://farm3.static.flickr.com/2517/4264353508_a39311ffc0_b.jpg" title="Inside Airwick Freshmatic">}}
+{{<figure src="http://farm3.static.flickr.com/2517/4264353508_a39311ffc0_b.jpg" title="Inside Airwick Freshmatic" size="1024x768" link="http://farm3.static.flickr.com/2517/4264353508_a39311ffc0_b.jpg">}}
 
 Determining the functionality of the different connector pins was easy by just using a volt meter and tracing the conductive lines by eye. Here is a table of what each pin does. If you look at the picture below, pin #1 is the pin to the far left.
 
@@ -48,7 +48,7 @@ Determining the functionality of the different connector pins was easy by just u
   9. switch off (connects it to GND)
 
 
-{{<figure src="http://farm3.static.flickr.com/2733/4264353114_1a1d5aa212_b.jpg" title="Airwick PIR sensor board">}}
+{{<figure src="http://farm3.static.flickr.com/2733/4264353114_1a1d5aa212_b.jpg" title="Airwick PIR sensor board" size="1024x768" link="http://farm3.static.flickr.com/2733/4264353114_1a1d5aa212_b.jpg">}}
 
 In the above picture the sensor wire (green) became disconnected when I took the photo. It's suppose to be connected to pin 5.
 

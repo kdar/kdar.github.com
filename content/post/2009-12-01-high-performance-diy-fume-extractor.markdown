@@ -43,21 +43,21 @@ This should really be self explanatory, but below are the steps you can take to
 
 Connect the DC and the motor to the switch. Don't solder anything yet and make sure it all works. I used some shrink wrap to prevent the wires from touching each other.
 
-{{<figure src="http://farm3.static.flickr.com/2577/4152133284_e4859925c9_b.jpg" title="DC, switch, motor, wires">}}
+{{<figure src="http://farm3.static.flickr.com/2577/4152133284_e4859925c9_b.jpg" title="DC, switch, motor, wires" size="1024x768" link="http://farm3.static.flickr.com/2577/4152133284_e4859925c9_b.jpg">}}
 
 Time to cut out of filter. One trick you can do is to press the blower hard onto the filter to make an indent. Then use an x-acto knife to cut the filter out as a circle pattern that will insert nicely into the case. Note that the fan of the blower is very close to the edge of the case, and the filter will touch the center of the fan. I didn't notice the fan running slower as a result of rubbing on the filter. I used scotch tape to hold the filter in. There are better ways to keep the filter in, but this was cheap and easy.
 
 You can see in the picture that the flux fumes have stuck to the carbon filter.
 
-{{<figure src="http://farm3.static.flickr.com/2610/4152063434_175accbdcd_b.jpg" title="Showing how the filter is installed. Scotch tape!">}}
+{{<figure src="http://farm3.static.flickr.com/2610/4152063434_175accbdcd_b.jpg" title="Showing how the filter is installed. Scotch tape!" size="1024x768" link="http://farm3.static.flickr.com/2610/4152063434_175accbdcd_b.jpg">}}
 
 Here is a picture of the specifications of my particular blower.
 
-{{<figure src="http://farm3.static.flickr.com/2675/4152063352_7338afb5c4_b.jpg" title="Blower specifications">}}
+{{<figure src="http://farm3.static.flickr.com/2675/4152063352_7338afb5c4_b.jpg" title="Blower specifications" size="1024x768" link="http://farm3.static.flickr.com/2675/4152063352_7338afb5c4_b.jpg">}}
 
 Here is the fume extractor's switch and DC parts hot glued to the bottom of the blower.
 
-{{<figure src="http://farm3.static.flickr.com/2668/4151457581_826bd70d70_b.jpg" title="Hot glued switch and DC jack">}}
+{{<figure src="http://farm3.static.flickr.com/2668/4151457581_826bd70d70_b.jpg" title="Hot glued switch and DC jack" size="1024x768" link="http://farm3.static.flickr.com/2668/4151457581_826bd70d70_b.jpg">}}
 
 The switch location would most likely be more accessible if it was pointing towards the front or was on top.
 

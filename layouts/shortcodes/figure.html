@@ -10,7 +10,7 @@
 {{ end }}
 
 <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
-    {{ if .Get "link"}}<a href="{{ .Scratch.Get "link" }}"{{ with .Get "size" }} data-size="{{.}}"{{ end }}>{{ end }}
+    {{ if .Get "link"}}<a href="{{ .Scratch.Get "link" }}"{{ with .Get "size" }} data-size="{{.}}"{{ end }}{{ if isset .Params "title" }} title="{{ .Get "title" }}"{{ end }}>{{ end }}
         <img src="{{ .Scratch.Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}" {{ end }}{{ with .Get "width" }}width="{{.}}" {{ end }}/>
     {{ if .Get "link"}}</a>{{ end }}
     {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}

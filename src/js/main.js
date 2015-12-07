@@ -1,7 +1,7 @@
 var $ = require('jquery');
 // $.fn.dimmer = require("semantic-ui-dimmer");
 $.fn.sidebar = require('semantic-ui-sidebar');
-var photoswipe = require('photoswipe');
+var photo = require('./photo');
 
 require('salvattore');
 
@@ -22,4 +22,6 @@ $(function() {
       menu.classList.remove('fixed');
     }
   });
+
+  photo();
 });

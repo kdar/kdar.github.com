@@ -61,7 +61,7 @@ It should be noted that you do not have to match these parts exactly. Everything
 #### Schematic
 
 
-{{<figure src="http://farm5.static.flickr.com/4003/4176007878_49c58383e3_b.jpg" title="Boduino schematic">}}
+{{<figure src="http://farm5.static.flickr.com/4003/4176007878_49c58383e3_b.jpg" title="Boduino schematic" size="1024x809" link="http://farm5.static.flickr.com/4003/4176007878_49c58383e3_b.jpg">}}
 
 You can download the PDF of the schematic here: [boduino-schematic](/downloads/wp-content/uploads/2009/12/boduino-schematic.pdf)
 
@@ -71,13 +71,13 @@ You can ignore the atmega328p chip on the right and just hook up your arduino to
 #### Assembly
 
 
-{{<figure src="http://farm5.static.flickr.com/4044/4176012856_78446eddda_b.jpg" title="Inside boduino">}}
+{{<figure src="http://farm5.static.flickr.com/4044/4176012856_78446eddda_b.jpg" title="Inside boduino" size="1024x768" link="http://farm5.static.flickr.com/4044/4176012856_78446eddda_b.jpg">}}
 
 First, I recommend that you put the components together on a breadboard and test it out on your TV. If you bought the same relay I did, then you will not be able to hook it up to the breadboard directly. You can either use small gauge wire and wrap it around the terminals of the relay, or you can do your testing in stages. By testing in stages, I mean just hook the TV up to the arduino without the relay and make sure that your TV is blacked out (hopefully, your TV will indicate to you if there is no signal by a message or a blue screen). Then hook up an LED in place of the relay and make sure that pressing the push button switches the LED on and off.
 
 The hardest part of this project was soldering to the PCB board.
 
-{{<figure src="http://farm3.static.flickr.com/2582/4175252685_f882f70ffe_b.jpg" title="Boduino PCB">}}
+{{<figure src="http://farm3.static.flickr.com/2582/4175252685_f882f70ffe_b.jpg" title="Boduino PCB" size="1024x768" link="http://farm3.static.flickr.com/2582/4175252685_f882f70ffe_b.jpg">}}
 
 I hooked up all the VCC and GND terminals together in one big soldering glob. At one point I no longer felt like adding to the glob so I decided to just solder one wire, and then connect all other wires that needed VCC or GND to that particular wire.
 
@@ -87,7 +87,7 @@ Think about how you're going to place your components. Try to make it as compact
 
 I decided not to attach the headers in the recommended way to my RBBB arduino. I attached them on the opposite side so I could connect components using the female-female jumper wires. This was also necessary to make it fit into the project box.
 
-{{<figure src="http://farm5.static.flickr.com/4008/4176012924_105387e402_b.jpg" title="RBBB Arduino">}}
+{{<figure src="http://farm5.static.flickr.com/4008/4176012924_105387e402_b.jpg" title="RBBB Arduino" size="1024x768" link="http://farm5.static.flickr.com/4008/4176012924_105387e402_b.jpg">}}
 
 I didn't want to solder too many things because I figured I would have to change some things after I tested it.
 
@@ -95,7 +95,7 @@ Now, the second hardest thing was drilling and modifying the project box to get 
 
 On the ceiling of the project box, there are screw hole mounts used to screw in a PCB. One of these prevented the RBBB from going far enough down to close the bottom of the box.
 
-{{<figure src="http://farm3.static.flickr.com/2521/4175252837_dcf45e95ab_b.jpg" title="Inside boduino">}}
+{{<figure src="http://farm3.static.flickr.com/2521/4175252837_dcf45e95ab_b.jpg" title="Inside boduino" size="1024x768" link="http://farm3.static.flickr.com/2521/4175252837_dcf45e95ab_b.jpg">}}
 
 In the picture above, you can see that screw mount hole just to the left of the main screw hole (bottom right of project box). I used a dremel tool to flatten the one on the top left out. You'll also notice that there is a connection from the main box to the main screw hole. This little piece of plastic was preventing me from inserting the RBBB perfectly. I also used the dremel to take this out on the top left.
 
@@ -138,4 +138,4 @@ I know the information here isn't well thought out or presented. I did not plan 
   * It would be cool if boduino could support both PAL and NTSC signals. I might have to look at the [tellymate](http://www.batsocks.co.uk/products/Other/TellyMate.htm) code to achieve this.
 
 
-{{<figure src="http://farm3.static.flickr.com/2573/4175252487_cb9400ee88_b.jpg" title="Boduino in blackout mode">}}
+{{<figure src="http://farm3.static.flickr.com/2573/4175252487_cb9400ee88_b.jpg" title="Boduino in blackout mode" size="1024x768" link="http://farm3.static.flickr.com/2573/4175252487_cb9400ee88_b.jpg">}}

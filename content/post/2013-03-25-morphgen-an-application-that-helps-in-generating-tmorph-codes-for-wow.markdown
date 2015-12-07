@@ -26,7 +26,7 @@ It supports the following websites:
 
 I've also been testing out a new interface. Not sure if I'm going to release it or not, because it depends on a web browser (using Chrome in application mode in this case).
 
-{{<figure src="/images/posts/morphgen/morphgen2.png" title="morphgen2">}}
+{{<figure src="/images/posts/morphgen/morphgen2.png" title="morphgen2" size="715x395" link="/images/posts/morphgen/morphgen2.png">}}
 
 I could eventually release it as a web application so people don't have to download anything. We'll see.
 

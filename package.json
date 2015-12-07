@@ -32,7 +32,6 @@
     "watchify": "^3.6.1"
   },
   "dependencies": {
-    "photoswipe": "^4.1.0",
     "salvattore": "^1.0.9",
     "semantic-ui": "^2.1.6",
     "semantic-ui-sidebar": "^2.1.6"
