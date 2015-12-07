@@ -13,6 +13,7 @@ postmedia: "posts/boduinov1/postmedia.jpg"
 ---
 
 At church, we have a projector device that is hooked up to the computer that allows us to show words to a song or a video. The problem is the VGA to composite converter we have does not have a button to black out the projector. So, when I go to get a video ready to be shown, the whole congregation sees what I'm doing.
+<!--more-->
 
 My solution was to take an arduino and build a device that would sit in the middle of the converter and projector, and allow me to black out the projector with a push button. There are several other solutions to this problem, but this seemed like the most fun. The project was named Boduino because it is a BlackOut arDUINO.
 

@@ -13,6 +13,7 @@ postmedia: "posts/tvbgonebenq/postmedia.jpg"
 ---
 
 At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn't only annoying for me, but I'm sure it was distracting for the church members.
+<!--more-->
 
 The solution to this problem is an easy one: build a more powerful remote. The first order of business was whether I would build one from scratch or if I was going to modify something else on the market. Since the IR LEDs that I wanted were out of stock at mouser (and I dislike digikey's shipping price), I decided to just buy a [tv-b-gone kit](http://www.adafruit.com/index.php?main_page=product_info&cPath=20&products_id=73&zenid=bac5d01d94a94bb0fa1075e8e3f6bdbc) from [adafruit](http://www.adafruit.com/).
 

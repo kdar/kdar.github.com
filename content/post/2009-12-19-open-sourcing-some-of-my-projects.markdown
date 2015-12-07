@@ -11,6 +11,7 @@ postmedia: "posts/opensourcing/postmedia.jpg"
 ---
 
 There are a few projects that I worked on that I haven't yet made open source. Most of them I don't actively develop anymore. Below is a list of these projects and what they are. You can find all of my source code at [http://github.com/kdar/](http://github.com/kdar/).
+<!--more-->
 
 #### VIOverlay
 

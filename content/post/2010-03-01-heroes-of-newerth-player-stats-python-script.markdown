@@ -12,5 +12,6 @@ postmedia: "posts/honstats/postmedia.jpg"
 ---
 
 Here is a script I made a long time ago when [Heroes of Newerth](http://www.heroesofnewerth.com/) first released its beta. It simply retrieves all of the player's statistics given their player name.
+<!--more-->
 
 [http://github.com/kdar/honstats](http://github.com/kdar/honstats)

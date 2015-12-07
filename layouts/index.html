@@ -1,11 +1,12 @@
-{{partial "header" .}}
+{{ partial "header" . }}
 
-  <div class="posts">
-    {{ range first .Site.Params.Pagination .Data.Pages }}
-    {{ if eq .Type "post"}}
+  <div class="multiple-post-container" data-columns>
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+    {{ range $paginator.Pages }}
     {{ .Render "list" }}
-    {{ end }}
     {{ end }}
   </div>
 
-{{partial "footer" .}}
+  {{ partial "pagination" . }}
+
+{{ partial "footer" . }}

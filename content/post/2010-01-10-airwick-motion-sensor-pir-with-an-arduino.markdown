@@ -13,7 +13,7 @@ postmedia: "posts/airwickpir/postmedia.jpg"
 ---
 
 I've obtained two Airwick Freshmatics from a yard sale for $2. These were used in my house for a while, but it quickly became annoying to be sprayed in the face every time.  So I decided to hook it up to my arduino for no reason whatsoever.
-
+<!--more-->
 
 This model seems to be an older one as I cannot find it on the internet. I'm unsure what the newer models have, but I'm pretty certain they wouldn't need to change the design. This model actuates a motor which uses gears to press down on the nozzle of the aroma can.
 

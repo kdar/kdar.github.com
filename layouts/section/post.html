@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+<div class="list-post-container inner">
+  <div class="ui large relaxed list">
+  {{ range $index, .Paginator.Pages }}
+    {{ partial "post/li" . }}
+  {{ end }}
+  </div>
+</div>
+<div class="inner">
+{{ partial "pagination" . }}
+</div>
+
+{{ partial "footer.html" . }}

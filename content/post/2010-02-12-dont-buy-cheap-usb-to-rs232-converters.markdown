@@ -12,6 +12,7 @@ postmedia: "posts/cheapusbrs232/postmedia.jpg"
 ---
 
 So, my girlfriend bought me a STM32F103 board to play around with that has a RS-232 serial port on it to program it. Since I haven't owned any computer in the last few years that has a serial port, I needed to get a converter.
+<!--more-->
 
 I decided to go the cheap route and grab one from [dealextreme.com](http://www.dealextreme.com/). I figured that since most of these converters contains the[ PL-2303](http://www.prolific.com.tw/eng/Products.asp?ID=59) chip that it wouldn't really matter what I got. So I decided to buy [this](http://www.dealextreme.com/details.dx/sku.24512) converter for $2.99:
 

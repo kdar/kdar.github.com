@@ -13,6 +13,7 @@ postmedia: "posts/valentinergbled/postmedia.jpg"
 ---
 
 I decided this year to make a 8x8 RGB LED device to give to my girlfriend for Valentine's Day. I had made her a heart of red LEDs two years ago and I decided to step it up a little. No, this was not a cheap solution (it cost around $100 in materials, including all the stuff I bought that I ended up not using). I spent more time on this thing than anything I have made before.
+<!--more-->
 
 I knew what I wanted to make, but wasn't sure what I was going to do to make it. Initially I was thinking I would buy the 8x8 RGB LED from [Seeedstudio](http://www.seeedstudio.com/depot/60mm-square-88-led-matrix-super-bright-rgb-p-113.html?cPath=32_20) and then build my own LED driver board to run it. After some research, it seemed that this would take a much longer time than I had to complete this. Some extensive google searching yielded the [64-pixel RGB LED matrix kit](https://shop.spitzenpfeil.org/index.php?main_page=product_info&cPath=3_9&products_id=11) from the [2uF blog](http://blog.spitzenpfeil.org/wordpress/). The creator of the kit was very prompt in sending me the device and it wasn't long before I soldered everything together and had it running.
 

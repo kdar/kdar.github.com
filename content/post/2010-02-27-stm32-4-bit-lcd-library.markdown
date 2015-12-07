@@ -14,5 +14,6 @@ postmedia: "posts/stm32lcd/postmedia.jpg"
 ---
 
 Here is a 4-bit LCD library for the STM32 that I based off of the [LCD4BitLibrary](http://www.arduino.cc/playground/Code/LCD4BitLibrary) for Arduino. It's lightweight, but it also incorporates Arduino's Print class.
+<!--more-->
 
 [http://github.com/kdar/STM32-LCD-4Bit](http://github.com/kdar/STM32-LCD-4Bit)

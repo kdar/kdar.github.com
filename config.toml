@@ -5,12 +5,11 @@ title = "Kevin Darlington"
 copyright = "&copy; Kevin Darlington, 2015"
 disqusShortname = "kdarsblog"
 colors=["teal","red","pink","purple","deep-purple","indigo","blue","light-blue","cyan","teal","green","light-green","lime","amber","deep-orange"]
-
-[indexes]
-  tag = "tags"
+metaDataFormat = "toml"
+paginate = 10
+publishdir = "public"
 
 [params]
-  Pagination = 25
   Author = "Kevin Darlington"
   DateForm = "Mon, Jan 2, 2006"
   Facebook = "Your ID."
@@ -26,4 +25,7 @@ colors=["teal","red","pink","purple","deep-purple","indigo","blue","light-blue",
   kdar = "Kevin Darlington"
 
 [permalinks]
-  post = "/blog/:year/:month/:day/:title/"
+  post = "/:year/:month/:day/:slug/"
+
+[taxonomies]
+  # tag = "tags"

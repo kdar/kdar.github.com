@@ -14,6 +14,7 @@ postmedia: "posts/sanguinoclock/postmedia.jpg"
 ---
 
 I've been wanting to make my own alarm clock for some time now, since I'm unsatisfied with any alarm clock on the market (neglecting overpriced ones). I just made a quick prototype to see if I liked it or not.
+<!--more-->
 
 {{<figure src="/downloads/wp-content/uploads/2010/03/IMG_0113.jpg" title="Prototype overhead">}}
 

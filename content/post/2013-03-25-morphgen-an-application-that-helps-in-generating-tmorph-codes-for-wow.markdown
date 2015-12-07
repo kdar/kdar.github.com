@@ -13,6 +13,7 @@ postmedia: "posts/morphgen/postmedia.png"
 ---
 
 This is an application that will help you in generating codes for the program [TMorph](http://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-bots-programs/375925-tmorph-64-bit-morpher-panda-support.html). Get [MorphGEN here](https://github.com/kdar/morphgen-binary).
+<!--more-->
 
 It supports the following websites:
 
@@ -25,7 +26,7 @@ It supports the following websites:
 
 I've also been testing out a new interface. Not sure if I'm going to release it or not, because it depends on a web browser (using Chrome in application mode in this case).
 
-{{<figure src="{{ .Site.BaseURL }}/images/posts/morphgen/morphgen2.png" title="morphgen2">}}
+{{<figure src="/images/posts/morphgen/morphgen2.png" title="morphgen2">}}
 
 I could eventually release it as a web application so people don't have to download anything. We'll see.
 

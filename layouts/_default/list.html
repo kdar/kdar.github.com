@@ -1,13 +1,11 @@
-<article class="post">
-  <div class="image dimmable">
-    <div class="ui inverted dimmer transition hidden">
-      <div class="content">
-        <div class="center">
-          <a class="ui teal button" href="{{ .Permalink }}">Read more</a>
-        </div>
+<article class="post post-multiple">
+  <div class="image">
+    <a href="{{ .Permalink }}">
+      <div class="img" style="background: url('{{ .Site.BaseURL }}/images/{{ .Params.postmedia }}') center / cover"></div>
+      <div class="mask">
+        Read more
       </div>
-    </div>
-    <div class="img" style="background: url('{{ .Site.BaseURL }}/images/{{ .Params.postmedia }}') center / cover"></div>
+    </a>
   </div>
   <div class="post-box">
     <header class="post-header">
@@ -21,9 +19,7 @@
 
       <div class="post-tags">
         {{ range .Params.tags }}
-        <a href="somehref" title="{{.}}" class="post-tag">
-          <span itemprop="keywords">{{.}}</span>
-        </a>
+        <div class="ui tag label">{{.}}</div>
         {{ end }}
       </div>
     </div>

@@ -12,6 +12,7 @@ postmedia: "posts/workclipmini/postmedia.jpg"
 ---
 
 My computer setup at home involves two computers. The first computer is my quad core workhorse. I do all my programming and gaming on this machine. My second computer is my chat/fileserver machine. I use this primiarly as a backup computer and so I can talk to people while gaming or programming.
+<!--more-->
 
 The thing that annoyed me is that this machine ran linux, and flash runs horribly on that platform. So, when I was chatting with a friend and they sent me a link to a youtube video, I wouldn't want to watch it on the linux machine. Also, if I was on my main workhorse, I would sometimes want to copy text to and from my other computer. Therefore, Workclipmini was born.
 

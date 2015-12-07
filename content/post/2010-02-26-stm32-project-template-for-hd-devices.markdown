@@ -14,6 +14,7 @@ postmedia: "posts/stm32template1/postmedia.jpg"
 ---
 
 Here is a STM32 project template that I based off of [http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template](http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template).
+<!--more-->
 
 I made some changes to it to get it working for my purposes and the [CodeSourcery G++ lite (EABI)](http://www.codesourcery.com/sgpp/lite/arm/portal/subscription?@template=lite) compiler.
 

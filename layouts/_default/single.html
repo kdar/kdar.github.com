@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
 
-<div class="posts">
+<div class="single-post-container inner">
   <article class="post post-single">
-    <div class="postmedia">
+    <div class="post-media">
       <img src="{{ .Site.BaseURL }}/images/{{ .Params.postmedia }}" alt="{{ .Title }}">
     </div>
 
@@ -18,9 +18,7 @@
 
         <div class="post-tags">
           {{ range .Params.tags }}
-          <a href="somehref" title="{{.}}" class="post-tag">
-            <span itemprop="keywords">{{.}}</span>
-          </a>
+          <div class="ui tag label">{{.}}</div>
           {{ end }}
         </div>
       </div>
@@ -47,7 +45,7 @@
 
   <!-- Pagination. -->
 
-  <pagination>
+  <div class="prevnext">
     {{ if .Prev }}
     <a href="{{ .Prev.Permalink }}" class="ui left labeled icon button violet prev">
       <i class="left arrow icon"></i>
@@ -60,7 +58,7 @@
       {{ .Next.Title }}
     </a>
     {{ end }}
-  </pagination>
+  </div>
 
   <footer>
     {{ if .Site.Params.ShowRelatedPost }}
