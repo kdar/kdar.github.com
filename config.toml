@@ -1,4 +1,4 @@
-baseurl = "http://192.168.0.2"
+baseurl = "http://blog.kevindarlington.com"
 disablePathToLower = true
 languageCode = "en-us"
 title = "Kevin Darlington"
@@ -13,7 +13,7 @@ publishdir = "public"
   Author = "Kevin Darlington"
   DateForm = "Mon, Jan 2, 2006"
   Facebook = "Your ID."
-  Github = "Your ID."
+  Github = "kdar"
   GoogleAnalyticsUserID = "Your ID."
   GravatarHash = "6a3c588b1566318bdb2d4ef94e2a9e74"
   ShowRelatedPost = false
@@ -26,6 +26,3 @@ publishdir = "public"
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
-
-[taxonomies]
-  # tag = "tags"

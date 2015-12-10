@@ -1,7 +1,7 @@
 <article class="post post-multiple">
   <div class="image">
     <a href="{{ .Permalink }}">
-      <div class="img" style="background: url('{{ .Site.BaseURL }}/images/{{ .Params.postmedia }}') center / cover"></div>
+      <div class="img" style="background: url('{{ (printf "/images/%s" .Params.postmedia) | absURL }}') center / cover"></div>
       <div class="mask">
         Read more
       </div>
@@ -19,7 +19,7 @@
 
       <div class="post-tags">
         {{ range .Params.tags }}
-        <div class="ui tag label">{{.}}</div>
+        <a class="ui teal label" href="{{ "/tags/" | absURL }}{{ . | urlize | lower }}">{{ . }}</a>
         {{ end }}
       </div>
     </div>

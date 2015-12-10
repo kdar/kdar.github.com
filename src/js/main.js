@@ -1,16 +1,12 @@
 var $ = require('jquery');
-// $.fn.dimmer = require("semantic-ui-dimmer");
+global.jQuery = $;
 $.fn.sidebar = require('semantic-ui-sidebar');
 var photo = require('./photo');
+var rrssb = require('rrssb');
 
 require('salvattore');
 
 $(function() {
-  // $('.dimmer').dimmer({
-  //   on: 'hover',
-  //   transition: 'slide'
-  // });
-
   $('.ui.sidebar').sidebar('attach events', '.toc.item');
 
   var menu = document.querySelector('.menu-wrapper');

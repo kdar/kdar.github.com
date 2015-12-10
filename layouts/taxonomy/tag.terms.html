@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+
+<div class="list-tag-container ui container">
+  <h1>Tags</h1>
+  <div class="ui large relaxed list">
+    <ul>
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms }}
+      <li><a class="ui teal label" href="{{ $key | urlize }}">{{ $key }} <div class="detail">{{ len $value }}</div></a></li>
+    {{ end }}
+    </ul>
+  </div>
+</div>
+
+
+{{ partial "footer" . }}

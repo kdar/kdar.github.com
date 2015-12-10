@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Kevin Darlington</title>
+    <link>http://blog.kevindarlington.com/tags/programming/</link>
+    <description>Recent content in Programming on Kevin Darlington</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
+    <lastBuildDate>Sun, 13 Jun 2010 21:42:10 +0000</lastBuildDate>
+    <atom:link href="http://blog.kevindarlington.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bitpim contacts CSV to google voice/gmail CSV</title>
+      <link>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</link>
+      <pubDate>Sun, 13 Jun 2010 21:42:10 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had &lt;a href=&#34;http://www.google.com/googlevoice/about.html&#34;&gt;Google Voice&lt;/a&gt; for a while and I wanted to transfer my list of contacts from my phone to it. So, I decided to make a simple python script to convert the CSV contacts export from &lt;a href=&#34;http://www.bitpim.org/&#34;&gt;Bitpim&lt;/a&gt; to something that Google voice could import. This code is not exhaustive whatsoever. Modify it at will.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/bitpim2google&#34;&gt;http://github.com/kdar/bitpim2google&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Heroes of Newerth player stats python script</title>
+      <link>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</link>
+      <pubDate>Mon, 01 Mar 2010 02:22:03 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</guid>
+      <description>&lt;p&gt;Here is a script I made a long time ago when &lt;a href=&#34;http://www.heroesofnewerth.com/&#34;&gt;Heroes of Newerth&lt;/a&gt; first released its beta. It simply retrieves all of the player&amp;rsquo;s statistics given their player name.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/honstats&#34;&gt;http://github.com/kdar/honstats&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open sourcing some of my projects</title>
+      <link>http://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</link>
+      <pubDate>Sat, 19 Dec 2009 18:41:33 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</guid>
+      <description>
+
+&lt;p&gt;There are a few projects that I worked on that I haven&amp;rsquo;t yet made open source. Most of them I don&amp;rsquo;t actively develop anymore. Below is a list of these projects and what they are. You can find all of my source code at &lt;a href=&#34;http://github.com/kdar/&#34;&gt;http://github.com/kdar/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;vioverlay:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;VIOverlay&lt;/h4&gt;
+
+&lt;p&gt;This is a C++ library that will allow you to overlay text (and possibly geometric shapes) over a video game. Right now it only supports Directx9. I have stopped development on this but in its current state it is able to overlay text. My example program that is included can overlay on World of Warcraft. It&amp;rsquo;s a good learning resource to see how to do DLL injection and API overwriting using Microsoft&amp;rsquo;s &lt;a href=&#34;http://research.microsoft.com/en-us/projects/detours/&#34;&gt;detours&lt;/a&gt; library.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/vioverlay&#34;&gt;http://github.com/kdar/vioverlay&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;pinballcheat:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;PinballCheat&lt;/h4&gt;
+
+&lt;p&gt;A program that allows you to adjust the scores in Microsoft&amp;rsquo;s Space Cadet Pinball. Made in python using wxPython.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/pinballcheat&#34;&gt;http://github.com/kdar/pinballcheat&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;quist:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;Quist&lt;/h4&gt;
+
+&lt;p&gt;A program that hooks into the &lt;a href=&#34;http://www.ventrilo.com/&#34;&gt;Ventrilo&lt;/a&gt; VOIP client program  and adds functionality to it. Developed in C++, C#, and C++/CLI. This is a great example of a practical application of reverse engineering and DLL injection. The code isn&amp;rsquo;t all that pretty. You can find more information about it here: &lt;a href=&#34;http://www.outroot.com/quist&#34;&gt;http://www.outroot.com/quist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/quist&#34;&gt;http://github.com/kdar/quist&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;ccrack:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;CCrack&lt;/h4&gt;
+
+&lt;p&gt;This program was designed to crack other programs. It contains some code to make it easily to find and patch areas of the target software. An example is included where it cracks the program &lt;a href=&#34;http://www.dialogblocks.com/&#34;&gt;DialogBlocks&lt;/a&gt;. However, it targets an old version of DialogBlocks and most likely won&amp;rsquo;t work anymore. This is for educational purposes only. I whole-heartily believe in purchasing software that people put a lot of work into. Programmed in C++ using wxWidgets.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/ccrack&#34;&gt;http://github.com/kdar/ccrack&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;dserv:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;DServ&lt;/h4&gt;
+
+&lt;p&gt;A remote administration tool programmed in x86 intel assembly. This was mainly an exercise of learning x86 intel assembly.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/dserv&#34;&gt;http://github.com/kdar/dserv&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;orbmon:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;Orbmon&lt;/h4&gt;
+
+&lt;p&gt;An ncurses program to display your network bandwidth. Made in python.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/orbmon&#34;&gt;http://github.com/kdar/orbmon&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;cwc3:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;Cwc3&lt;/h4&gt;
+
+&lt;p&gt;This is a program which passively watches network traffic in your Warcraft3 games. It is able to ban, kick, location resolve, autorefresh, and other things. It was the first of its kind when I made it a long time ago, now there are much better programs out there (like Ghostplusplus). However, it is a great learning tool. I documented a lot of the Warcraft3 protocol.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/cwc3&#34;&gt;http://github.com/kdar/cwc3&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Workclipmini - Copy text and open URLs from one computer to another</title>
+      <link>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</link>
+      <pubDate>Sat, 19 Dec 2009 16:37:27 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</guid>
+      <description>
+
+&lt;p&gt;My computer setup at home involves two computers. The first computer is my quad core workhorse. I do all my programming and gaming on this machine. My second computer is my chat/fileserver machine. I use this primiarly as a backup computer and so I can talk to people while gaming or programming.&lt;/p&gt;
+
+&lt;p&gt;The thing that annoyed me is that this machine ran linux, and flash runs horribly on that platform. So, when I was chatting with a friend and they sent me a link to a youtube video, I wouldn&amp;rsquo;t want to watch it on the linux machine. Also, if I was on my main workhorse, I would sometimes want to copy text to and from my other computer. Therefore, Workclipmini was born.&lt;/p&gt;
+
+&lt;p&gt;Workclipmini is a pretty simple python program. When you run it, it broadcasts to the network to find other computers running Workclipmini. Then, on one machine, you highlight text and hit the global copy hotkey (ctrl+alt+c for windows/linux, ctrl+shift+c for OSX) and your text will be copied to the other computer&amp;rsquo;s clipboard.&lt;/p&gt;
+
+&lt;p&gt;If you want to open a URL on the other computer, just select text that contains any number of URLS and hit the global URL hotkey (ctrl+alt+b for windows/linux, ctrl+shift+b for OSX). Workclipmini will use a regular expression to extract out the URLs so you do not need to worry about selecting it perfectly.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that Workclipmini does not work well with more than two computers. I did not design it this way because my situation did not call for it. So, if you have more than two computers using Workclipmini, then the URLs will be opened on all of the computers and the text will be copied to all of the computers. I was planning on making this support multiple computers and being able to tell it where to send the URL or text, but I never got around to it.&lt;/p&gt;
+
+&lt;p&gt;Above all else, if you don&amp;rsquo;t find this program useful, it is a fantastic example of how to do global hotkeys in python for windows, linux, and OSX.&lt;/p&gt;
+
+&lt;p&gt;Another thing to note is that I had to program this in python2.5 in order to get it to work with OSX. For some reason, python2.6 on OSX did not allow me to use the Carbon libraries that I needed in order to do a hotkey.&lt;/p&gt;
+
+&lt;h4 id=&#34;source:f0bdd7a11eaf5b35cb32a2e64af62633&#34;&gt;Source&lt;/h4&gt;
+
+&lt;p&gt;Grab it here: &lt;a href=&#34;http://github.com/kdar/workclipmini&#34;&gt;http://github.com/kdar/workclipmini&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusion:f0bdd7a11eaf5b35cb32a2e64af62633&#34;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;I hope this is useful to someone. I spent a large amount of time just figuring out how to do the global hotkeys on all the systems. So, if you know someone that is struggling with that aspect, just refer them to this program.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rconsoft - HL1 chat command rcon tool</title>
+      <link>http://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</link>
+      <pubDate>Wed, 02 Dec 2009 20:31:25 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</guid>
+      <description>
+
+&lt;p&gt;A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us.&lt;/p&gt;
+
+&lt;p&gt;He didn&amp;rsquo;t just do that, but he made it so you could type commands inside the game chat and have the bot/program do what he wanted. It did other things as well, like getting the CAL info of the players, restarting the round, doing lo3, etc&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Around this time I started getting into python and decided to remake his rcon.pl (yes, it was perl). I turned it into what is now known as rconsoft, with a pluggable architecture and more features.&lt;/p&gt;
+
+&lt;h4 id=&#34;what-it-does:1d0e710f67ccf5111f2305b437be6f37&#34;&gt;What it does&lt;/h4&gt;
+
+&lt;p&gt;The program allows you to type commands in the half-life/counter-strike chat. You can do stuff like .lo3 and have the server do the live on three sequence, .k &lt;player&gt; and kick the player from the server, or .id &lt;player&gt; and get the player&amp;rsquo;s league information.&lt;/p&gt;
+
+&lt;h4 id=&#34;how-it-works:1d0e710f67ccf5111f2305b437be6f37&#34;&gt;How it works&lt;/h4&gt;
+
+&lt;p&gt;In the HL rcon protocol there is something called logaddress. This allows you to add an ip/port to the log address list, and the real-time server log will be sent to this ip/port via UDP. Here are a few examples of what is sent:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Player chat. Both global and team.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Bomb drop/pickup.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Player damage.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Player kill and with what weapon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Round over/win/restart.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;etc&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, what rconsoft does is log into the rcon of the server, set up the logaddress, and receive this log information. Since you can see chat text, it is trivial to have your program respond to commands in the chat. So you can type something like &amp;ldquo;.lo3&amp;rdquo;, and rconsoft will do the live on three sequence. All without having to minimize your game!&lt;/p&gt;
+
+&lt;h4 id=&#34;features:1d0e710f67ccf5111f2305b437be6f37&#34;&gt;Features&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Rconsoft was built with plugins in mind. All the commands that rconsoft supports are implemented in these plugins. The plugins are also very simple.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There is a central configuration file where you can configure rconsoft.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A tiered user system. You can restrict access to rconsoft&amp;rsquo;s different commands. If you&amp;rsquo;re a higher level user, you can use the higher level functions. Users are identified by their steamid.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Contains an IRC bot to automatically find scrims for you. It will not only find scrims, but it will  generate a random password and send the server information to the challenger.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Can do steamid checking (such as what leagues they&amp;rsquo;re in).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Can do location checking. Find out why the players have such high ping by finding where they live.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Find out the rates of the players. Such as cl_updaterate and rate. This way, you can kick them if they&amp;rsquo;re trying to lag on purpose.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A good amount of commands built in. Check out the commands below.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There may be more features, but this list was compiled off the top of my head. The feature list was going to grow as James and I had a lot of ideas for it (like score tracking). However, I no longer play counter-strike anymore so I don&amp;rsquo;t have an interest in expanding it.&lt;/p&gt;
+
+&lt;h4 id=&#34;commands:1d0e710f67ccf5111f2305b437be6f37&#34;&gt;Commands&lt;/h4&gt;
+
+&lt;p&gt;You can look in the plugins directory and in the corresponding source files to find the commands rconsoft supports. I never got around to making a help system. All these commands are typed in the chat with the prefix &amp;ldquo;.&amp;rdquo;.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Command&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;r, rr&lt;/td&gt;
+&lt;td&gt;restart round&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;map, changelevel&lt;/td&gt;
+&lt;td&gt;change the map&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;say, hsay&lt;/td&gt;
+&lt;td&gt;make the server say something&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;pass, password&lt;/td&gt;
+&lt;td&gt;change the password of the server&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;k, kick&lt;/td&gt;
+&lt;td&gt;kick players based on a regexp&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;rk, rkick&lt;/td&gt;
+&lt;td&gt;reverse kick players based on a regexp&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;b, ban, kb&lt;/td&gt;
+&lt;td&gt;kick and ban players based on a regexp&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;rb, rban, rkb&lt;/td&gt;
+&lt;td&gt;reverse kick and ban players based on a regexp&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;exec, execr&lt;/td&gt;
+&lt;td&gt;execute a server side script/config&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;lo3&lt;/td&gt;
+&lt;td&gt;do the live on three sequence&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;id, idteam&lt;/td&gt;
+&lt;td&gt;look up the id of a player or team based on a regexp&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ip2l&lt;/td&gt;
+&lt;td&gt;look up the location of  a player&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;msg&lt;/td&gt;
+&lt;td&gt;message a person on IRC; this person must have messaged the bot previously&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;privmsg, lmsg&lt;/td&gt;
+&lt;td&gt;directly message a person on IRC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;find&lt;/td&gt;
+&lt;td&gt;start finding a scrim&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;stopfind, findstop&lt;/td&gt;
+&lt;td&gt;stop finding a scrim&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ad&lt;/td&gt;
+&lt;td&gt;view or modify your scrim IRC advertisement&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;accept&lt;/td&gt;
+&lt;td&gt;accept a scrim from IRC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;rate, rateteam&lt;/td&gt;
+&lt;td&gt;get the rate of a player or team based on a regexp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;There could be more but this is what I saw from browsing the source code. I was also working on a plugin that would track the team scores and output them. I ran into some problems because of how the protocol does it.&lt;/p&gt;
+
+&lt;h4 id=&#34;source:1d0e710f67ccf5111f2305b437be6f37&#34;&gt;Source&lt;/h4&gt;
+
+&lt;p&gt;The source code is free for anyone to use and hack. If you decide to fork the repository and add stuff, let me know so I can marvel in your magnificence.&lt;/p&gt;
+
+&lt;p&gt;Get it here: &lt;a href=&#34;http://github.com/kdar/rconsoft&#34;&gt;http://github.com/kdar/rconsoft&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;notes:1d0e710f67ccf5111f2305b437be6f37&#34;&gt;Notes&lt;/h4&gt;
+
+&lt;p&gt;I mainly ran this on ubuntu linux. It &lt;em&gt;should&lt;/em&gt; work on windows but there is no guarantee.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m sorry if there are bugs in the program. I don&amp;rsquo;t really have time to dedicate myself to fix it nor do I have a server to test it on. It worked perfectly the last time I was using it.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m happy to answer questions that people may have. I&amp;rsquo;ll provide as much guidance as I can.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

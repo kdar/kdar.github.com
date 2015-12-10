@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fume on Kevin Darlington</title>
+    <link>http://blog.kevindarlington.com/tags/fume/</link>
+    <description>Recent content in Fume on Kevin Darlington</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
+    <lastBuildDate>Tue, 01 Dec 2009 23:43:54 +0000</lastBuildDate>
+    <atom:link href="http://blog.kevindarlington.com/tags/fume/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>High performance DIY fume extractor</title>
+      <link>http://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</link>
+      <pubDate>Tue, 01 Dec 2009 23:43:54 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</guid>
+      <description>
+
+&lt;p&gt;Lately, I&amp;rsquo;ve been inhaling a little too much flux fumes so I decided that I needed a fume extractor. I saw a lot of DIY fume extractors on the web but I wasn&amp;rsquo;t satisfied with the performance of those extractors. A lot of the demonstrations showed that you had to be within 2 inches of the fan in order for it to work properly.&lt;/p&gt;
+
+&lt;p&gt;My dad happened to have an &lt;a href=&#34;http://www.boatersland.com/att17414.html&#34;&gt;Attwood Turbo 4000 blower&lt;/a&gt; in his shop, and it seemed perfect for this type of task. It already has the housing for the fan and plenty of room for a filter, switch, and power.&lt;/p&gt;
+
+&lt;h4 id=&#34;parts:94117bafe3e15311859e45d47006e1bf&#34;&gt;&lt;strong&gt;Parts&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1x &lt;a href=&#34;http://www.boatersland.com/att17414.html&#34;&gt;Attwood Turbo 4000 blower&lt;/a&gt; (or any other similar 12v blower)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1x AC to DC adapter. 12v 3A+. I actually used a 12v 800mA adapter and it seemed to work even though the motor is rated at 3.8A, but the adapter gets pretty hot.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1x DC jack. I used the panel mount type. You can optionally just cut the wire and hook it up to the switch directly.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1x SPST switch. You can optionally just plug the DC adapter directly to the motor.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Cutaway carbon filter. I used &lt;a href=&#34;http://www.4littlepets.com/blackmagiccut-your-ownfiltercartridge1.aspx&#34;&gt;Black Magic Cut-Your-Own Filter&lt;/a&gt;. I bought mine from &lt;a href=&#34;http://www.petsupermarket.com/&#34;&gt;Pet-Supermarket&lt;/a&gt;, but I think &lt;a href=&#34;http://www.walmart.com/catalog/product.do?product_id=3635113&#34;&gt;Wal-Mart&lt;/a&gt; sells them.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Scotch tape (or a better method of attaching the filter)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;assembly:94117bafe3e15311859e45d47006e1bf&#34;&gt;Assembly&lt;/h4&gt;
+
+&lt;p&gt;This should really be self explanatory, but below are the steps you can take to assemble the fume extractor.&lt;/p&gt;
+
+&lt;p&gt;Connect the DC and the motor to the switch. Don&amp;rsquo;t solder anything yet and make sure it all works. I used some shrink wrap to prevent the wires from touching each other.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm3.static.flickr.com/2577/4152133284_e4859925c9_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;DC, switch, motor, wires&#34;&gt;
+        &lt;img src=&#34;http://farm3.static.flickr.com/2577/4152133284_e4859925c9_b.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;DC, switch, motor, wires&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;Time to cut out of filter. One trick you can do is to press the blower hard onto the filter to make an indent. Then use an x-acto knife to cut the filter out as a circle pattern that will insert nicely into the case. Note that the fan of the blower is very close to the edge of the case, and the filter will touch the center of the fan. I didn&amp;rsquo;t notice the fan running slower as a result of rubbing on the filter. I used scotch tape to hold the filter in. There are better ways to keep the filter in, but this was cheap and easy.&lt;/p&gt;
+
+&lt;p&gt;You can see in the picture that the flux fumes have stuck to the carbon filter.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm3.static.flickr.com/2610/4152063434_175accbdcd_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Showing how the filter is installed. Scotch tape!&#34;&gt;
+        &lt;img src=&#34;http://farm3.static.flickr.com/2610/4152063434_175accbdcd_b.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Showing how the filter is installed. Scotch tape!&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;Here is a picture of the specifications of my particular blower.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm3.static.flickr.com/2675/4152063352_7338afb5c4_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Blower specifications&#34;&gt;
+        &lt;img src=&#34;http://farm3.static.flickr.com/2675/4152063352_7338afb5c4_b.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Blower specifications&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;Here is the fume extractor&amp;rsquo;s switch and DC parts hot glued to the bottom of the blower.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm3.static.flickr.com/2668/4151457581_826bd70d70_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Hot glued switch and DC jack&#34;&gt;
+        &lt;img src=&#34;http://farm3.static.flickr.com/2668/4151457581_826bd70d70_b.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Hot glued switch and DC jack&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;The switch location would most likely be more accessible if it was pointing towards the front or was on top.&lt;/p&gt;
+
+&lt;h4 id=&#34;thoughts:94117bafe3e15311859e45d47006e1bf&#34;&gt;Thoughts&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you don&amp;rsquo;t want wires coming out of the fume extractor, you can experiment with batteries. Something like a laptop battery should work.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You could install the filter on the other side and reverse the polarity of the DC. This would give you more room to install the filter and attach it properly. Just make sure that you make the fumes get sucked through the filter first before it hits the fan as the fumes are corrosive (though, the degree of which is probably ignorable).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I suggest you put some kind of rubber or silicon on the feet. This thing is powerful enough to make it move around!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;conclusion:94117bafe3e15311859e45d47006e1bf&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;This thing really rocks. I can solder about 8 inches away and it&amp;rsquo;ll suck it up. It could probably perform much better if the filter was thinner, or I had a DC adapter with a higher current rating. The total cost of this project will most likely run you about $30-$45. Still cheaper than a lot of the commercial fume extractors out there (not to mention the power).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

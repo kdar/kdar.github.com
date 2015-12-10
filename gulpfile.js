@@ -58,7 +58,7 @@ gulp.task('sass', function() {
 gulp.task('build', ['js', 'sass']);
 
 gulp.task('watch', function() {
-  gulp.watch('./src/scss/**/*.scss', ['sass']);
+  gulp.watch('./src/scss/**/*.*', ['sass']);
 
   var b = watchify(browserify(assign({}, watchify.args, browserifyOpts)));
   b.on('log', gutil.log); // output build logs to terminal

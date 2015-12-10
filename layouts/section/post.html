@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<div class="list-post-container inner">
+<div class="list-post-container ui container">
   <div class="ui large relaxed list">
   {{ range $index, .Paginator.Pages }}
     {{ partial "post/li" . }}

@@ -4,11 +4,6 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build": "hugo",
-    "build:dev": "hugo -D",
-    "deploy:gh": "npm install gh-pages && CONF='gh-config.toml' && REPO=$(git config --get remote.origin.url | sed 's/https/http/g' | sed 's/http:\\/\\/github.com\\///g') && REPOUSER=$(echo $REPO | awk -F '/' '{print $1}') && REPONAME=$(echo $REPO | awk -F '/' '{print $2}') && URL=http://$REPOUSER.github.io/$REPONAME/ && echo baseurl = \\'$URL\\' > $CONF.tmp.1 && sed '/baseurl/d' config.toml > $CONF.tmp.2 && cat $CONF.tmp.1 $CONF.tmp.2 > $CONF && rm -f $CONF.tmp.1 $CONF.tmp.2 && hugo --config=$CONF && node -e \"require('gh-pages').publish('public', console.error.bind(console));\"",
-    "deploy": "npm install ftpsync && CONF='ftp-config.json' && [ ! -e $CONF ] && echo -n \"Error! You must create $CONF file first\\n\\nTIP: Copy script below to create $CONF file\\n\\necho '{\\n  \\\"host\\\": \\\"ftp.example.com\\\",\n  \\\"port\\\": 21,\n  \\\"remote\\\": \\\"/www\\\",\n  \\\"user\\\": \\\"*****\\\",\n  \\\"pass\\\": \\\"*****\\\"\n}' > $CONF\n\" && exit 1 || hugo && node -e \"var ftp = require('ftpsync/lib/ftpsync'), conf = require('./$CONF'); for (var i in conf) { ftp.settings[i] = conf[i]; } ftp.settings.local = 'public'; ftp.log.verbose = true; ftp.run();\"",
-    "server": "hugo server -w -D",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": true,
@@ -32,6 +27,7 @@
     "watchify": "^3.6.1"
   },
   "dependencies": {
+    "rrssb": "git+https://github.com/kni-labs/rrssb.git",
     "salvattore": "^1.0.9",
     "semantic-ui": "^2.1.6",
     "semantic-ui-sidebar": "^2.1.6"

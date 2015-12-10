@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Kevin Darlington</title>
-    <link>http://192.168.0.2/post/</link>
+    <link>http://blog.kevindarlington.com/post/</link>
     <description>Recent content in Posts on Kevin Darlington</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
     <lastBuildDate>Fri, 04 Oct 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://192.168.0.2/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.kevindarlington.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Calculate the cost of leveling a WoW profession via the auction house</title>
-      <link>http://192.168.0.2/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</link>
+      <link>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</link>
       <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</guid>
+      <guid>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</guid>
       <description>
 
 &lt;h3 id=&#34;professioncost:312b0030eda3a3f8319159a797f2d256&#34;&gt;ProfessionCost&lt;/h3&gt;
@@ -62,10 +62,10 @@ H-Tichondrius
     
     <item>
       <title>MorphGEN - An application that helps in generating TMorph codes for WoW</title>
-      <link>http://192.168.0.2/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</link>
+      <link>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</guid>
+      <guid>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</guid>
       <description>&lt;p&gt;This is an application that will help you in generating codes for the program &lt;a href=&#34;http://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-bots-programs/375925-tmorph-64-bit-morpher-panda-support.html&#34;&gt;TMorph&lt;/a&gt;. Get &lt;a href=&#34;https://github.com/kdar/morphgen-binary&#34;&gt;MorphGEN here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;It supports the following websites:&lt;/p&gt;
@@ -82,10 +82,20 @@ H-Tichondrius
 &lt;p&gt;I&amp;rsquo;ve also been testing out a new interface. Not sure if I&amp;rsquo;m going to release it or not, because it depends on a web browser (using Chrome in application mode in this case).&lt;/p&gt;
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure &gt;
-    
-        &lt;img src=&#34;%7b%7b%20.Site.BaseURL%20%7d%7d/images/posts/morphgen/morphgen2.png&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/images/posts/morphgen/morphgen2.png&#34; data-size=&#34;715x395&#34; title=&#34;morphgen2&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/images/posts/morphgen/morphgen2.png&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;morphgen2&lt;/h4&gt;
@@ -93,6 +103,7 @@ H-Tichondrius
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
 
 
 &lt;p&gt;I could eventually release it as a web application so people don&amp;rsquo;t have to download anything. We&amp;rsquo;ll see.&lt;/p&gt;
@@ -103,10 +114,10 @@ H-Tichondrius
     
     <item>
       <title>Bitpim contacts CSV to google voice/gmail CSV</title>
-      <link>http://192.168.0.2/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</link>
+      <link>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</link>
       <pubDate>Sun, 13 Jun 2010 21:42:10 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</guid>
+      <guid>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had &lt;a href=&#34;http://www.google.com/googlevoice/about.html&#34;&gt;Google Voice&lt;/a&gt; for a while and I wanted to transfer my list of contacts from my phone to it. So, I decided to make a simple python script to convert the CSV contacts export from &lt;a href=&#34;http://www.bitpim.org/&#34;&gt;Bitpim&lt;/a&gt; to something that Google voice could import. This code is not exhaustive whatsoever. Modify it at will.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://github.com/kdar/bitpim2google&#34;&gt;http://github.com/kdar/bitpim2google&lt;/a&gt;&lt;/p&gt;
@@ -115,10 +126,10 @@ H-Tichondrius
     
     <item>
       <title>Nokia 6100/6610 LCD PIC24H minibully</title>
-      <link>http://192.168.0.2/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
+      <link>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
       <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
+      <guid>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
       <description>
 
 &lt;p&gt;I recently bought a Nokia 6100 LCD from Ebay because I am in an LCD craze phase. Since I have no need for this LCD right now, I decided to port some code over to the &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=9148&#34;&gt;PIC24H minibully&lt;/a&gt; from Sparkfun.&lt;/p&gt;
@@ -179,25 +190,35 @@ H-Tichondrius
 
 &lt;p&gt;The code is based on the work done by &lt;a href=&#34;http://atomsoft.wordpress.com/2010/02/26/nokia-6100-lcd-code/&#34;&gt;AtomSoftTech&lt;/a&gt;. The person there made it for the PIC18F and I ported it to the minibully.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/04/nokia-6610-minibully.zip&#34;&gt;nokia 6610 minibully.zip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/04/nokia-6610-minibully.zip&#34;&gt;nokia 6610 minibully.zip&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Simple sanguino clock prototype</title>
-      <link>http://192.168.0.2/2010/03/16/simple-sanguino-clock-prototype/</link>
+      <link>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</link>
       <pubDate>Tue, 16 Mar 2010 03:22:20 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/03/16/simple-sanguino-clock-prototype/</guid>
+      <guid>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been wanting to make my own alarm clock for some time now, since I&amp;rsquo;m unsatisfied with any alarm clock on the market (neglecting overpriced ones). I just made a quick prototype to see if I liked it or not.&lt;/p&gt;
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure &gt;
-    
-        &lt;img src=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/03/IMG_0113.jpg&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/03/IMG_0113.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Prototype overhead&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/03/IMG_0113.jpg&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Prototype overhead&lt;/h4&gt;
@@ -205,6 +226,7 @@ H-Tichondrius
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
 
 
 &lt;h4 id=&#34;parts-used:fa30f63c8c946c609a15e647a594b321&#34;&gt;Parts used&lt;/h4&gt;
@@ -231,7 +253,7 @@ H-Tichondrius
 
 &lt;h4 id=&#34;source-code:fa30f63c8c946c609a15e647a594b321&#34;&gt;Source code&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/03/clock.zip&#34;&gt;clock.zip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/03/clock.zip&#34;&gt;clock.zip&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;There is no alarm code inside the source. I was merely just testing to see if I would like the setup or not.&lt;/p&gt;
 
@@ -247,10 +269,10 @@ H-Tichondrius
     
     <item>
       <title>Heroes of Newerth player stats python script</title>
-      <link>http://192.168.0.2/2010/03/01/heroes-of-newerth-player-stats-python-script/</link>
+      <link>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</link>
       <pubDate>Mon, 01 Mar 2010 02:22:03 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/03/01/heroes-of-newerth-player-stats-python-script/</guid>
+      <guid>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</guid>
       <description>&lt;p&gt;Here is a script I made a long time ago when &lt;a href=&#34;http://www.heroesofnewerth.com/&#34;&gt;Heroes of Newerth&lt;/a&gt; first released its beta. It simply retrieves all of the player&amp;rsquo;s statistics given their player name.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://github.com/kdar/honstats&#34;&gt;http://github.com/kdar/honstats&lt;/a&gt;&lt;/p&gt;
@@ -259,10 +281,10 @@ H-Tichondrius
     
     <item>
       <title>STM32 4-bit LCD library</title>
-      <link>http://192.168.0.2/2010/02/27/stm32-4-bit-lcd-library/</link>
+      <link>http://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</link>
       <pubDate>Sat, 27 Feb 2010 02:04:29 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/02/27/stm32-4-bit-lcd-library/</guid>
+      <guid>http://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</guid>
       <description>&lt;p&gt;Here is a 4-bit LCD library for the STM32 that I based off of the &lt;a href=&#34;http://www.arduino.cc/playground/Code/LCD4BitLibrary&#34;&gt;LCD4BitLibrary&lt;/a&gt; for Arduino. It&amp;rsquo;s lightweight, but it also incorporates Arduino&amp;rsquo;s Print class.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://github.com/kdar/STM32-LCD-4Bit&#34;&gt;http://github.com/kdar/STM32-LCD-4Bit&lt;/a&gt;&lt;/p&gt;
@@ -271,10 +293,10 @@ H-Tichondrius
     
     <item>
       <title>STM32 Project template for HD devices</title>
-      <link>http://192.168.0.2/2010/02/26/stm32-project-template-for-hd-devices/</link>
+      <link>http://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</link>
       <pubDate>Fri, 26 Feb 2010 03:39:25 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/02/26/stm32-project-template-for-hd-devices/</guid>
+      <guid>http://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</guid>
       <description>&lt;p&gt;Here is a STM32 project template that I based off of &lt;a href=&#34;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&#34;&gt;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I made some changes to it to get it working for my purposes and the &lt;a href=&#34;http://www.codesourcery.com/sgpp/lite/arm/portal/subscription?@template=lite&#34;&gt;CodeSourcery G++ lite (EABI)&lt;/a&gt; compiler.&lt;/p&gt;
@@ -285,10 +307,10 @@ H-Tichondrius
     
     <item>
       <title>Speeding up the Sanguino reset time</title>
-      <link>http://192.168.0.2/2010/02/26/speeding-up-the-sanguino-reset-time/</link>
+      <link>http://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</link>
       <pubDate>Fri, 26 Feb 2010 01:27:56 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/02/26/speeding-up-the-sanguino-reset-time/</guid>
+      <guid>http://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</guid>
       <description>
 
 &lt;p&gt;I decided to use a &lt;a href=&#34;http://sanguino.cc/&#34;&gt;Sanguino&lt;/a&gt; for my next project and I noticed that every time I reset it with the pushbutton, it would take around 10 seconds to start the program. I thought this was absurd since the regular Arduino doesn&amp;rsquo;t take that long. I decided to dive into the bootloader firmware and find out the problem. The Sanguino version I&amp;rsquo;m dealing with is v1.4 r1.&lt;/p&gt;
@@ -343,18 +365,18 @@ H-Tichondrius
 
 &lt;h4 id=&#34;files:0c34f6de3ee3d07b958c07290019806f&#34;&gt;Files&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/Makefile&#34;&gt;Makefile&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/Makefile&#34;&gt;Makefile&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/ATmegaBOOT.c&#34;&gt;ATmegaBOOT.c&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/ATmegaBOOT.c&#34;&gt;ATmegaBOOT.c&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Repurposed tv-b-gone to turn off benq projector</title>
-      <link>http://192.168.0.2/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</link>
+      <link>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</link>
       <pubDate>Tue, 23 Feb 2010 01:21:35 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</guid>
+      <guid>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</guid>
       <description>
 
 &lt;p&gt;At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn&amp;rsquo;t only annoying for me, but I&amp;rsquo;m sure it was distracting for the church members.&lt;/p&gt;
@@ -366,10 +388,20 @@ H-Tichondrius
 &lt;p&gt;Now I needed to get this code onto the tv-b-gone. I read through the &lt;a href=&#34;http://www.ladyada.net/make/tvbgone/design.html&#34;&gt;design&lt;/a&gt; document for the tv-b-gone, and was easily able to translate the raw IR code into the compressed tv-b-gone format.&lt;/p&gt;
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure &gt;
-    
-        &lt;img src=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/IMG_0067.jpg&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0067.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Tv-b-gone at church&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0067.jpg&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Tv-b-gone at church&lt;/h4&gt;
@@ -379,15 +411,26 @@ H-Tichondrius
 &lt;/figure&gt;
 
 
+
 &lt;p&gt;Verdict? It worked perfectly. I didn&amp;rsquo;t have to move from my seat to turn off/on the projector (in the picture, I&amp;rsquo;m hanging over the booth to get a good picture).&lt;/p&gt;
 
 &lt;p&gt;You may have noticed but I put the tv-b-gone inside a &lt;a href=&#34;http://www.maxim-ic.com/&#34;&gt;Maxim&lt;/a&gt; case I got when I ordered some samples.&lt;/p&gt;
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure &gt;
-    
-        &lt;img src=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/IMG_0080.jpg&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0080.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Maxim case&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0080.jpg&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Maxim case&lt;/h4&gt;
@@ -397,13 +440,24 @@ H-Tichondrius
 &lt;/figure&gt;
 
 
+
 &lt;p&gt;All I did extra was drill 4 holes and put a small pushbutton in the front of it, then solder wires to it and the button on the PCB. The battery case is stuck on the bottom with double sided sticky tape.&lt;/p&gt;
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure &gt;
-    
-        &lt;img src=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/IMG_0078.jpg&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0078.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Pushbutton on case&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0078.jpg&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Pushbutton on case&lt;/h4&gt;
@@ -414,10 +468,21 @@ H-Tichondrius
 
 
 
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
 &lt;figure &gt;
-    
-        &lt;img src=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/IMG_0079.jpg&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0079.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Soldered to pushbutton on PCB&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0079.jpg&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Soldered to pushbutton on PCB&lt;/h4&gt;
@@ -426,6 +491,7 @@ H-Tichondrius
     
 &lt;/figure&gt;
 
+&lt;/p&gt;
 
 &lt;h4 id=&#34;code:19369726bc1084012797880118e0d562&#34;&gt;Code&lt;/h4&gt;
 
@@ -433,16 +499,16 @@ H-Tichondrius
 
 &lt;p&gt;Inside the zip, I include an analysis folder which contains the IR code for my projector. &amp;ldquo;analysis/ir.txt&amp;rdquo; is the more interesting file.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/church_benq.zip&#34;&gt;church_benq.zip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/church_benq.zip&#34;&gt;church_benq.zip&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Valentine&#39;s Day 8x8 RGB LED</title>
-      <link>http://192.168.0.2/2010/02/17/valentines-day-8x8-rgb-led/</link>
+      <link>http://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</link>
       <pubDate>Wed, 17 Feb 2010 14:57:52 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/02/17/valentines-day-8x8-rgb-led/</guid>
+      <guid>http://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</guid>
       <description>
 
 &lt;p&gt;I decided this year to make a 8x8 RGB LED device to give to my girlfriend for Valentine&amp;rsquo;s Day. I had made her a heart of red LEDs two years ago and I decided to step it up a little. No, this was not a cheap solution (it cost around $100 in materials, including all the stuff I bought that I ended up not using). I spent more time on this thing than anything I have made before.&lt;/p&gt;
@@ -456,10 +522,20 @@ H-Tichondrius
 &lt;p&gt;The&lt;a href=&#34;http://www.ladyada.net/images/mintyboost/mintyboostv2sch.png&#34;&gt; circuit&lt;/a&gt; I chose to use was the one based on the &lt;a href=&#34;http://www.ladyada.net/make/mintyboost/index.html&#34;&gt;Minty Boost&lt;/a&gt; from &lt;a href=&#34;http://www.adafruit.com/&#34;&gt;adafruit&lt;/a&gt;. There are plenty of circuits out there involving the &lt;a href=&#34;http://www.linear.com/pc/productDetail.jsp?navId=H0,C1,C1003,C1042,C1031,C1060,P1029&#34;&gt;LT1302&lt;/a&gt; that I could use, but I figured if it&amp;rsquo;s good enough to be charging iphones, ipods, etc.. it&amp;rsquo;d be good enough to run my device. The only thing I cut out of that design were the 100K charging resistors. I also used a 22uH inductor as recommended by the &lt;a href=&#34;http://www.ladyada.net/make/mintyboost/process.html&#34;&gt;design process&lt;/a&gt;.&lt;/p&gt;
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure &gt;
-    
-        &lt;img src=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/IMG_0015.jpg&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0015.jpg&#34; data-size=&#34;1024x575&#34; title=&#34;Back of device&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0015.jpg&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Back of device&lt;/h4&gt;
@@ -469,13 +545,24 @@ H-Tichondrius
 &lt;/figure&gt;
 
 
+
 &lt;p&gt;Originally I was going to make the step-up converter be on a board that covered the whole back of the device, then put the batteries on the board with it, but then I would have to add extra buttons as it would cover the buttons already on the board. The decision to put the batteries on the side came about because they would not fit on the back properly. It just looked weird. What I did here had a nice side-effect of giving it handles to hold on like a hand-held game.&lt;/p&gt;
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure &gt;
-    
-        &lt;img src=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/IMG_0020.jpg&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0020.jpg&#34; data-size=&#34;1024x575&#34; title=&#34;Step-up converter board&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0020.jpg&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Step-up converter board&lt;/h4&gt;
@@ -485,13 +572,24 @@ H-Tichondrius
 &lt;/figure&gt;
 
 
+
 &lt;p&gt;I had to use some hot glue on the headers and the switch to keep them from moving.&lt;/p&gt;
+
+&lt;p&gt;
+
+
+
+
+
+
+
+
 
 
 &lt;figure &gt;
-    
-        &lt;img src=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/IMG_0019.jpg&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0019.jpg&#34; data-size=&#34;1024x575&#34; title=&#34;Bottom of step-up converter&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0019.jpg&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Bottom of step-up converter&lt;/h4&gt;
@@ -500,14 +598,25 @@ H-Tichondrius
     
 &lt;/figure&gt;
 
+&lt;/p&gt;
 
 &lt;p&gt;Was it worth it? It sure was. My girl appreciates this a lot more than if I were to buy her jewelry (she has enough of it anyway).&lt;/p&gt;
 
 &lt;p&gt;
+
+
+
+
+
+
+
+
+
+
 &lt;figure &gt;
-    
-        &lt;img src=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/IMG_0021.jpg&#34; /&gt;
-    
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0021.jpg&#34; data-size=&#34;1024x575&#34; title=&#34;Red heart&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0021.jpg&#34; /&gt;
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Red heart&lt;/h4&gt;
@@ -515,22 +624,23 @@ H-Tichondrius
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
 &lt;/p&gt;
 
 &lt;h4 id=&#34;source-code:fe3f34e8fc0801f493ba39584a7594d0&#34;&gt;Source code&lt;/h4&gt;
 
 &lt;p&gt;The code is a bit of a mess and uncommented for the most part.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/02/outroot_gf8x8.pde&#34;&gt;outroot_gf8x8.pde&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/outroot_gf8x8.pde&#34;&gt;outroot_gf8x8.pde&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Don&#39;t buy cheap USB to RS232 converters</title>
-      <link>http://192.168.0.2/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</link>
+      <link>http://blog.kevindarlington.com/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</link>
       <pubDate>Fri, 12 Feb 2010 03:07:27 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</guid>
+      <guid>http://blog.kevindarlington.com/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</guid>
       <description>
 
 &lt;p&gt;So, my girlfriend bought me a STM32F103 board to play around with that has a RS-232 serial port on it to program it. Since I haven&amp;rsquo;t owned any computer in the last few years that has a serial port, I needed to get a converter.&lt;/p&gt;
@@ -538,10 +648,16 @@ H-Tichondrius
 &lt;p&gt;I decided to go the cheap route and grab one from &lt;a href=&#34;http://www.dealextreme.com/&#34;&gt;dealextreme.com&lt;/a&gt;. I figured that since most of these converters contains the&lt;a href=&#34;http://www.prolific.com.tw/eng/Products.asp?ID=59&#34;&gt; PL-2303&lt;/a&gt; chip that it wouldn&amp;rsquo;t really matter what I got. So I decided to buy &lt;a href=&#34;http://www.dealextreme.com/details.dx/sku.24512&#34;&gt;this&lt;/a&gt; converter for $2.99:&lt;/p&gt;
 
 
+
+
+
+
+
+
 &lt;figure &gt;
-    
+    &lt;a href=&#34;http://farm3.static.flickr.com/2711/4350174817_d0137a5572_o.jpg&#34; data-size=&#34;1024x884&#34; title=&#34;Bad converter&#34;&gt;
         &lt;img src=&#34;http://farm3.static.flickr.com/2711/4350174817_d0137a5572_o.jpg&#34; /&gt;
-    
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Bad converter&lt;/h4&gt;
@@ -549,6 +665,7 @@ H-Tichondrius
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
 
 
 &lt;p&gt;I actually bought two of them since I needed one for another development board that I had. So I hooked everything up, ran &lt;a href=&#34;http://www.st.com/mcu/familiesdocs-110.html&#34;&gt;Flash Loader Demonstrator&lt;/a&gt;, and sure enough it didn&amp;rsquo;t work. I tried all sorts of settings and speeds. At the lowest speed, I got the thing to upload once out of 20 times.&lt;/p&gt;
@@ -560,10 +677,16 @@ H-Tichondrius
 &lt;p&gt;Well, &lt;a href=&#34;http://www.sparkfun.com/&#34;&gt;Sparkfun&lt;/a&gt; has a good reputation so I decided to look at their &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=8580&#34;&gt;USB to RS232 converter&lt;/a&gt;. It&amp;rsquo;s a little more costly at $13, and it contains the same PL-2303 chip. If this converter didn&amp;rsquo;t work, it would be a bigger hit since I had to pay to ship this thing. The product description mentioned it was a high quality converter. I decided to take their word for it.&lt;/p&gt;
 
 
+
+
+
+
+
+
 &lt;figure &gt;
-    
+    &lt;a href=&#34;http://farm3.static.flickr.com/2718/4350921018_8b1b8aed24_o.jpg&#34; data-size=&#34;1024x839&#34; title=&#34;Good converter&#34;&gt;
         &lt;img src=&#34;http://farm3.static.flickr.com/2718/4350921018_8b1b8aed24_o.jpg&#34; /&gt;
-    
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Good converter&lt;/h4&gt;
@@ -571,6 +694,7 @@ H-Tichondrius
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
 
 
 &lt;p&gt;&amp;hellip;it worked perfectly! I could crank it up all the way to 256000 bps and it programmed the STM32 without a hitch.&lt;/p&gt;
@@ -582,10 +706,16 @@ H-Tichondrius
 &lt;p&gt;I don&amp;rsquo;t have any recommendations on other converters to use. All I can say is the one provided by Sparkfun definitely works and is worth the money.&lt;/p&gt;
 
 &lt;p&gt;
+
+
+
+
+
+
 &lt;figure &gt;
-    
+    &lt;a href=&#34;http://farm5.static.flickr.com/4040/4350236425_fd92055425_o.jpg&#34; data-size=&#34;1024x824&#34; title=&#34;STM32F103&#34;&gt;
         &lt;img src=&#34;http://farm5.static.flickr.com/4040/4350236425_fd92055425_o.jpg&#34; /&gt;
-    
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;STM32F103&lt;/h4&gt;
@@ -593,16 +723,17 @@ H-Tichondrius
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
 &lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Airwick motion sensor PIR with an arduino</title>
-      <link>http://192.168.0.2/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</link>
+      <link>http://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</link>
       <pubDate>Sun, 10 Jan 2010 20:15:59 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</guid>
+      <guid>http://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve obtained two Airwick Freshmatics from a yard sale for $2. These were used in my house for a while, but it quickly became annoying to be sprayed in the face every time.  So I decided to hook it up to my arduino for no reason whatsoever.&lt;/p&gt;
@@ -610,10 +741,16 @@ H-Tichondrius
 &lt;p&gt;This model seems to be an older one as I cannot find it on the internet. I&amp;rsquo;m unsure what the newer models have, but I&amp;rsquo;m pretty certain they wouldn&amp;rsquo;t need to change the design. This model actuates a motor which uses gears to press down on the nozzle of the aroma can.&lt;/p&gt;
 
 
+
+
+
+
+
+
 &lt;figure &gt;
-    
+    &lt;a href=&#34;http://farm5.static.flickr.com/4049/4264353274_2012434a9c_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Airwick Freshmatic&#34;&gt;
         &lt;img src=&#34;http://farm5.static.flickr.com/4049/4264353274_2012434a9c_b.jpg&#34; /&gt;
-    
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Airwick Freshmatic&lt;/h4&gt;
@@ -623,13 +760,20 @@ H-Tichondrius
 &lt;/figure&gt;
 
 
+
 &lt;p&gt;It only takes 4 philips head screws to get the backplate of it off. You&amp;rsquo;ll immediately see the motor there.&lt;/p&gt;
 
 
+
+
+
+
+
+
 &lt;figure &gt;
-    
+    &lt;a href=&#34;http://farm5.static.flickr.com/4031/4264353390_0df46bcd9d_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Inside the Airwick Freshmatic&#34;&gt;
         &lt;img src=&#34;http://farm5.static.flickr.com/4031/4264353390_0df46bcd9d_b.jpg&#34; /&gt;
-    
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Inside the Airwick Freshmatic&lt;/h4&gt;
@@ -639,13 +783,20 @@ H-Tichondrius
 &lt;/figure&gt;
 
 
+
 &lt;p&gt;It takes just one more screw to pop the rest of it out.&lt;/p&gt;
 
 
+
+
+
+
+
+
 &lt;figure &gt;
-    
+    &lt;a href=&#34;http://farm3.static.flickr.com/2517/4264353508_a39311ffc0_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Inside Airwick Freshmatic&#34;&gt;
         &lt;img src=&#34;http://farm3.static.flickr.com/2517/4264353508_a39311ffc0_b.jpg&#34; /&gt;
-    
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Inside Airwick Freshmatic&lt;/h4&gt;
@@ -653,6 +804,7 @@ H-Tichondrius
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
 
 
 &lt;p&gt;Determining the functionality of the different connector pins was easy by just using a volt meter and tracing the conductive lines by eye. Here is a table of what each pin does. If you look at the picture below, pin #1 is the pin to the far left.&lt;/p&gt;
@@ -678,10 +830,16 @@ H-Tichondrius
 &lt;/ol&gt;
 
 
+
+
+
+
+
+
 &lt;figure &gt;
-    
+    &lt;a href=&#34;http://farm3.static.flickr.com/2733/4264353114_1a1d5aa212_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Airwick PIR sensor board&#34;&gt;
         &lt;img src=&#34;http://farm3.static.flickr.com/2733/4264353114_1a1d5aa212_b.jpg&#34; /&gt;
-    
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Airwick PIR sensor board&lt;/h4&gt;
@@ -689,6 +847,7 @@ H-Tichondrius
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
 
 
 &lt;p&gt;In the above picture the sensor wire (green) became disconnected when I took the photo. It&amp;rsquo;s suppose to be connected to pin 5.&lt;/p&gt;
@@ -699,7 +858,7 @@ H-Tichondrius
 
 &lt;p&gt;I modified the code for &lt;a href=&#34;http://www.arduino.cc/playground/Code/PIRsense&#34;&gt;PIRsense&lt;/a&gt; in the arduino mega.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://192.168.0.2/downloads/wp-content/uploads/2010/01/sketch_airwick_pir.pde&#34;&gt;Here&lt;/a&gt; it is.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/01/sketch_airwick_pir.pde&#34;&gt;Here&lt;/a&gt; it is.&lt;/p&gt;
 
 &lt;h4 id=&#34;video:bc9404d05dce6af0772b19e755f8609b&#34;&gt;Video&lt;/h4&gt;
 
@@ -713,10 +872,10 @@ H-Tichondrius
     
     <item>
       <title>Open sourcing some of my projects</title>
-      <link>http://192.168.0.2/2009/12/19/open-sourcing-some-of-my-projects/</link>
+      <link>http://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</link>
       <pubDate>Sat, 19 Dec 2009 18:41:33 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2009/12/19/open-sourcing-some-of-my-projects/</guid>
+      <guid>http://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</guid>
       <description>
 
 &lt;p&gt;There are a few projects that I worked on that I haven&amp;rsquo;t yet made open source. Most of them I don&amp;rsquo;t actively develop anymore. Below is a list of these projects and what they are. You can find all of my source code at &lt;a href=&#34;http://github.com/kdar/&#34;&gt;http://github.com/kdar/&lt;/a&gt;.&lt;/p&gt;
@@ -767,10 +926,10 @@ H-Tichondrius
     
     <item>
       <title>Workclipmini - Copy text and open URLs from one computer to another</title>
-      <link>http://192.168.0.2/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</link>
+      <link>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</link>
       <pubDate>Sat, 19 Dec 2009 16:37:27 +0000</pubDate>
       
-      <guid>http://192.168.0.2/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</guid>
+      <guid>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</guid>
       <description>
 
 &lt;p&gt;My computer setup at home involves two computers. The first computer is my quad core workhorse. I do all my programming and gaming on this machine. My second computer is my chat/fileserver machine. I use this primiarly as a backup computer and so I can talk to people while gaming or programming.&lt;/p&gt;

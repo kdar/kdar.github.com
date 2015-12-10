@@ -1,6 +1,8 @@
 @import '../../vendor/semantic/semantic.css';
+@import '../../node_modules/rrssb/scss/rrssb';
 
 @import 'photo';
+@import 'effects';
 
 $mobileBreakpoint            : 320px;
 $tabletBreakpoint            : 768px;
@@ -22,8 +24,14 @@ a {
 }
 
 body.pushable>.pusher {
-  background-color: #E5E8E9;
+  background-color: #DADFE1; //#1B1C1D;
+
+  // & > .content {
+  //   background-color: #E5E8E9;
+  // }
 }
+
+
 
 .hidden.menu {
   display: none;
@@ -77,10 +85,6 @@ body.pushable>.pusher {
     padding-top: 5em;
     padding-bottom: 5em;
   }
-}
-
-.footer.segment {
-  padding: 5em 0em;
 }
 
 .secondary.pointing.menu .toc.item {
@@ -167,11 +171,25 @@ body.pushable>.pusher {
   }
 }
 
-.inner {
-  margin: 0 auto;
-  max-width: 960px;
-  padding-left: 15px;
-  padding-right: 15px;
+// .inner {
+//   margin: 0 auto;
+//   max-width: 1127px;
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
+
+.ui.container {
+  border-radius: 5px;
+}
+
+.list-tag-container {
+  background: white;
+  margin-top: 30px;
+  padding: 2em;
+
+  ul {
+    list-style: none;
+  }
 }
 
 .multiple-post-container {
@@ -230,15 +248,18 @@ body.pushable>.pusher {
     }
   }
 
-  figure img {
-    width: 100%;
-    height: auto;
+  figure {
+    margin: 1em 20px;
+    img {
+      height: auto;
+    }
   }
 }
 
 .list-post-container {
-  // margin: 30px auto;
+  background: white;
   margin-top: 30px;
+  // margin: 30px auto;
   // padding: 25px;
   // background-color: white;
   // box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
@@ -249,6 +270,7 @@ body.pushable>.pusher {
     // padding: 0 !important;
     margin-bottom: 10px;
     padding: 25px !important;
+    border-radius: 5px;
 
     // .avatar {
     //   border-radius: 0;
@@ -334,7 +356,7 @@ body.pushable>.pusher {
   .post-footer {
     margin-left: auto;
     margin-right: auto;
-    max-width: 720px;
+    // max-width: 720px;
   }
 
   .post-header {
@@ -415,6 +437,20 @@ body.pushable>.pusher {
   margin-bottom: 30px;
   padding: 0 30px 45px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+
+  &.comments-notloaded {
+    padding: 0 30px 0;
+    cursor: pointer;
+
+    .comments-title {
+      @include underline-from-center;
+    }
+
+    .comments-content {
+      display: none;
+    }
+  }
 
   .comments-title {
     background: #f2f5f7;
@@ -422,6 +458,7 @@ body.pushable>.pusher {
     margin-right: -30px;
     padding: 24px 30px;
     text-align: center;
+    transition: all 0.3s;
   }
 }
 
@@ -457,4 +494,17 @@ body.pushable>.pusher {
       }
     }
   }
+}
+
+.ui.footer {
+  background: transparent !important;
+
+  .ui.container {
+    background: #1B1C1D;
+    padding: 2em;
+  }
+}
+
+.rrssb-buttons {
+  margin: 2em 0 0 0;
 }

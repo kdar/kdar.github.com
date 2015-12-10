@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Avr on Kevin Darlington</title>
+    <link>http://blog.kevindarlington.com/tags/avr/</link>
+    <description>Recent content in Avr on Kevin Darlington</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
+    <lastBuildDate>Tue, 23 Feb 2010 01:21:35 +0000</lastBuildDate>
+    <atom:link href="http://blog.kevindarlington.com/tags/avr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Repurposed tv-b-gone to turn off benq projector</title>
+      <link>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</link>
+      <pubDate>Tue, 23 Feb 2010 01:21:35 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</guid>
+      <description>
+
+&lt;p&gt;At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn&amp;rsquo;t only annoying for me, but I&amp;rsquo;m sure it was distracting for the church members.&lt;/p&gt;
+
+&lt;p&gt;The solution to this problem is an easy one: build a more powerful remote. The first order of business was whether I would build one from scratch or if I was going to modify something else on the market. Since the IR LEDs that I wanted were out of stock at mouser (and I dislike digikey&amp;rsquo;s shipping price), I decided to just buy a &lt;a href=&#34;http://www.adafruit.com/index.php?main_page=product_info&amp;amp;cPath=20&amp;amp;products_id=73&amp;amp;zenid=bac5d01d94a94bb0fa1075e8e3f6bdbc&#34;&gt;tv-b-gone kit&lt;/a&gt; from &lt;a href=&#34;http://www.adafruit.com/&#34;&gt;adafruit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This kit was simple to put together and I was able to turn off all of my TVs in no time. I took the device to church in hopes that the IR code for the projector was already programmed in, but no such luck. In order to get the code for the benq projector, I put together an arduino with an IR receiver and used the &lt;a href=&#34;http://www.arcfn.com/2009/08/multi-protocol-infrared-remote-library.html&#34;&gt;IRremote&lt;/a&gt; library by&lt;a href=&#34;http://www.arcfn.com/&#34;&gt; Ken Shirriff&lt;/a&gt;. I love the library that he created. It not only gets you the raw data for the protocol, but it also tries to determine what protocol it is. The IRremote library told me that the benq projector that I had used the NEC protocol, code B14E00FF.&lt;/p&gt;
+
+&lt;p&gt;Now I needed to get this code onto the tv-b-gone. I read through the &lt;a href=&#34;http://www.ladyada.net/make/tvbgone/design.html&#34;&gt;design&lt;/a&gt; document for the tv-b-gone, and was easily able to translate the raw IR code into the compressed tv-b-gone format.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0067.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Tv-b-gone at church&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0067.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Tv-b-gone at church&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;Verdict? It worked perfectly. I didn&amp;rsquo;t have to move from my seat to turn off/on the projector (in the picture, I&amp;rsquo;m hanging over the booth to get a good picture).&lt;/p&gt;
+
+&lt;p&gt;You may have noticed but I put the tv-b-gone inside a &lt;a href=&#34;http://www.maxim-ic.com/&#34;&gt;Maxim&lt;/a&gt; case I got when I ordered some samples.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0080.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Maxim case&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0080.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Maxim case&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;All I did extra was drill 4 holes and put a small pushbutton in the front of it, then solder wires to it and the button on the PCB. The battery case is stuck on the bottom with double sided sticky tape.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0078.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Pushbutton on case&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0078.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Pushbutton on case&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0079.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Soldered to pushbutton on PCB&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0079.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Soldered to pushbutton on PCB&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;h4 id=&#34;code:19369726bc1084012797880118e0d562&#34;&gt;Code&lt;/h4&gt;
+
+&lt;p&gt;I changed the code up a bit from the original firmware. I removed some unnecessary delays and LED blinks, and I obviously removed the rest of the TV codes. I used &lt;a href=&#34;http://www.atmel.com/dyn/products/tools_card.asp?tool_id=2725&#34;&gt;AVRStudio&lt;/a&gt; to write the firmware and &lt;a href=&#34;http://www.ladyada.net/make/usbtinyisp/index.html&#34;&gt;USBtinyISP&lt;/a&gt; to program it.&lt;/p&gt;
+
+&lt;p&gt;Inside the zip, I include an analysis folder which contains the IR code for my projector. &amp;ldquo;analysis/ir.txt&amp;rdquo; is the more interesting file.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/church_benq.zip&#34;&gt;church_benq.zip&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

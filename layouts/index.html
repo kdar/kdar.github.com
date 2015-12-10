@@ -1,12 +1,1 @@
-{{ partial "header" . }}
-
-  <div class="multiple-post-container" data-columns>
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-    {{ range $paginator.Pages }}
-    {{ .Render "list" }}
-    {{ end }}
-  </div>
-
-  {{ partial "pagination" . }}
-
-{{ partial "footer" . }}
+{{ partial "post/index" . }}

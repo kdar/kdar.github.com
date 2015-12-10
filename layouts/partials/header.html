@@ -13,7 +13,7 @@
   {{ range first 1 .Data.Pages }}
   <meta property="og:description" content="{{ .Summary }}">
   {{ if isset .Params "eyecatch" }}
-  <meta property="og:image" content="{{ .Site.BaseURL }}/images/{{ .Params.eyecatch }}">
+  <meta property="og:image" content="{{ (printf "/images/%s" .Params.postmedia) | absURL }}">
   {{ end }}
   {{ end }}
   {{ else if eq .URL "/post/" }}
@@ -31,7 +31,7 @@
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:description" content="{{ .Summary }}">
   {{ if isset .Params "eyecatch" }}
-  <meta property="og:image" content="{{ .Site.BaseURL }}/images/{{ .Params.eyecatch }}">
+  <meta property="og:image" content="{{ (printf "/images/%s" .Params.postmedia) | absURL }}">
   {{ end }}
   {{ end }}
   <meta property="og:site_name" content="{{ .Site.Title }}">
@@ -50,8 +50,8 @@
     {{ end }}
   </title>
 
-  <link rel="shortcut icon" href="{{ .Site.BaseURL }}/favicon.ico" />
-  <link rel="stylesheet" type="text/css" href='{{ .Site.BaseURL }}/css/main.css'/>
+  <link rel="shortcut icon" href="{{ "/favicon.ico" | absURL }}" />
+  <link rel="stylesheet" type="text/css" href='{{ "/css/main.css" | absURL }}'/>
 </head>
 <body>
 
@@ -61,7 +61,7 @@
       {{partial "menu" .}}
       <div class="right menu">
         <div class="item">
-          <a class="ui blue button">Github</a>
+          <a class="ui blue button" href="https://github.com/{{ .Site.Params.Github }}">Github</a>
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@
   <!-- Sidebar Menu -->
   <div class="ui vertical inverted sidebar menu left">
     {{partial "menu" .}}
-    <a class="item">Github</a>
+    <a class="item" href="https://github.com/{{ .Site.Params.Github }}">Github</a>
   </div>
 
 
@@ -78,3 +78,5 @@
     <!-- Page Contents -->
     {{partial "masthead" .}}
     <div></div>
+
+    <div class="content">

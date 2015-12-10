@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sanguino on Kevin Darlington</title>
+    <link>http://blog.kevindarlington.com/tags/sanguino/</link>
+    <description>Recent content in Sanguino on Kevin Darlington</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
+    <lastBuildDate>Tue, 16 Mar 2010 03:22:20 +0000</lastBuildDate>
+    <atom:link href="http://blog.kevindarlington.com/tags/sanguino/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Simple sanguino clock prototype</title>
+      <link>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</link>
+      <pubDate>Tue, 16 Mar 2010 03:22:20 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve been wanting to make my own alarm clock for some time now, since I&amp;rsquo;m unsatisfied with any alarm clock on the market (neglecting overpriced ones). I just made a quick prototype to see if I liked it or not.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/03/IMG_0113.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Prototype overhead&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/03/IMG_0113.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Prototype overhead&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;h4 id=&#34;parts-used:fa30f63c8c946c609a15e647a594b321&#34;&gt;Parts used&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.moderndevice.com/products/sanguino&#34;&gt;Sanguino&lt;/a&gt; from Moderndevice&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.moderndevice.com/products/20x4-blue-lcd&#34;&gt;20x4 LCD&lt;/a&gt; from Moderndevice&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-real-time-clock-moduleds1307-p-491.html?cPath=48_59&#34;&gt;Electronic brick real time clock module&lt;/a&gt; from Seedstudio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-temperature-sensoranalog-p-478.html?cPath=48_52&#34;&gt;Electronic brick temperature sensor&lt;/a&gt; from Seeedstudio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-fully-buckled-4-wire-cable-p-486.html?cPath=48_57&#34;&gt;Electronic brick fully buckled 4 wire cable&lt;/a&gt; from Seedstudio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-fully-buckled-3-wire-cable-p-485.html?cPath=48_57&#34;&gt;Electronic brick fully buckled 3 wire cable&lt;/a&gt; from Seedstduio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/1-pin-dualfemale-jumper-wire-100mm-50pcs-pack-p-260.html?cPath=34&#34;&gt;Dual-female jumper wires&lt;/a&gt; from Seedstudio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1k trimpot for contrast adjustment&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also used a &lt;a href=&#34;http://www.moderndevice.com/products/usb-bub&#34;&gt;USB BUB Board&lt;/a&gt; from Moderndevice to program the Sanguino. I have to say, I really LOVE these two companies. They have great products at great prices, and their tech support is phenomenal (I&amp;rsquo;ve had to use them both).&lt;/p&gt;
+
+&lt;h4 id=&#34;source-code:fa30f63c8c946c609a15e647a594b321&#34;&gt;Source code&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/03/clock.zip&#34;&gt;clock.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no alarm code inside the source. I was merely just testing to see if I would like the setup or not.&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusion:fa30f63c8c946c609a15e647a594b321&#34;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;In my real design, I don&amp;rsquo;t think I want to use a 20x4 character LCD as it is very hard to tell the time from a distance. I&amp;rsquo;ll be looking into either a monochrome graphic LCD or a color LCD.&lt;/p&gt;
+
+&lt;p&gt;Feel free to leave a comment if you have any questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-real-time-clock-moduleds1307-p-491.html?cPath=48_59&#34;&gt;Electronic brick- Real Time Clock Module&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

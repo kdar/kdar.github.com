@@ -1,9 +1,12 @@
+    </div>
+
     <div class="ui inverted vertical footer segment">
       <div class="ui container">
+        <!-- <div class="ui inverted divider"></div> -->
         <div class="ui stackable inverted divided equal height stackable grid">
           <div class="twelve wide column">
             <div class="ui inverted link list">
-              <p>&copy; {{ .Site.LastChange.Year }} {{ if isset .Site.Params "Author" }} {{ .Site.Params.Author }} {{ else }} {{ .Site.Title }} {{ end }}</p>
+              <p>{{ .Site.Copyright | safeHTML }}</p>
               <p>Powered by <a href="http://gohugo.io" target="_blank" class="item">Hugo</a>, designed by <a href="http://github.com/kdar" target="_blank" class="item">Kevin Darlington</a></p>
             </div>
           </div>
@@ -14,6 +17,6 @@
 
   {{ partial "photo" . }}
 
-  <script src="{{ .Site.BaseURL }}/js/main.js"></script>
+  <script src="{{ "/js/main.js" | absURL }}"></script>
 </body>
 </html>
