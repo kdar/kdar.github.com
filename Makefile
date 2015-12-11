@@ -14,8 +14,9 @@ build:
 
 deploy:build
 	cp -r public/* .deploy
-	cd .deploy
-	git add -A
-	git add .
-	git commit -m "Site updated at $$(date)"
+	echo "blog.kevindarlington.com" > .deploy/CNAME
+	cd .deploy && \
+	git add -A && \
+	git add . && \
+	git commit -m "Site updated at $$(date)" && \
 	git push origin master
