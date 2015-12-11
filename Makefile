@@ -16,5 +16,6 @@ deploy:build
 	cp -r public/* .deploy
 	cd .deploy
 	git add -A
+	git add .
 	git commit -m "Site updated at $$(date)"
 	git push origin master
