@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pic24h on Kevin Darlington</title>
+    <link>http://blog.kevindarlington.com/tags/pic24h/</link>
+    <description>Recent content in Pic24h on Kevin Darlington</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
+    <lastBuildDate>Tue, 06 Apr 2010 13:44:46 +0000</lastBuildDate>
+    <atom:link href="http://blog.kevindarlington.com/tags/pic24h/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nokia 6100/6610 LCD PIC24H minibully</title>
+      <link>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
+      <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
+      <description>
+
+&lt;p&gt;I recently bought a Nokia 6100 LCD from Ebay because I am in an LCD craze phase. Since I have no need for this LCD right now, I decided to port some code over to the &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=9148&#34;&gt;PIC24H minibully&lt;/a&gt; from Sparkfun.&lt;/p&gt;
+
+&lt;h4 id=&#34;parts:5b849dae699ad927c98bf7049a3cc4a7&#34;&gt;Parts&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Nokia &lt;sup&gt;6100&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6610&lt;/sub&gt; LCD from &lt;a href=&#34;http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;amp;item=160369984263&amp;amp;ssPageName=STRK:MEWNX:IT#ht_2092wt_922&#34;&gt;Ebay&lt;/a&gt; or &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=8600&#34;&gt;Sparkfun&lt;/a&gt;. If the Ebay link ends up dead, use &lt;a href=&#34;http://shop.ebay.com/i.html?_nkw=nokia+6100+color+lcd&#34;&gt;this search link&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=9148&#34;&gt;minibully&lt;/a&gt; from Sparkfun. But any PIC24F/PIC24H board should do.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A 5V power source. The LCD requires 5V to operate properly. The minibully can only supply 3.3V. I used the &lt;a href=&#34;http://www.seeedstudio.com/depot/adjustable-breadboard-power-supply-p-566.html?cPath=11&#34;&gt;Adjustable breadboard power supply&lt;/a&gt; from Seeedstudio.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A way to program the minibully serially. I used the &lt;a href=&#34;http://www.moderndevice.com/products/usb-bub&#34;&gt;USB BUB Board&lt;/a&gt; from Moderndevice.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;pins:5b849dae699ad927c98bf7049a3cc4a7&#34;&gt;Pins&lt;/h4&gt;
+
+&lt;p&gt;Here is the pin mapping I used to connect the LCD. You can change what pins the LCD uses by changing the defines (LCD_RES, LCD_DIO, LCD_SCK, LCD_CS) inside lcd.h.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Minibully&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;PIC&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;RES&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDA/DIO&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;A2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B0&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SCLK&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;A3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;source:5b849dae699ad927c98bf7049a3cc4a7&#34;&gt;Source&lt;/h4&gt;
+
+&lt;p&gt;The code is based on the work done by &lt;a href=&#34;http://atomsoft.wordpress.com/2010/02/26/nokia-6100-lcd-code/&#34;&gt;AtomSoftTech&lt;/a&gt;. The person there made it for the PIC18F and I ported it to the minibully.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/04/nokia-6610-minibully.zip&#34;&gt;nokia 6610 minibully.zip&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

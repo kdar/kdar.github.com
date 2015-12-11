@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Kevin Darlington</title>
+    <link>http://blog.kevindarlington.com/post/</link>
+    <description>Recent content in Posts on Kevin Darlington</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
+    <lastBuildDate>Fri, 04 Oct 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.kevindarlington.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Calculate the cost of leveling a WoW profession via the auction house</title>
+      <link>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</guid>
+      <description>
+
+&lt;h3 id=&#34;professioncost:312b0030eda3a3f8319159a797f2d256&#34;&gt;ProfessionCost&lt;/h3&gt;
+
+&lt;p&gt;Determines how much a WoW profession would cost if you bought everything from the AH.&lt;/p&gt;
+
+&lt;h3 id=&#34;download:312b0030eda3a3f8319159a797f2d256&#34;&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://raw.github.com/kdar/professioncost/master/professioncost.zip&#34;&gt;ProfessionCost.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;usage:312b0030eda3a3f8319159a797f2d256&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://theunderminejournal.com/user.php&#34;&gt;https://theunderminejournal.com/user.php&lt;/a&gt; and download
+the Market Data XML file for your particular realm. Put this file into the data directory. Then, just run professioncost.exe.&lt;/p&gt;
+
+&lt;h3 id=&#34;examples:312b0030eda3a3f8319159a797f2d256&#34;&gt;Examples&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;A-Sargeras
+  -----------------------------------------------------
+  Profession            Low     High    Median  Average
+  Alchemy               3697g   3697g   3697g   3697g
+  Leatherworking        7488g   8866g   8134g   8177g
+  Engineering           8374g   8374g   8374g   8374g
+  Tailoring             11834g  11834g  11834g  11834g
+  Jewelcrafting         12451g  13051g  12703g  12751g
+  Inscription           1725g   26017g  5915g   13871g
+  Blacksmithing         16430g  16592g  16511g  16511g
+  Enchanting            18105g  18105g  18105g  18105g
+
+H-Tichondrius
+  -----------------------------------------------------
+  Profession            Low     High    Median  Average
+  Alchemy               4060g   4060g   4060g   4060g
+  Inscription           1417g   10241g  4359g   5829g
+  Engineering           8308g   8308g   8308g   8308g
+  Enchanting            11203g  11203g  11203g  11203g
+  Blacksmithing         17997g  18368g  18183g  18183g
+  Leatherworking        17999g  24804g  21419g  21401g
+  Jewelcrafting         23729g  24955g  24200g  24342g
+  Tailoring             25562g  25562g  25562g  25562g
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MorphGEN - An application that helps in generating TMorph codes for WoW</title>
+      <link>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</guid>
+      <description>&lt;p&gt;This is an application that will help you in generating codes for the program &lt;a href=&#34;http://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-bots-programs/375925-tmorph-64-bit-morpher-panda-support.html&#34;&gt;TMorph&lt;/a&gt;. Get &lt;a href=&#34;https://github.com/kdar/morphgen-binary&#34;&gt;MorphGEN here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It supports the following websites:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wowhead.com/&#34;&gt;http://www.wowhead.com/&lt;/a&gt; - retrieve from item sets, item comparisons, and transmog sets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://us.battle.net/wow/&#34;&gt;http://us.battle.net/wow/&lt;/a&gt; - retrieve from person&amp;rsquo;s armory&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wowroleplaygear.com/&#34;&gt;http://wowroleplaygear.com/&lt;/a&gt; - transmog sets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mogmygear.com/&#34;&gt;http://mogmygear.com/&lt;/a&gt; - transmog sets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.worldofwardrobes.net&#34;&gt;http://www.worldofwardrobes.net&lt;/a&gt; - transmog sets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wowmogging.com&#34;&gt;http://www.wowmogging.com&lt;/a&gt; - transmog sets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;rsquo;ve also been testing out a new interface. Not sure if I&amp;rsquo;m going to release it or not, because it depends on a web browser (using Chrome in application mode in this case).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/images/posts/morphgen/morphgen2.png&#34; data-size=&#34;715x395&#34; title=&#34;morphgen2&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/images/posts/morphgen/morphgen2.png&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;morphgen2&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;I could eventually release it as a web application so people don&amp;rsquo;t have to download anything. We&amp;rsquo;ll see.&lt;/p&gt;
+
+&lt;p&gt;Download the TMorph generator here: &lt;a href=&#34;https://github.com/kdar/morphgen-binary&#34;&gt;https://github.com/kdar/morphgen-binary&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bitpim contacts CSV to google voice/gmail CSV</title>
+      <link>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</link>
+      <pubDate>Sun, 13 Jun 2010 21:42:10 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had &lt;a href=&#34;http://www.google.com/googlevoice/about.html&#34;&gt;Google Voice&lt;/a&gt; for a while and I wanted to transfer my list of contacts from my phone to it. So, I decided to make a simple python script to convert the CSV contacts export from &lt;a href=&#34;http://www.bitpim.org/&#34;&gt;Bitpim&lt;/a&gt; to something that Google voice could import. This code is not exhaustive whatsoever. Modify it at will.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/bitpim2google&#34;&gt;http://github.com/kdar/bitpim2google&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nokia 6100/6610 LCD PIC24H minibully</title>
+      <link>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
+      <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
+      <description>
+
+&lt;p&gt;I recently bought a Nokia 6100 LCD from Ebay because I am in an LCD craze phase. Since I have no need for this LCD right now, I decided to port some code over to the &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=9148&#34;&gt;PIC24H minibully&lt;/a&gt; from Sparkfun.&lt;/p&gt;
+
+&lt;h4 id=&#34;parts:5b849dae699ad927c98bf7049a3cc4a7&#34;&gt;Parts&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Nokia &lt;sup&gt;6100&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6610&lt;/sub&gt; LCD from &lt;a href=&#34;http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;amp;item=160369984263&amp;amp;ssPageName=STRK:MEWNX:IT#ht_2092wt_922&#34;&gt;Ebay&lt;/a&gt; or &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=8600&#34;&gt;Sparkfun&lt;/a&gt;. If the Ebay link ends up dead, use &lt;a href=&#34;http://shop.ebay.com/i.html?_nkw=nokia+6100+color+lcd&#34;&gt;this search link&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=9148&#34;&gt;minibully&lt;/a&gt; from Sparkfun. But any PIC24F/PIC24H board should do.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A 5V power source. The LCD requires 5V to operate properly. The minibully can only supply 3.3V. I used the &lt;a href=&#34;http://www.seeedstudio.com/depot/adjustable-breadboard-power-supply-p-566.html?cPath=11&#34;&gt;Adjustable breadboard power supply&lt;/a&gt; from Seeedstudio.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A way to program the minibully serially. I used the &lt;a href=&#34;http://www.moderndevice.com/products/usb-bub&#34;&gt;USB BUB Board&lt;/a&gt; from Moderndevice.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;pins:5b849dae699ad927c98bf7049a3cc4a7&#34;&gt;Pins&lt;/h4&gt;
+
+&lt;p&gt;Here is the pin mapping I used to connect the LCD. You can change what pins the LCD uses by changing the defines (LCD_RES, LCD_DIO, LCD_SCK, LCD_CS) inside lcd.h.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Minibully&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;PIC&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;RES&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDA/DIO&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;A2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B0&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SCLK&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;A3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;source:5b849dae699ad927c98bf7049a3cc4a7&#34;&gt;Source&lt;/h4&gt;
+
+&lt;p&gt;The code is based on the work done by &lt;a href=&#34;http://atomsoft.wordpress.com/2010/02/26/nokia-6100-lcd-code/&#34;&gt;AtomSoftTech&lt;/a&gt;. The person there made it for the PIC18F and I ported it to the minibully.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/04/nokia-6610-minibully.zip&#34;&gt;nokia 6610 minibully.zip&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple sanguino clock prototype</title>
+      <link>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</link>
+      <pubDate>Tue, 16 Mar 2010 03:22:20 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve been wanting to make my own alarm clock for some time now, since I&amp;rsquo;m unsatisfied with any alarm clock on the market (neglecting overpriced ones). I just made a quick prototype to see if I liked it or not.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/03/IMG_0113.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Prototype overhead&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/03/IMG_0113.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Prototype overhead&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;h4 id=&#34;parts-used:fa30f63c8c946c609a15e647a594b321&#34;&gt;Parts used&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.moderndevice.com/products/sanguino&#34;&gt;Sanguino&lt;/a&gt; from Moderndevice&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.moderndevice.com/products/20x4-blue-lcd&#34;&gt;20x4 LCD&lt;/a&gt; from Moderndevice&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-real-time-clock-moduleds1307-p-491.html?cPath=48_59&#34;&gt;Electronic brick real time clock module&lt;/a&gt; from Seedstudio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-temperature-sensoranalog-p-478.html?cPath=48_52&#34;&gt;Electronic brick temperature sensor&lt;/a&gt; from Seeedstudio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-fully-buckled-4-wire-cable-p-486.html?cPath=48_57&#34;&gt;Electronic brick fully buckled 4 wire cable&lt;/a&gt; from Seedstudio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-fully-buckled-3-wire-cable-p-485.html?cPath=48_57&#34;&gt;Electronic brick fully buckled 3 wire cable&lt;/a&gt; from Seedstduio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/1-pin-dualfemale-jumper-wire-100mm-50pcs-pack-p-260.html?cPath=34&#34;&gt;Dual-female jumper wires&lt;/a&gt; from Seedstudio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1k trimpot for contrast adjustment&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also used a &lt;a href=&#34;http://www.moderndevice.com/products/usb-bub&#34;&gt;USB BUB Board&lt;/a&gt; from Moderndevice to program the Sanguino. I have to say, I really LOVE these two companies. They have great products at great prices, and their tech support is phenomenal (I&amp;rsquo;ve had to use them both).&lt;/p&gt;
+
+&lt;h4 id=&#34;source-code:fa30f63c8c946c609a15e647a594b321&#34;&gt;Source code&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/03/clock.zip&#34;&gt;clock.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no alarm code inside the source. I was merely just testing to see if I would like the setup or not.&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusion:fa30f63c8c946c609a15e647a594b321&#34;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;In my real design, I don&amp;rsquo;t think I want to use a 20x4 character LCD as it is very hard to tell the time from a distance. I&amp;rsquo;ll be looking into either a monochrome graphic LCD or a color LCD.&lt;/p&gt;
+
+&lt;p&gt;Feel free to leave a comment if you have any questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/electronic-brick-real-time-clock-moduleds1307-p-491.html?cPath=48_59&#34;&gt;Electronic brick- Real Time Clock Module&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Heroes of Newerth player stats python script</title>
+      <link>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</link>
+      <pubDate>Mon, 01 Mar 2010 02:22:03 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</guid>
+      <description>&lt;p&gt;Here is a script I made a long time ago when &lt;a href=&#34;http://www.heroesofnewerth.com/&#34;&gt;Heroes of Newerth&lt;/a&gt; first released its beta. It simply retrieves all of the player&amp;rsquo;s statistics given their player name.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/honstats&#34;&gt;http://github.com/kdar/honstats&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STM32 4-bit LCD library</title>
+      <link>http://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</link>
+      <pubDate>Sat, 27 Feb 2010 02:04:29 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</guid>
+      <description>&lt;p&gt;Here is a 4-bit LCD library for the STM32 that I based off of the &lt;a href=&#34;http://www.arduino.cc/playground/Code/LCD4BitLibrary&#34;&gt;LCD4BitLibrary&lt;/a&gt; for Arduino. It&amp;rsquo;s lightweight, but it also incorporates Arduino&amp;rsquo;s Print class.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/STM32-LCD-4Bit&#34;&gt;http://github.com/kdar/STM32-LCD-4Bit&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STM32 Project template for HD devices</title>
+      <link>http://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</link>
+      <pubDate>Fri, 26 Feb 2010 03:39:25 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</guid>
+      <description>&lt;p&gt;Here is a STM32 project template that I based off of &lt;a href=&#34;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&#34;&gt;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I made some changes to it to get it working for my purposes and the &lt;a href=&#34;http://www.codesourcery.com/sgpp/lite/arm/portal/subscription?@template=lite&#34;&gt;CodeSourcery G++ lite (EABI)&lt;/a&gt; compiler.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/STM32-HD-Project-template&#34;&gt;http://github.com/kdar/STM32-HD-Project-template&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Speeding up the Sanguino reset time</title>
+      <link>http://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</link>
+      <pubDate>Fri, 26 Feb 2010 01:27:56 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</guid>
+      <description>
+
+&lt;p&gt;I decided to use a &lt;a href=&#34;http://sanguino.cc/&#34;&gt;Sanguino&lt;/a&gt; for my next project and I noticed that every time I reset it with the pushbutton, it would take around 10 seconds to start the program. I thought this was absurd since the regular Arduino doesn&amp;rsquo;t take that long. I decided to dive into the bootloader firmware and find out the problem. The Sanguino version I&amp;rsquo;m dealing with is v1.4 r1.&lt;/p&gt;
+
+&lt;p&gt;After looking at the code, I could see that it would wait for &amp;ldquo;MAX_TIME_COUNT&amp;rdquo; iterations for a response on UART. Looking at the Makefile, it was set to 8000000&amp;gt;&amp;gt;1 which is the equivalent of 4000000. So the getch() function would keep incrementing a counter and checking for a response on UART, and finally timeout when the count exceeded 4000000. Obviously, this was taking too long for my tastes.&lt;/p&gt;
+
+&lt;h4 id=&#34;changes:0c34f6de3ee3d07b958c07290019806f&#34;&gt;Changes&lt;/h4&gt;
+
+&lt;p&gt;In the Makefile contained in hardware/sanguino/bootloaders/atmega644p, make the following changes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Change line 21 to point to an avr-gcc that is of version 3.x.x (not needed for OSX)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On line 33, change &amp;ldquo;8000000&amp;gt;&amp;gt;1&amp;rdquo; to &amp;ldquo;F_CPU&amp;gt;&amp;gt;4&amp;rdquo;. Use &amp;ldquo;F_CPU&amp;gt;&amp;gt;5&amp;rdquo; if you want 0.5 seconds faster.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;On line 43, change &amp;ldquo;avr-gcc&amp;rdquo; to &amp;ldquo;$(CC)&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I have to explain the #1 part. The Sanguino bootloader was made to compile with the 3.x.x series of the gcc compiler. The newest versions of WinAVR and avr-gcc for osx/linux, use gcc 4.x.x. The bootloader will not compile correctly with this version. Here are some instructions on getting the 3.x.x version of avr-gcc:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Windows: Download &lt;a href=&#34;http://sourceforge.net/projects/winavr/files/WinAVR/20060421/&#34;&gt;WinAVR-20060421&lt;/a&gt;. It contains avr-gcc 3.4.6&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;OSX: Type &amp;ldquo;avr-gcc-select 3&amp;rdquo; in a terminal. Be sure to change it back to &amp;ldquo;avr-gcc-select 4&amp;rdquo; when you&amp;rsquo;re done compiling.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Linux: Download&lt;a href=&#34;http://ftp.gnu.org/gnu/gcc/gcc-3.4.6/gcc-3.4.6.tar.gz&#34;&gt; gcc-3.4.6&lt;/a&gt; and apply this &lt;a href=&#34;http://www.freebsd.org/cgi/cvsweb.cgi/~checkout~/ports/devel/avr-gcc/files/patch-  newdevices?rev=1.12;content-type=text/plain&#34;&gt;patch&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I only tested this on Windows, so I cannot say if the OSX and Linux solutions will work.&lt;/p&gt;
+
+&lt;p&gt;I also changed the ATmegaBOOT.c code to not blink the LED 3 times but to blink it once. I saved some precious milliseconds. You can do this be setting NUM_LED_FLASHES on line 77 to 1.&lt;/p&gt;
+
+&lt;h4 id=&#34;compiling-and-uploading:0c34f6de3ee3d07b958c07290019806f&#34;&gt;Compiling and uploading&lt;/h4&gt;
+
+&lt;p&gt;Just run &amp;ldquo;make&amp;rdquo; in the atmega644p folder to build the hex file. If your hex file ends up being over 6KB, then you&amp;rsquo;re still using gcc 4.x.x and not 3.x.x.&lt;/p&gt;
+
+&lt;p&gt;To upload the bootloader, I used the Arduino IDE and went to Tools &amp;gt; Burn Bootloader &amp;gt; USBtinyISP. Select whatever programmer you have. Make sure you have &amp;ldquo;Sanguino&amp;rdquo; as the selected board in Tools &amp;gt; Board.&lt;/p&gt;
+
+&lt;h4 id=&#34;speed-comparison:0c34f6de3ee3d07b958c07290019806f&#34;&gt;Speed comparison&lt;/h4&gt;
+
+&lt;p&gt;Before: ~10.5 seconds reset time&lt;/p&gt;
+
+&lt;p&gt;With F_CPU&amp;gt;&amp;gt;4: ~2.5 seconds reset time&lt;/p&gt;
+
+&lt;p&gt;With F_CPU&amp;gt;&amp;gt;5: ~2 seconds reset time&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusion:0c34f6de3ee3d07b958c07290019806f&#34;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;I&amp;rsquo;m unsure why the delay is so long in the Makefile. Currently, I see no ill effects from making this change. Be sure not to make the delay too low because then you won&amp;rsquo;t be able to serially program the device.&lt;/p&gt;
+
+&lt;h4 id=&#34;files:0c34f6de3ee3d07b958c07290019806f&#34;&gt;Files&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/Makefile&#34;&gt;Makefile&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/ATmegaBOOT.c&#34;&gt;ATmegaBOOT.c&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Repurposed tv-b-gone to turn off benq projector</title>
+      <link>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</link>
+      <pubDate>Tue, 23 Feb 2010 01:21:35 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</guid>
+      <description>
+
+&lt;p&gt;At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn&amp;rsquo;t only annoying for me, but I&amp;rsquo;m sure it was distracting for the church members.&lt;/p&gt;
+
+&lt;p&gt;The solution to this problem is an easy one: build a more powerful remote. The first order of business was whether I would build one from scratch or if I was going to modify something else on the market. Since the IR LEDs that I wanted were out of stock at mouser (and I dislike digikey&amp;rsquo;s shipping price), I decided to just buy a &lt;a href=&#34;http://www.adafruit.com/index.php?main_page=product_info&amp;amp;cPath=20&amp;amp;products_id=73&amp;amp;zenid=bac5d01d94a94bb0fa1075e8e3f6bdbc&#34;&gt;tv-b-gone kit&lt;/a&gt; from &lt;a href=&#34;http://www.adafruit.com/&#34;&gt;adafruit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This kit was simple to put together and I was able to turn off all of my TVs in no time. I took the device to church in hopes that the IR code for the projector was already programmed in, but no such luck. In order to get the code for the benq projector, I put together an arduino with an IR receiver and used the &lt;a href=&#34;http://www.arcfn.com/2009/08/multi-protocol-infrared-remote-library.html&#34;&gt;IRremote&lt;/a&gt; library by&lt;a href=&#34;http://www.arcfn.com/&#34;&gt; Ken Shirriff&lt;/a&gt;. I love the library that he created. It not only gets you the raw data for the protocol, but it also tries to determine what protocol it is. The IRremote library told me that the benq projector that I had used the NEC protocol, code B14E00FF.&lt;/p&gt;
+
+&lt;p&gt;Now I needed to get this code onto the tv-b-gone. I read through the &lt;a href=&#34;http://www.ladyada.net/make/tvbgone/design.html&#34;&gt;design&lt;/a&gt; document for the tv-b-gone, and was easily able to translate the raw IR code into the compressed tv-b-gone format.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0067.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Tv-b-gone at church&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0067.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Tv-b-gone at church&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;Verdict? It worked perfectly. I didn&amp;rsquo;t have to move from my seat to turn off/on the projector (in the picture, I&amp;rsquo;m hanging over the booth to get a good picture).&lt;/p&gt;
+
+&lt;p&gt;You may have noticed but I put the tv-b-gone inside a &lt;a href=&#34;http://www.maxim-ic.com/&#34;&gt;Maxim&lt;/a&gt; case I got when I ordered some samples.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0080.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Maxim case&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0080.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Maxim case&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;All I did extra was drill 4 holes and put a small pushbutton in the front of it, then solder wires to it and the button on the PCB. The battery case is stuck on the bottom with double sided sticky tape.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0078.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Pushbutton on case&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0078.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Pushbutton on case&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0079.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Soldered to pushbutton on PCB&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0079.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Soldered to pushbutton on PCB&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;h4 id=&#34;code:19369726bc1084012797880118e0d562&#34;&gt;Code&lt;/h4&gt;
+
+&lt;p&gt;I changed the code up a bit from the original firmware. I removed some unnecessary delays and LED blinks, and I obviously removed the rest of the TV codes. I used &lt;a href=&#34;http://www.atmel.com/dyn/products/tools_card.asp?tool_id=2725&#34;&gt;AVRStudio&lt;/a&gt; to write the firmware and &lt;a href=&#34;http://www.ladyada.net/make/usbtinyisp/index.html&#34;&gt;USBtinyISP&lt;/a&gt; to program it.&lt;/p&gt;
+
+&lt;p&gt;Inside the zip, I include an analysis folder which contains the IR code for my projector. &amp;ldquo;analysis/ir.txt&amp;rdquo; is the more interesting file.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/church_benq.zip&#34;&gt;church_benq.zip&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Valentine&#39;s Day 8x8 RGB LED</title>
+      <link>http://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</link>
+      <pubDate>Wed, 17 Feb 2010 14:57:52 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</guid>
+      <description>
+
+&lt;p&gt;I decided this year to make a 8x8 RGB LED device to give to my girlfriend for Valentine&amp;rsquo;s Day. I had made her a heart of red LEDs two years ago and I decided to step it up a little. No, this was not a cheap solution (it cost around $100 in materials, including all the stuff I bought that I ended up not using). I spent more time on this thing than anything I have made before.&lt;/p&gt;
+
+&lt;p&gt;I knew what I wanted to make, but wasn&amp;rsquo;t sure what I was going to do to make it. Initially I was thinking I would buy the 8x8 RGB LED from &lt;a href=&#34;http://www.seeedstudio.com/depot/60mm-square-88-led-matrix-super-bright-rgb-p-113.html?cPath=32_20&#34;&gt;Seeedstudio&lt;/a&gt; and then build my own LED driver board to run it. After some research, it seemed that this would take a much longer time than I had to complete this. Some extensive google searching yielded the &lt;a href=&#34;https://shop.spitzenpfeil.org/index.php?main_page=product_info&amp;amp;cPath=3_9&amp;amp;products_id=11&#34;&gt;64-pixel RGB LED matrix kit&lt;/a&gt; from the &lt;a href=&#34;http://blog.spitzenpfeil.org/wordpress/&#34;&gt;2uF blog&lt;/a&gt;. The creator of the kit was very prompt in sending me the device and it wasn&amp;rsquo;t long before I soldered everything together and had it running.&lt;/p&gt;
+
+&lt;p&gt;I spent several weeks slowly programming the animations into the device. I sort of knew what I was doing but I had never done any animations before. The most difficult part was optimizing parts of the code to prevent flickering. Also, I ran into RAM limit problems since the kit is based on the atmega168 and not the atmega328p.&lt;/p&gt;
+
+&lt;p&gt;After I had programmed the basic animations, now comes the task on how to power this thing. I could either go the cheap/easy way of just getting a wall adapter and hooking it up to the device, or I could make it cooler by making it battery powered and portable.&lt;/p&gt;
+
+&lt;p&gt;The&lt;a href=&#34;http://www.ladyada.net/images/mintyboost/mintyboostv2sch.png&#34;&gt; circuit&lt;/a&gt; I chose to use was the one based on the &lt;a href=&#34;http://www.ladyada.net/make/mintyboost/index.html&#34;&gt;Minty Boost&lt;/a&gt; from &lt;a href=&#34;http://www.adafruit.com/&#34;&gt;adafruit&lt;/a&gt;. There are plenty of circuits out there involving the &lt;a href=&#34;http://www.linear.com/pc/productDetail.jsp?navId=H0,C1,C1003,C1042,C1031,C1060,P1029&#34;&gt;LT1302&lt;/a&gt; that I could use, but I figured if it&amp;rsquo;s good enough to be charging iphones, ipods, etc.. it&amp;rsquo;d be good enough to run my device. The only thing I cut out of that design were the 100K charging resistors. I also used a 22uH inductor as recommended by the &lt;a href=&#34;http://www.ladyada.net/make/mintyboost/process.html&#34;&gt;design process&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0015.jpg&#34; data-size=&#34;1024x575&#34; title=&#34;Back of device&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0015.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Back of device&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;Originally I was going to make the step-up converter be on a board that covered the whole back of the device, then put the batteries on the board with it, but then I would have to add extra buttons as it would cover the buttons already on the board. The decision to put the batteries on the side came about because they would not fit on the back properly. It just looked weird. What I did here had a nice side-effect of giving it handles to hold on like a hand-held game.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0020.jpg&#34; data-size=&#34;1024x575&#34; title=&#34;Step-up converter board&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0020.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Step-up converter board&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;I had to use some hot glue on the headers and the switch to keep them from moving.&lt;/p&gt;
+
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0019.jpg&#34; data-size=&#34;1024x575&#34; title=&#34;Bottom of step-up converter&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0019.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Bottom of step-up converter&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Was it worth it? It sure was. My girl appreciates this a lot more than if I were to buy her jewelry (she has enough of it anyway).&lt;/p&gt;
+
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0021.jpg&#34; data-size=&#34;1024x575&#34; title=&#34;Red heart&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/IMG_0021.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Red heart&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;h4 id=&#34;source-code:fe3f34e8fc0801f493ba39584a7594d0&#34;&gt;Source code&lt;/h4&gt;
+
+&lt;p&gt;The code is a bit of a mess and uncommented for the most part.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/02/outroot_gf8x8.pde&#34;&gt;outroot_gf8x8.pde&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t buy cheap USB to RS232 converters</title>
+      <link>http://blog.kevindarlington.com/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</link>
+      <pubDate>Fri, 12 Feb 2010 03:07:27 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</guid>
+      <description>
+
+&lt;p&gt;So, my girlfriend bought me a STM32F103 board to play around with that has a RS-232 serial port on it to program it. Since I haven&amp;rsquo;t owned any computer in the last few years that has a serial port, I needed to get a converter.&lt;/p&gt;
+
+&lt;p&gt;I decided to go the cheap route and grab one from &lt;a href=&#34;http://www.dealextreme.com/&#34;&gt;dealextreme.com&lt;/a&gt;. I figured that since most of these converters contains the&lt;a href=&#34;http://www.prolific.com.tw/eng/Products.asp?ID=59&#34;&gt; PL-2303&lt;/a&gt; chip that it wouldn&amp;rsquo;t really matter what I got. So I decided to buy &lt;a href=&#34;http://www.dealextreme.com/details.dx/sku.24512&#34;&gt;this&lt;/a&gt; converter for $2.99:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm3.static.flickr.com/2711/4350174817_d0137a5572_o.jpg&#34; data-size=&#34;1024x884&#34; title=&#34;Bad converter&#34;&gt;
+        &lt;img src=&#34;http://farm3.static.flickr.com/2711/4350174817_d0137a5572_o.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Bad converter&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;I actually bought two of them since I needed one for another development board that I had. So I hooked everything up, ran &lt;a href=&#34;http://www.st.com/mcu/familiesdocs-110.html&#34;&gt;Flash Loader Demonstrator&lt;/a&gt;, and sure enough it didn&amp;rsquo;t work. I tried all sorts of settings and speeds. At the lowest speed, I got the thing to upload once out of 20 times.&lt;/p&gt;
+
+&lt;p&gt;I took the adapter apart and I can  see in there some missing components. Now, this happens all the time in manufacturing and it&amp;rsquo;s usually not a mistake. So it doesn&amp;rsquo;t really raise a red flag as to that being the problem. I didn&amp;rsquo;t really test anything with a volt meter or an oscilloscope, but my guess would be that it doesn&amp;rsquo;t do the RS232 voltages properly.&lt;/p&gt;
+
+&lt;p&gt;Those converters ended up being a waste of money for me (luckily, not that big of a deal since they were cheap). The problem was that I still needed a converter, and what device was I going to trust?&lt;/p&gt;
+
+&lt;p&gt;Well, &lt;a href=&#34;http://www.sparkfun.com/&#34;&gt;Sparkfun&lt;/a&gt; has a good reputation so I decided to look at their &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=8580&#34;&gt;USB to RS232 converter&lt;/a&gt;. It&amp;rsquo;s a little more costly at $13, and it contains the same PL-2303 chip. If this converter didn&amp;rsquo;t work, it would be a bigger hit since I had to pay to ship this thing. The product description mentioned it was a high quality converter. I decided to take their word for it.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm3.static.flickr.com/2718/4350921018_8b1b8aed24_o.jpg&#34; data-size=&#34;1024x839&#34; title=&#34;Good converter&#34;&gt;
+        &lt;img src=&#34;http://farm3.static.flickr.com/2718/4350921018_8b1b8aed24_o.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Good converter&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;&amp;hellip;it worked perfectly! I could crank it up all the way to 256000 bps and it programmed the STM32 without a hitch.&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusion:649982a0d479fdf75c24fac0bce856a2&#34;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;So the moral of the story is don&amp;rsquo;t go cheap on a USB to RS232 converter if you&amp;rsquo;re going to be programming microcontrollers with it. The cheap converters may still work with other things, though. But I think the particular STM32 board that I have is pretty strict on the voltage levels that it receives.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t have any recommendations on other converters to use. All I can say is the one provided by Sparkfun definitely works and is worth the money.&lt;/p&gt;
+
+&lt;p&gt;
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm5.static.flickr.com/4040/4350236425_fd92055425_o.jpg&#34; data-size=&#34;1024x824&#34; title=&#34;STM32F103&#34;&gt;
+        &lt;img src=&#34;http://farm5.static.flickr.com/4040/4350236425_fd92055425_o.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;STM32F103&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Airwick motion sensor PIR with an arduino</title>
+      <link>http://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</link>
+      <pubDate>Sun, 10 Jan 2010 20:15:59 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve obtained two Airwick Freshmatics from a yard sale for $2. These were used in my house for a while, but it quickly became annoying to be sprayed in the face every time.  So I decided to hook it up to my arduino for no reason whatsoever.&lt;/p&gt;
+
+&lt;p&gt;This model seems to be an older one as I cannot find it on the internet. I&amp;rsquo;m unsure what the newer models have, but I&amp;rsquo;m pretty certain they wouldn&amp;rsquo;t need to change the design. This model actuates a motor which uses gears to press down on the nozzle of the aroma can.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm5.static.flickr.com/4049/4264353274_2012434a9c_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Airwick Freshmatic&#34;&gt;
+        &lt;img src=&#34;http://farm5.static.flickr.com/4049/4264353274_2012434a9c_b.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Airwick Freshmatic&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;It only takes 4 philips head screws to get the backplate of it off. You&amp;rsquo;ll immediately see the motor there.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm5.static.flickr.com/4031/4264353390_0df46bcd9d_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Inside the Airwick Freshmatic&#34;&gt;
+        &lt;img src=&#34;http://farm5.static.flickr.com/4031/4264353390_0df46bcd9d_b.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Inside the Airwick Freshmatic&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;It takes just one more screw to pop the rest of it out.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm3.static.flickr.com/2517/4264353508_a39311ffc0_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Inside Airwick Freshmatic&#34;&gt;
+        &lt;img src=&#34;http://farm3.static.flickr.com/2517/4264353508_a39311ffc0_b.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Inside Airwick Freshmatic&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;Determining the functionality of the different connector pins was easy by just using a volt meter and tracing the conductive lines by eye. Here is a table of what each pin does. If you look at the picture below, pin #1 is the pin to the far left.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;VCC (3.3V-4V)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GND&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;LED GND&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GND&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PIR out&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;switch 9 minutes (connects it to GND)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;switch 18 minutes (connects it to GND)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;switch 36 minutes (connects it to GND)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;switch off (connects it to GND)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://farm3.static.flickr.com/2733/4264353114_1a1d5aa212_b.jpg&#34; data-size=&#34;1024x768&#34; title=&#34;Airwick PIR sensor board&#34;&gt;
+        &lt;img src=&#34;http://farm3.static.flickr.com/2733/4264353114_1a1d5aa212_b.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Airwick PIR sensor board&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;In the above picture the sensor wire (green) became disconnected when I took the photo. It&amp;rsquo;s suppose to be connected to pin 5.&lt;/p&gt;
+
+&lt;p&gt;The above board will not run on 5V that the arduinos usually provide. The freshmatic model I had ran on 3-4V (3 AA 1.5V batteries). I hooked up the VCC to the 3.3V terminal in my &lt;a href=&#34;http://www.seeedstudio.com/depot/seeeduino-mega-fully-assembled-p-438.html?cPath=27&#34;&gt;seeeduino mega&lt;/a&gt;. Also, the LED is driven by attaching GND to pin 3, not VCC.&lt;/p&gt;
+
+&lt;h4 id=&#34;code:bc9404d05dce6af0772b19e755f8609b&#34;&gt;Code&lt;/h4&gt;
+
+&lt;p&gt;I modified the code for &lt;a href=&#34;http://www.arduino.cc/playground/Code/PIRsense&#34;&gt;PIRsense&lt;/a&gt; in the arduino mega.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kevindarlington.com/downloads/wp-content/uploads/2010/01/sketch_airwick_pir.pde&#34;&gt;Here&lt;/a&gt; it is.&lt;/p&gt;
+
+&lt;h4 id=&#34;video:bc9404d05dce6af0772b19e755f8609b&#34;&gt;Video&lt;/h4&gt;
+
+&lt;p&gt;[embed]&lt;a href=&#34;http://www.youtube.com/watch?v=oFv5nxFKczU[/embed&#34;&gt;http://www.youtube.com/watch?v=oFv5nxFKczU[/embed&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusion:bc9404d05dce6af0772b19e755f8609b&#34;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;It&amp;rsquo;s not the best motion sensor in the world, but it could be used to do a lot of things. Next Halloween, I&amp;rsquo;ll probably use it to shoot silly string at unsuspecting kids. It&amp;rsquo;s about the same price to buy one of these motion aroma devices than it is to buy the PIR sensor itself. Plus, you get a nice case that you can stuff electronics into, a motor, and a gear system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open sourcing some of my projects</title>
+      <link>http://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</link>
+      <pubDate>Sat, 19 Dec 2009 18:41:33 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</guid>
+      <description>
+
+&lt;p&gt;There are a few projects that I worked on that I haven&amp;rsquo;t yet made open source. Most of them I don&amp;rsquo;t actively develop anymore. Below is a list of these projects and what they are. You can find all of my source code at &lt;a href=&#34;http://github.com/kdar/&#34;&gt;http://github.com/kdar/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;vioverlay:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;VIOverlay&lt;/h4&gt;
+
+&lt;p&gt;This is a C++ library that will allow you to overlay text (and possibly geometric shapes) over a video game. Right now it only supports Directx9. I have stopped development on this but in its current state it is able to overlay text. My example program that is included can overlay on World of Warcraft. It&amp;rsquo;s a good learning resource to see how to do DLL injection and API overwriting using Microsoft&amp;rsquo;s &lt;a href=&#34;http://research.microsoft.com/en-us/projects/detours/&#34;&gt;detours&lt;/a&gt; library.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/vioverlay&#34;&gt;http://github.com/kdar/vioverlay&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;pinballcheat:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;PinballCheat&lt;/h4&gt;
+
+&lt;p&gt;A program that allows you to adjust the scores in Microsoft&amp;rsquo;s Space Cadet Pinball. Made in python using wxPython.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/pinballcheat&#34;&gt;http://github.com/kdar/pinballcheat&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;quist:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;Quist&lt;/h4&gt;
+
+&lt;p&gt;A program that hooks into the &lt;a href=&#34;http://www.ventrilo.com/&#34;&gt;Ventrilo&lt;/a&gt; VOIP client program  and adds functionality to it. Developed in C++, C#, and C++/CLI. This is a great example of a practical application of reverse engineering and DLL injection. The code isn&amp;rsquo;t all that pretty. You can find more information about it here: &lt;a href=&#34;http://www.outroot.com/quist&#34;&gt;http://www.outroot.com/quist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/quist&#34;&gt;http://github.com/kdar/quist&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;ccrack:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;CCrack&lt;/h4&gt;
+
+&lt;p&gt;This program was designed to crack other programs. It contains some code to make it easily to find and patch areas of the target software. An example is included where it cracks the program &lt;a href=&#34;http://www.dialogblocks.com/&#34;&gt;DialogBlocks&lt;/a&gt;. However, it targets an old version of DialogBlocks and most likely won&amp;rsquo;t work anymore. This is for educational purposes only. I whole-heartily believe in purchasing software that people put a lot of work into. Programmed in C++ using wxWidgets.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/ccrack&#34;&gt;http://github.com/kdar/ccrack&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;dserv:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;DServ&lt;/h4&gt;
+
+&lt;p&gt;A remote administration tool programmed in x86 intel assembly. This was mainly an exercise of learning x86 intel assembly.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/dserv&#34;&gt;http://github.com/kdar/dserv&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;orbmon:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;Orbmon&lt;/h4&gt;
+
+&lt;p&gt;An ncurses program to display your network bandwidth. Made in python.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/orbmon&#34;&gt;http://github.com/kdar/orbmon&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;cwc3:5c686b6e568e1c09ed64694cf3411e59&#34;&gt;Cwc3&lt;/h4&gt;
+
+&lt;p&gt;This is a program which passively watches network traffic in your Warcraft3 games. It is able to ban, kick, location resolve, autorefresh, and other things. It was the first of its kind when I made it a long time ago, now there are much better programs out there (like Ghostplusplus). However, it is a great learning tool. I documented a lot of the Warcraft3 protocol.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/cwc3&#34;&gt;http://github.com/kdar/cwc3&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Workclipmini - Copy text and open URLs from one computer to another</title>
+      <link>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</link>
+      <pubDate>Sat, 19 Dec 2009 16:37:27 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</guid>
+      <description>
+
+&lt;p&gt;My computer setup at home involves two computers. The first computer is my quad core workhorse. I do all my programming and gaming on this machine. My second computer is my chat/fileserver machine. I use this primiarly as a backup computer and so I can talk to people while gaming or programming.&lt;/p&gt;
+
+&lt;p&gt;The thing that annoyed me is that this machine ran linux, and flash runs horribly on that platform. So, when I was chatting with a friend and they sent me a link to a youtube video, I wouldn&amp;rsquo;t want to watch it on the linux machine. Also, if I was on my main workhorse, I would sometimes want to copy text to and from my other computer. Therefore, Workclipmini was born.&lt;/p&gt;
+
+&lt;p&gt;Workclipmini is a pretty simple python program. When you run it, it broadcasts to the network to find other computers running Workclipmini. Then, on one machine, you highlight text and hit the global copy hotkey (ctrl+alt+c for windows/linux, ctrl+shift+c for OSX) and your text will be copied to the other computer&amp;rsquo;s clipboard.&lt;/p&gt;
+
+&lt;p&gt;If you want to open a URL on the other computer, just select text that contains any number of URLS and hit the global URL hotkey (ctrl+alt+b for windows/linux, ctrl+shift+b for OSX). Workclipmini will use a regular expression to extract out the URLs so you do not need to worry about selecting it perfectly.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that Workclipmini does not work well with more than two computers. I did not design it this way because my situation did not call for it. So, if you have more than two computers using Workclipmini, then the URLs will be opened on all of the computers and the text will be copied to all of the computers. I was planning on making this support multiple computers and being able to tell it where to send the URL or text, but I never got around to it.&lt;/p&gt;
+
+&lt;p&gt;Above all else, if you don&amp;rsquo;t find this program useful, it is a fantastic example of how to do global hotkeys in python for windows, linux, and OSX.&lt;/p&gt;
+
+&lt;p&gt;Another thing to note is that I had to program this in python2.5 in order to get it to work with OSX. For some reason, python2.6 on OSX did not allow me to use the Carbon libraries that I needed in order to do a hotkey.&lt;/p&gt;
+
+&lt;h4 id=&#34;source:f0bdd7a11eaf5b35cb32a2e64af62633&#34;&gt;Source&lt;/h4&gt;
+
+&lt;p&gt;Grab it here: &lt;a href=&#34;http://github.com/kdar/workclipmini&#34;&gt;http://github.com/kdar/workclipmini&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusion:f0bdd7a11eaf5b35cb32a2e64af62633&#34;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;I hope this is useful to someone. I spent a large amount of time just figuring out how to do the global hotkeys on all the systems. So, if you know someone that is struggling with that aspect, just refer them to this program.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

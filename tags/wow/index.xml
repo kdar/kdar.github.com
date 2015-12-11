@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wow on Kevin Darlington</title>
+    <link>http://blog.kevindarlington.com/tags/wow/</link>
+    <description>Recent content in Wow on Kevin Darlington</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
+    <lastBuildDate>Fri, 04 Oct 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.kevindarlington.com/tags/wow/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Calculate the cost of leveling a WoW profession via the auction house</title>
+      <link>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</guid>
+      <description>
+
+&lt;h3 id=&#34;professioncost:312b0030eda3a3f8319159a797f2d256&#34;&gt;ProfessionCost&lt;/h3&gt;
+
+&lt;p&gt;Determines how much a WoW profession would cost if you bought everything from the AH.&lt;/p&gt;
+
+&lt;h3 id=&#34;download:312b0030eda3a3f8319159a797f2d256&#34;&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://raw.github.com/kdar/professioncost/master/professioncost.zip&#34;&gt;ProfessionCost.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;usage:312b0030eda3a3f8319159a797f2d256&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://theunderminejournal.com/user.php&#34;&gt;https://theunderminejournal.com/user.php&lt;/a&gt; and download
+the Market Data XML file for your particular realm. Put this file into the data directory. Then, just run professioncost.exe.&lt;/p&gt;
+
+&lt;h3 id=&#34;examples:312b0030eda3a3f8319159a797f2d256&#34;&gt;Examples&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;A-Sargeras
+  -----------------------------------------------------
+  Profession            Low     High    Median  Average
+  Alchemy               3697g   3697g   3697g   3697g
+  Leatherworking        7488g   8866g   8134g   8177g
+  Engineering           8374g   8374g   8374g   8374g
+  Tailoring             11834g  11834g  11834g  11834g
+  Jewelcrafting         12451g  13051g  12703g  12751g
+  Inscription           1725g   26017g  5915g   13871g
+  Blacksmithing         16430g  16592g  16511g  16511g
+  Enchanting            18105g  18105g  18105g  18105g
+
+H-Tichondrius
+  -----------------------------------------------------
+  Profession            Low     High    Median  Average
+  Alchemy               4060g   4060g   4060g   4060g
+  Inscription           1417g   10241g  4359g   5829g
+  Engineering           8308g   8308g   8308g   8308g
+  Enchanting            11203g  11203g  11203g  11203g
+  Blacksmithing         17997g  18368g  18183g  18183g
+  Leatherworking        17999g  24804g  21419g  21401g
+  Jewelcrafting         23729g  24955g  24200g  24342g
+  Tailoring             25562g  25562g  25562g  25562g
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MorphGEN - An application that helps in generating TMorph codes for WoW</title>
+      <link>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</guid>
+      <description>&lt;p&gt;This is an application that will help you in generating codes for the program &lt;a href=&#34;http://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-bots-programs/375925-tmorph-64-bit-morpher-panda-support.html&#34;&gt;TMorph&lt;/a&gt;. Get &lt;a href=&#34;https://github.com/kdar/morphgen-binary&#34;&gt;MorphGEN here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It supports the following websites:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wowhead.com/&#34;&gt;http://www.wowhead.com/&lt;/a&gt; - retrieve from item sets, item comparisons, and transmog sets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://us.battle.net/wow/&#34;&gt;http://us.battle.net/wow/&lt;/a&gt; - retrieve from person&amp;rsquo;s armory&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wowroleplaygear.com/&#34;&gt;http://wowroleplaygear.com/&lt;/a&gt; - transmog sets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mogmygear.com/&#34;&gt;http://mogmygear.com/&lt;/a&gt; - transmog sets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.worldofwardrobes.net&#34;&gt;http://www.worldofwardrobes.net&lt;/a&gt; - transmog sets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wowmogging.com&#34;&gt;http://www.wowmogging.com&lt;/a&gt; - transmog sets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;rsquo;ve also been testing out a new interface. Not sure if I&amp;rsquo;m going to release it or not, because it depends on a web browser (using Chrome in application mode in this case).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.kevindarlington.com/images/posts/morphgen/morphgen2.png&#34; data-size=&#34;715x395&#34; title=&#34;morphgen2&#34;&gt;
+        &lt;img src=&#34;http://blog.kevindarlington.com/images/posts/morphgen/morphgen2.png&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;morphgen2&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;I could eventually release it as a web application so people don&amp;rsquo;t have to download anything. We&amp;rsquo;ll see.&lt;/p&gt;
+
+&lt;p&gt;Download the TMorph generator here: &lt;a href=&#34;https://github.com/kdar/morphgen-binary&#34;&gt;https://github.com/kdar/morphgen-binary&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
