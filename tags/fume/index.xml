@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fume on Kevin Darlington</title>
-    <link>http://blog.kevindarlington.com/tags/fume/</link>
+    <link>https://blog.kevindarlington.com/tags/fume/</link>
     <description>Recent content in Fume on Kevin Darlington</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
     <lastBuildDate>Tue, 01 Dec 2009 23:43:54 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.kevindarlington.com/tags/fume/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kevindarlington.com/tags/fume/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>High performance DIY fume extractor</title>
-      <link>http://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</link>
+      <link>https://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</link>
       <pubDate>Tue, 01 Dec 2009 23:43:54 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</guid>
       <description>&lt;p&gt;Lately, I&amp;rsquo;ve been inhaling a little too much flux fumes so I decided that I needed a fume extractor. I saw a lot of DIY fume extractors on the web but I wasn&amp;rsquo;t satisfied with the performance of those extractors. A lot of the demonstrations showed that you had to be within 2 inches of the fan in order for it to work properly.&lt;/p&gt;</description>
     </item>
     

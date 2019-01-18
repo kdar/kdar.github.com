@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rcon on Kevin Darlington</title>
-    <link>http://blog.kevindarlington.com/tags/rcon/</link>
+    <link>https://blog.kevindarlington.com/tags/rcon/</link>
     <description>Recent content in Rcon on Kevin Darlington</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
     <lastBuildDate>Wed, 02 Dec 2009 20:31:25 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.kevindarlington.com/tags/rcon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kevindarlington.com/tags/rcon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rconsoft - HL1 chat command rcon tool</title>
-      <link>http://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</link>
+      <link>https://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</link>
       <pubDate>Wed, 02 Dec 2009 20:31:25 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</guid>
       <description>&lt;p&gt;A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us.&lt;/p&gt;</description>
     </item>
     

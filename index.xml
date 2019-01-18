@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kevin Darlington</title>
-    <link>http://blog.kevindarlington.com/</link>
+    <link>https://blog.kevindarlington.com/</link>
     <description>Recent content on Kevin Darlington</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
     <lastBuildDate>Fri, 04 Oct 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.kevindarlington.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kevindarlington.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Calculate the cost of leveling a WoW profession via the auction house</title>
-      <link>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</link>
+      <link>https://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</link>
       <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</guid>
+      <guid>https://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</guid>
       <description>&lt;h3 id=&#34;professioncost&#34;&gt;ProfessionCost&lt;/h3&gt;
 
 &lt;p&gt;Determines how much a WoW profession would cost if you bought everything from the AH.&lt;/p&gt;</description>
@@ -25,154 +25,154 @@
     
     <item>
       <title>MorphGEN - An application that helps in generating TMorph codes for WoW</title>
-      <link>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</link>
+      <link>https://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</guid>
+      <guid>https://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</guid>
       <description>&lt;p&gt;This is an application that will help you in generating codes for the program &lt;a href=&#34;http://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-bots-programs/375925-tmorph-64-bit-morpher-panda-support.html&#34;&gt;TMorph&lt;/a&gt;. Get &lt;a href=&#34;https://github.com/kdar/morphgen-binary&#34;&gt;MorphGEN here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Bitpim contacts CSV to google voice/gmail CSV</title>
-      <link>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</link>
+      <link>https://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</link>
       <pubDate>Sun, 13 Jun 2010 21:42:10 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</guid>
+      <guid>https://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had &lt;a href=&#34;http://www.google.com/googlevoice/about.html&#34;&gt;Google Voice&lt;/a&gt; for a while and I wanted to transfer my list of contacts from my phone to it. So, I decided to make a simple python script to convert the CSV contacts export from &lt;a href=&#34;http://www.bitpim.org/&#34;&gt;Bitpim&lt;/a&gt; to something that Google voice could import.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nokia 6100/6610 LCD PIC24H minibully</title>
-      <link>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
+      <link>https://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
       <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
+      <guid>https://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
       <description>&lt;p&gt;I recently bought a Nokia 6100 LCD from Ebay because I am in an LCD craze phase. Since I have no need for this LCD right now, I decided to port some code over to the &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=9148&#34;&gt;PIC24H minibully&lt;/a&gt; from Sparkfun.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Simple sanguino clock prototype</title>
-      <link>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</link>
+      <link>https://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</link>
       <pubDate>Tue, 16 Mar 2010 03:22:20 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</guid>
+      <guid>https://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been wanting to make my own alarm clock for some time now, since I&amp;rsquo;m unsatisfied with any alarm clock on the market (neglecting overpriced ones). I just made a quick prototype to see if I liked it or not.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Heroes of Newerth player stats python script</title>
-      <link>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</link>
+      <link>https://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</link>
       <pubDate>Mon, 01 Mar 2010 02:22:03 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</guid>
+      <guid>https://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</guid>
       <description>&lt;p&gt;Here is a script I made a long time ago when &lt;a href=&#34;http://www.heroesofnewerth.com/&#34;&gt;Heroes of Newerth&lt;/a&gt; first released its beta. It simply retrieves all of the player&amp;rsquo;s statistics given their player name.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>STM32 4-bit LCD library</title>
-      <link>http://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</link>
+      <link>https://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</link>
       <pubDate>Sat, 27 Feb 2010 02:04:29 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</guid>
       <description>&lt;p&gt;Here is a 4-bit LCD library for the STM32 that I based off of the &lt;a href=&#34;http://www.arduino.cc/playground/Code/LCD4BitLibrary&#34;&gt;LCD4BitLibrary&lt;/a&gt; for Arduino. It&amp;rsquo;s lightweight, but it also incorporates Arduino&amp;rsquo;s Print class.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>STM32 Project template for HD devices</title>
-      <link>http://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</link>
+      <link>https://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</link>
       <pubDate>Fri, 26 Feb 2010 03:39:25 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</guid>
       <description>&lt;p&gt;Here is a STM32 project template that I based off of &lt;a href=&#34;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&#34;&gt;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Speeding up the Sanguino reset time</title>
-      <link>http://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</link>
+      <link>https://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</link>
       <pubDate>Fri, 26 Feb 2010 01:27:56 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</guid>
       <description>&lt;p&gt;I decided to use a &lt;a href=&#34;http://sanguino.cc/&#34;&gt;Sanguino&lt;/a&gt; for my next project and I noticed that every time I reset it with the pushbutton, it would take around 10 seconds to start the program. I thought this was absurd since the regular Arduino doesn&amp;rsquo;t take that long. I decided to dive into the bootloader firmware and find out the problem. The Sanguino version I&amp;rsquo;m dealing with is v1.4 r1.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Repurposed tv-b-gone to turn off benq projector</title>
-      <link>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</link>
+      <link>https://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</link>
       <pubDate>Tue, 23 Feb 2010 01:21:35 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</guid>
       <description>&lt;p&gt;At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn&amp;rsquo;t only annoying for me, but I&amp;rsquo;m sure it was distracting for the church members.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Valentine&#39;s Day 8x8 RGB LED</title>
-      <link>http://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</link>
+      <link>https://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</link>
       <pubDate>Wed, 17 Feb 2010 14:57:52 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</guid>
       <description>&lt;p&gt;I decided this year to make a 8x8 RGB LED device to give to my girlfriend for Valentine&amp;rsquo;s Day. I had made her a heart of red LEDs two years ago and I decided to step it up a little. No, this was not a cheap solution (it cost around $100 in materials, including all the stuff I bought that I ended up not using). I spent more time on this thing than anything I have made before.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Don&#39;t buy cheap USB to RS232 converters</title>
-      <link>http://blog.kevindarlington.com/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</link>
+      <link>https://blog.kevindarlington.com/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</link>
       <pubDate>Fri, 12 Feb 2010 03:07:27 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/12/dont-buy-cheap-usb-to-rs232-converters/</guid>
       <description>&lt;p&gt;So, my girlfriend bought me a STM32F103 board to play around with that has a RS-232 serial port on it to program it. Since I haven&amp;rsquo;t owned any computer in the last few years that has a serial port, I needed to get a converter.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Airwick motion sensor PIR with an arduino</title>
-      <link>http://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</link>
+      <link>https://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</link>
       <pubDate>Sun, 10 Jan 2010 20:15:59 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</guid>
+      <guid>https://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve obtained two Airwick Freshmatics from a yard sale for $2. These were used in my house for a while, but it quickly became annoying to be sprayed in the face every time.  So I decided to hook it up to my arduino for no reason whatsoever.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Open sourcing some of my projects</title>
-      <link>http://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</link>
+      <link>https://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</link>
       <pubDate>Sat, 19 Dec 2009 18:41:33 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/19/open-sourcing-some-of-my-projects/</guid>
       <description>&lt;p&gt;There are a few projects that I worked on that I haven&amp;rsquo;t yet made open source. Most of them I don&amp;rsquo;t actively develop anymore. Below is a list of these projects and what they are. You can find all of my source code at &lt;a href=&#34;http://github.com/kdar/&#34;&gt;http://github.com/kdar/&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Workclipmini - Copy text and open URLs from one computer to another</title>
-      <link>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</link>
+      <link>https://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</link>
       <pubDate>Sat, 19 Dec 2009 16:37:27 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</guid>
       <description>&lt;p&gt;My computer setup at home involves two computers. The first computer is my quad core workhorse. I do all my programming and gaming on this machine. My second computer is my chat/fileserver machine. I use this primiarly as a backup computer and so I can talk to people while gaming or programming.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Boduino - projector blackout device (v1)</title>
-      <link>http://blog.kevindarlington.com/2009/12/12/boduino-projector-blackout-device-v1/</link>
+      <link>https://blog.kevindarlington.com/2009/12/12/boduino-projector-blackout-device-v1/</link>
       <pubDate>Sat, 12 Dec 2009 14:35:36 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/12/boduino-projector-blackout-device-v1/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/12/boduino-projector-blackout-device-v1/</guid>
       <description>&lt;p&gt;At church, we have a projector device that is hooked up to the computer that allows us to show words to a song or a video. The problem is the VGA to composite converter we have does not have a button to black out the projector. So, when I go to get a video ready to be shown, the whole congregation sees what I&amp;rsquo;m doing.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rconsoft - HL1 chat command rcon tool</title>
-      <link>http://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</link>
+      <link>https://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</link>
       <pubDate>Wed, 02 Dec 2009 20:31:25 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</guid>
       <description>&lt;p&gt;A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>High performance DIY fume extractor</title>
-      <link>http://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</link>
+      <link>https://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</link>
       <pubDate>Tue, 01 Dec 2009 23:43:54 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</guid>
       <description>&lt;p&gt;Lately, I&amp;rsquo;ve been inhaling a little too much flux fumes so I decided that I needed a fume extractor. I saw a lot of DIY fume extractors on the web but I wasn&amp;rsquo;t satisfied with the performance of those extractors. A lot of the demonstrations showed that you had to be within 2 inches of the fan in order for it to work properly.&lt;/p&gt;</description>
     </item>
     

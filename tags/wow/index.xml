@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wow on Kevin Darlington</title>
-    <link>http://blog.kevindarlington.com/tags/wow/</link>
+    <link>https://blog.kevindarlington.com/tags/wow/</link>
     <description>Recent content in Wow on Kevin Darlington</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
     <lastBuildDate>Fri, 04 Oct 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.kevindarlington.com/tags/wow/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kevindarlington.com/tags/wow/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Calculate the cost of leveling a WoW profession via the auction house</title>
-      <link>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</link>
+      <link>https://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</link>
       <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</guid>
+      <guid>https://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</guid>
       <description>&lt;h3 id=&#34;professioncost&#34;&gt;ProfessionCost&lt;/h3&gt;
 
 &lt;p&gt;Determines how much a WoW profession would cost if you bought everything from the AH.&lt;/p&gt;</description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>MorphGEN - An application that helps in generating TMorph codes for WoW</title>
-      <link>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</link>
+      <link>https://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</guid>
+      <guid>https://blog.kevindarlington.com/2013/03/25/morphgen-an-application-that-helps-in-generating-tmorph-codes-for-wow/</guid>
       <description>&lt;p&gt;This is an application that will help you in generating codes for the program &lt;a href=&#34;http://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-bots-programs/375925-tmorph-64-bit-morpher-panda-support.html&#34;&gt;TMorph&lt;/a&gt;. Get &lt;a href=&#34;https://github.com/kdar/morphgen-binary&#34;&gt;MorphGEN here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     

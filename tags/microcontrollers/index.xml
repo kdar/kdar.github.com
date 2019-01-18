@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microcontrollers on Kevin Darlington</title>
-    <link>http://blog.kevindarlington.com/tags/microcontrollers/</link>
+    <link>https://blog.kevindarlington.com/tags/microcontrollers/</link>
     <description>Recent content in Microcontrollers on Kevin Darlington</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
     <lastBuildDate>Tue, 06 Apr 2010 13:44:46 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.kevindarlington.com/tags/microcontrollers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kevindarlington.com/tags/microcontrollers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nokia 6100/6610 LCD PIC24H minibully</title>
-      <link>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
+      <link>https://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
       <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
+      <guid>https://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
       <description>&lt;p&gt;I recently bought a Nokia 6100 LCD from Ebay because I am in an LCD craze phase. Since I have no need for this LCD right now, I decided to port some code over to the &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=9148&#34;&gt;PIC24H minibully&lt;/a&gt; from Sparkfun.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Simple sanguino clock prototype</title>
-      <link>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</link>
+      <link>https://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</link>
       <pubDate>Tue, 16 Mar 2010 03:22:20 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</guid>
+      <guid>https://blog.kevindarlington.com/2010/03/16/simple-sanguino-clock-prototype/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been wanting to make my own alarm clock for some time now, since I&amp;rsquo;m unsatisfied with any alarm clock on the market (neglecting overpriced ones). I just made a quick prototype to see if I liked it or not.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>STM32 4-bit LCD library</title>
-      <link>http://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</link>
+      <link>https://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</link>
       <pubDate>Sat, 27 Feb 2010 02:04:29 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</guid>
       <description>&lt;p&gt;Here is a 4-bit LCD library for the STM32 that I based off of the &lt;a href=&#34;http://www.arduino.cc/playground/Code/LCD4BitLibrary&#34;&gt;LCD4BitLibrary&lt;/a&gt; for Arduino. It&amp;rsquo;s lightweight, but it also incorporates Arduino&amp;rsquo;s Print class.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>STM32 Project template for HD devices</title>
-      <link>http://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</link>
+      <link>https://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</link>
       <pubDate>Fri, 26 Feb 2010 03:39:25 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</guid>
       <description>&lt;p&gt;Here is a STM32 project template that I based off of &lt;a href=&#34;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&#34;&gt;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Speeding up the Sanguino reset time</title>
-      <link>http://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</link>
+      <link>https://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</link>
       <pubDate>Fri, 26 Feb 2010 01:27:56 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/</guid>
       <description>&lt;p&gt;I decided to use a &lt;a href=&#34;http://sanguino.cc/&#34;&gt;Sanguino&lt;/a&gt; for my next project and I noticed that every time I reset it with the pushbutton, it would take around 10 seconds to start the program. I thought this was absurd since the regular Arduino doesn&amp;rsquo;t take that long. I decided to dive into the bootloader firmware and find out the problem. The Sanguino version I&amp;rsquo;m dealing with is v1.4 r1.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Repurposed tv-b-gone to turn off benq projector</title>
-      <link>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</link>
+      <link>https://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</link>
       <pubDate>Tue, 23 Feb 2010 01:21:35 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/</guid>
       <description>&lt;p&gt;At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn&amp;rsquo;t only annoying for me, but I&amp;rsquo;m sure it was distracting for the church members.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Valentine&#39;s Day 8x8 RGB LED</title>
-      <link>http://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</link>
+      <link>https://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</link>
       <pubDate>Wed, 17 Feb 2010 14:57:52 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</guid>
+      <guid>https://blog.kevindarlington.com/2010/02/17/valentines-day-8x8-rgb-led/</guid>
       <description>&lt;p&gt;I decided this year to make a 8x8 RGB LED device to give to my girlfriend for Valentine&amp;rsquo;s Day. I had made her a heart of red LEDs two years ago and I decided to step it up a little. No, this was not a cheap solution (it cost around $100 in materials, including all the stuff I bought that I ended up not using). I spent more time on this thing than anything I have made before.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Airwick motion sensor PIR with an arduino</title>
-      <link>http://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</link>
+      <link>https://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</link>
       <pubDate>Sun, 10 Jan 2010 20:15:59 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</guid>
+      <guid>https://blog.kevindarlington.com/2010/01/10/airwick-motion-sensor-pir-with-an-arduino/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve obtained two Airwick Freshmatics from a yard sale for $2. These were used in my house for a while, but it quickly became annoying to be sprayed in the face every time.  So I decided to hook it up to my arduino for no reason whatsoever.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Boduino - projector blackout device (v1)</title>
-      <link>http://blog.kevindarlington.com/2009/12/12/boduino-projector-blackout-device-v1/</link>
+      <link>https://blog.kevindarlington.com/2009/12/12/boduino-projector-blackout-device-v1/</link>
       <pubDate>Sat, 12 Dec 2009 14:35:36 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/12/boduino-projector-blackout-device-v1/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/12/boduino-projector-blackout-device-v1/</guid>
       <description>&lt;p&gt;At church, we have a projector device that is hooked up to the computer that allows us to show words to a song or a video. The problem is the VGA to composite converter we have does not have a button to black out the projector. So, when I go to get a video ready to be shown, the whole congregation sees what I&amp;rsquo;m doing.&lt;/p&gt;</description>
     </item>
     

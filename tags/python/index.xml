@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Kevin Darlington</title>
-    <link>http://blog.kevindarlington.com/tags/python/</link>
+    <link>https://blog.kevindarlington.com/tags/python/</link>
     <description>Recent content in Python on Kevin Darlington</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
     <lastBuildDate>Sun, 13 Jun 2010 21:42:10 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.kevindarlington.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kevindarlington.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bitpim contacts CSV to google voice/gmail CSV</title>
-      <link>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</link>
+      <link>https://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</link>
       <pubDate>Sun, 13 Jun 2010 21:42:10 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</guid>
+      <guid>https://blog.kevindarlington.com/2010/06/13/bitpim-contacts-csv-to-google-voicegmail-csv/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had &lt;a href=&#34;http://www.google.com/googlevoice/about.html&#34;&gt;Google Voice&lt;/a&gt; for a while and I wanted to transfer my list of contacts from my phone to it. So, I decided to make a simple python script to convert the CSV contacts export from &lt;a href=&#34;http://www.bitpim.org/&#34;&gt;Bitpim&lt;/a&gt; to something that Google voice could import.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Heroes of Newerth player stats python script</title>
-      <link>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</link>
+      <link>https://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</link>
       <pubDate>Mon, 01 Mar 2010 02:22:03 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</guid>
+      <guid>https://blog.kevindarlington.com/2010/03/01/heroes-of-newerth-player-stats-python-script/</guid>
       <description>&lt;p&gt;Here is a script I made a long time ago when &lt;a href=&#34;http://www.heroesofnewerth.com/&#34;&gt;Heroes of Newerth&lt;/a&gt; first released its beta. It simply retrieves all of the player&amp;rsquo;s statistics given their player name.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Workclipmini - Copy text and open URLs from one computer to another</title>
-      <link>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</link>
+      <link>https://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</link>
       <pubDate>Sat, 19 Dec 2009 16:37:27 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/19/workclipmini-copy-text-and-open-urls-from-one-computer-to-another/</guid>
       <description>&lt;p&gt;My computer setup at home involves two computers. The first computer is my quad core workhorse. I do all my programming and gaming on this machine. My second computer is my chat/fileserver machine. I use this primiarly as a backup computer and so I can talk to people while gaming or programming.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rconsoft - HL1 chat command rcon tool</title>
-      <link>http://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</link>
+      <link>https://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</link>
       <pubDate>Wed, 02 Dec 2009 20:31:25 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</guid>
+      <guid>https://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/</guid>
       <description>&lt;p&gt;A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us.&lt;/p&gt;</description>
     </item>
     

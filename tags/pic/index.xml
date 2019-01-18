@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pic on Kevin Darlington</title>
-    <link>http://blog.kevindarlington.com/tags/pic/</link>
+    <link>https://blog.kevindarlington.com/tags/pic/</link>
     <description>Recent content in Pic on Kevin Darlington</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
     <lastBuildDate>Tue, 06 Apr 2010 13:44:46 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.kevindarlington.com/tags/pic/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kevindarlington.com/tags/pic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nokia 6100/6610 LCD PIC24H minibully</title>
-      <link>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
+      <link>https://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</link>
       <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
       
-      <guid>http://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
+      <guid>https://blog.kevindarlington.com/2010/04/06/nokia-6100-lcd-pic24h-minibully/</guid>
       <description>&lt;p&gt;I recently bought a Nokia 6100 LCD from Ebay because I am in an LCD craze phase. Since I have no need for this LCD right now, I decided to port some code over to the &lt;a href=&#34;http://www.sparkfun.com/commerce/product_info.php?products_id=9148&#34;&gt;PIC24H minibully&lt;/a&gt; from Sparkfun.&lt;/p&gt;</description>
     </item>
     
