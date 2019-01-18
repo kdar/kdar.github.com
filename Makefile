@@ -1,4 +1,4 @@
-SHELL=D:/dev/msys64/usr/bin/bash.exe
+# SHELL=D:/dev/msys64/usr/bin/bash.exe
 
 watch:
 	gulp watch&

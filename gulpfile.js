@@ -31,20 +31,20 @@ var browserifyOpts = {
   debug: !isProduction
 };
 
-gulp.task('vendor', function() {
+gulp.task('vendor', gulp.series(function() {
   gulp.src('node_modules/jquery/dist/*')
   .pipe(gulpCopy('static/vendor/jquery', {
     prefix: 3
   }));
-});
+}));
 
-gulp.task('js', function() {
+gulp.task('js', gulp.series(function() {
   var b = browserify(assign({}, watchify.args, browserifyOpts));
 
   return jsBundle(b);
-});
+}));
 
-gulp.task('sass', function() {
+gulp.task('sass', gulp.series(function() {
   gulp.src(['./src/scss/**/*.scss'])
     .pipe(gulpif(!isProduction, sourcemaps.init()))
     .pipe(sass().on('error', sass.logError))
@@ -53,12 +53,12 @@ gulp.task('sass', function() {
     .pipe(gulpif(isProduction, cssnano({autoprefixer: false, safe: true})))
     .pipe(gulpif(!isProduction, sourcemaps.write()))
     .pipe(gulp.dest('./static/css'));
-});
+}));
 
-gulp.task('build', ['js', 'sass']);
+gulp.task('build', gulp.series('js', 'sass'));
 
-gulp.task('watch', function() {
-  gulp.watch('./src/scss/**/*.*', ['sass']);
+gulp.task('watch', gulp.series(function() {
+  gulp.watch('./src/scss/**/*.*', gulp.series('sass'));
 
   var b = watchify(browserify(assign({}, watchify.args, browserifyOpts)));
   b.on('log', gutil.log); // output build logs to terminal
@@ -67,7 +67,7 @@ gulp.task('watch', function() {
   });
 
   return jsBundle(b);
-});
+}));
 
 function jsBundle(b) {
   return b.bundle()

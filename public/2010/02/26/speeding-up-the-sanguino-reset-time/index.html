@@ -10,13 +10,12 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="Speeding up the Sanguino reset time | Kevin Darlington">
   <meta property="og:url" content="http://blog.kevindarlington.com/2010/02/26/speeding-up-the-sanguino-reset-time/">
-  <meta property="og:description" content="I decided to use a Sanguino for my next project and I noticed that every time I reset it with the pushbutton, it would take around 10 seconds to start the program. I thought this was absurd since the regular Arduino doesn&rsquo;t take that long. I decided to dive into the bootloader firmware and find out the problem. The Sanguino version I&rsquo;m dealing with is v1.4 r1.
-">
+  <meta property="og:description" content="I decided to use a Sanguino for my next project and I noticed that every time I reset it with the pushbutton, it would take around 10 seconds to start the program. I thought this was absurd since the regular Arduino doesn&rsquo;t take that long. I decided to dive into the bootloader firmware and find out the problem. The Sanguino version I&rsquo;m dealing with is v1.4 r1.">
   
   
   <meta property="og:site_name" content="Kevin Darlington">
 
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.54-DEV" />
 
   <title>
     
@@ -80,7 +79,7 @@
       <h1 class="ui inverted header">
         Kevin Darlington
       </h1>
-      <h2 class="ui inverted header">Hello World!</h2>
+      <h2 class="ui inverted header"></h2>
     </div>
   </div>
 </div>
@@ -104,13 +103,11 @@
         </div>
       </header>
       <div class="post-content">
-        <p>
-
-<p>I decided to use a <a href="http://sanguino.cc/">Sanguino</a> for my next project and I noticed that every time I reset it with the pushbutton, it would take around 10 seconds to start the program. I thought this was absurd since the regular Arduino doesn&rsquo;t take that long. I decided to dive into the bootloader firmware and find out the problem. The Sanguino version I&rsquo;m dealing with is v1.4 r1.</p>
+        <p><p>I decided to use a <a href="http://sanguino.cc/">Sanguino</a> for my next project and I noticed that every time I reset it with the pushbutton, it would take around 10 seconds to start the program. I thought this was absurd since the regular Arduino doesn&rsquo;t take that long. I decided to dive into the bootloader firmware and find out the problem. The Sanguino version I&rsquo;m dealing with is v1.4 r1.</p>
 
 <p>After looking at the code, I could see that it would wait for &ldquo;MAX_TIME_COUNT&rdquo; iterations for a response on UART. Looking at the Makefile, it was set to 8000000&gt;&gt;1 which is the equivalent of 4000000. So the getch() function would keep incrementing a counter and checking for a response on UART, and finally timeout when the count exceeded 4000000. Obviously, this was taking too long for my tastes.</p>
 
-<h4 id="changes:0c34f6de3ee3d07b958c07290019806f">Changes</h4>
+<h4 id="changes">Changes</h4>
 
 <p>In the Makefile contained in hardware/sanguino/bootloaders/atmega644p, make the following changes:</p>
 
@@ -138,13 +135,13 @@
 
 <p>I also changed the ATmegaBOOT.c code to not blink the LED 3 times but to blink it once. I saved some precious milliseconds. You can do this be setting NUM_LED_FLASHES on line 77 to 1.</p>
 
-<h4 id="compiling-and-uploading:0c34f6de3ee3d07b958c07290019806f">Compiling and uploading</h4>
+<h4 id="compiling-and-uploading">Compiling and uploading</h4>
 
 <p>Just run &ldquo;make&rdquo; in the atmega644p folder to build the hex file. If your hex file ends up being over 6KB, then you&rsquo;re still using gcc 4.x.x and not 3.x.x.</p>
 
 <p>To upload the bootloader, I used the Arduino IDE and went to Tools &gt; Burn Bootloader &gt; USBtinyISP. Select whatever programmer you have. Make sure you have &ldquo;Sanguino&rdquo; as the selected board in Tools &gt; Board.</p>
 
-<h4 id="speed-comparison:0c34f6de3ee3d07b958c07290019806f">Speed comparison</h4>
+<h4 id="speed-comparison">Speed comparison</h4>
 
 <p>Before: ~10.5 seconds reset time</p>
 
@@ -152,16 +149,15 @@
 
 <p>With F_CPU&gt;&gt;5: ~2 seconds reset time</p>
 
-<h4 id="conclusion:0c34f6de3ee3d07b958c07290019806f">Conclusion</h4>
+<h4 id="conclusion">Conclusion</h4>
 
 <p>I&rsquo;m unsure why the delay is so long in the Makefile. Currently, I see no ill effects from making this change. Be sure not to make the delay too low because then you won&rsquo;t be able to serially program the device.</p>
 
-<h4 id="files:0c34f6de3ee3d07b958c07290019806f">Files</h4>
+<h4 id="files">Files</h4>
 
 <p><a href="/downloads/wp-content/uploads/2010/02/Makefile">Makefile</a></p>
 
-<p><a href="/downloads/wp-content/uploads/2010/02/ATmegaBOOT.c">ATmegaBOOT.c</a></p>
-</p>
+<p><a href="/downloads/wp-content/uploads/2010/02/ATmegaBOOT.c">ATmegaBOOT.c</a></p></p>
 
         <div class="post-tags">
           

@@ -2,7 +2,7 @@
 
 <div class="list-post-container ui container">
   <div class="ui large relaxed list">
-  {{ range $index, .Paginator.Pages }}
+  {{ range .Paginator.Pages }}
     {{ partial "post/li" . }}
   {{ end }}
   </div>

@@ -39,7 +39,7 @@ body.pushable>.pusher {
 
 .masthead {
   &.segment {
-    min-height: 320px;
+    min-height: 0px;
     padding: 1em 0em;
   }
   .logo.item img {
@@ -105,7 +105,7 @@ body.pushable>.pusher {
   }
   .masthead {
     &.segment {
-      min-height: 200px;
+      min-height: 0px;
     }
     h1.ui.header {
       font-size: 2em;

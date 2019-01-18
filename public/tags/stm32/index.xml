@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
     <lastBuildDate>Sat, 27 Feb 2010 02:04:29 +0000</lastBuildDate>
-    <atom:link href="http://blog.kevindarlington.com/tags/stm32/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.kevindarlington.com/tags/stm32/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>STM32 4-bit LCD library</title>
@@ -16,10 +18,7 @@
       <pubDate>Sat, 27 Feb 2010 02:04:29 +0000</pubDate>
       
       <guid>http://blog.kevindarlington.com/2010/02/27/stm32-4-bit-lcd-library/</guid>
-      <description>&lt;p&gt;Here is a 4-bit LCD library for the STM32 that I based off of the &lt;a href=&#34;http://www.arduino.cc/playground/Code/LCD4BitLibrary&#34;&gt;LCD4BitLibrary&lt;/a&gt; for Arduino. It&amp;rsquo;s lightweight, but it also incorporates Arduino&amp;rsquo;s Print class.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/STM32-LCD-4Bit&#34;&gt;http://github.com/kdar/STM32-LCD-4Bit&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;Here is a 4-bit LCD library for the STM32 that I based off of the &lt;a href=&#34;http://www.arduino.cc/playground/Code/LCD4BitLibrary&#34;&gt;LCD4BitLibrary&lt;/a&gt; for Arduino. It&amp;rsquo;s lightweight, but it also incorporates Arduino&amp;rsquo;s Print class.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,12 +27,7 @@
       <pubDate>Fri, 26 Feb 2010 03:39:25 +0000</pubDate>
       
       <guid>http://blog.kevindarlington.com/2010/02/26/stm32-project-template-for-hd-devices/</guid>
-      <description>&lt;p&gt;Here is a STM32 project template that I based off of &lt;a href=&#34;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&#34;&gt;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I made some changes to it to get it working for my purposes and the &lt;a href=&#34;http://www.codesourcery.com/sgpp/lite/arm/portal/subscription?@template=lite&#34;&gt;CodeSourcery G++ lite (EABI)&lt;/a&gt; compiler.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://github.com/kdar/STM32-HD-Project-template&#34;&gt;http://github.com/kdar/STM32-HD-Project-template&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;Here is a STM32 project template that I based off of &lt;a href=&#34;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&#34;&gt;http://www.micromouseonline.com/blog/2009/10/19/another-stm32-project-template&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

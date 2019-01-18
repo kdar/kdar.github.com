@@ -48,16 +48,16 @@
   <!-- Pagination. -->
 
   <div class="prevnext">
-    {{ if .Prev }}
-    <a href="{{ .Prev.Permalink }}" class="ui left labeled icon button violet prev">
+    {{ if .NextPage }}
+    <a href="{{ .NextPage.Permalink }}" class="ui left labeled icon button violet prev">
       <i class="left arrow icon"></i>
-      {{ .Prev.Title }}
+      {{ .NextPage.Title }}
     </a>
     {{ end }}
-    {{ if .Next }}
-    <a href="{{ .Next.Permalink }}" class="ui right labeled icon button blue next">
+    {{ if .PrevPage }}
+    <a href="{{ .PrevPage.Permalink }}" class="ui right labeled icon button blue next">
       <i class="right arrow icon"></i>
-      {{ .Next.Title }}
+      {{ .PrevPage.Title }}
     </a>
     {{ end }}
   </div>
