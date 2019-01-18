@@ -10,13 +10,12 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="Boduino - projector blackout device (v1) | Kevin Darlington">
   <meta property="og:url" content="http://blog.kevindarlington.com/2009/12/12/boduino-projector-blackout-device-v1/">
-  <meta property="og:description" content="At church, we have a projector device that is hooked up to the computer that allows us to show words to a song or a video. The problem is the VGA to composite converter we have does not have a button to black out the projector. So, when I go to get a video ready to be shown, the whole congregation sees what I&rsquo;m doing.
-">
+  <meta property="og:description" content="At church, we have a projector device that is hooked up to the computer that allows us to show words to a song or a video. The problem is the VGA to composite converter we have does not have a button to black out the projector. So, when I go to get a video ready to be shown, the whole congregation sees what I&rsquo;m doing.">
   
   
   <meta property="og:site_name" content="Kevin Darlington">
 
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.54-DEV" />
 
   <title>
     
@@ -80,7 +79,7 @@
       <h1 class="ui inverted header">
         Kevin Darlington
       </h1>
-      <h2 class="ui inverted header">Hello World!</h2>
+      <h2 class="ui inverted header"></h2>
     </div>
   </div>
 </div>
@@ -104,13 +103,11 @@
         </div>
       </header>
       <div class="post-content">
-        <p>
-
-<p>At church, we have a projector device that is hooked up to the computer that allows us to show words to a song or a video. The problem is the VGA to composite converter we have does not have a button to black out the projector. So, when I go to get a video ready to be shown, the whole congregation sees what I&rsquo;m doing.</p>
+        <p><p>At church, we have a projector device that is hooked up to the computer that allows us to show words to a song or a video. The problem is the VGA to composite converter we have does not have a button to black out the projector. So, when I go to get a video ready to be shown, the whole congregation sees what I&rsquo;m doing.</p>
 
 <p>My solution was to take an arduino and build a device that would sit in the middle of the converter and projector, and allow me to black out the projector with a push button. There are several other solutions to this problem, but this seemed like the most fun. The project was named Boduino because it is a BlackOut arDUINO.</p>
 
-<h4 id="parts:b64f2c142a9badebbb2bab01f34518de">Parts</h4>
+<h4 id="parts">Parts</h4>
 
 <ul>
 <li><p>1x 5v SPDT 1A reed relay. I got mine from futurlec; <a href="http://futurlec.com/Relays/JRC-23F-05pr.shtml">JRC-23F-05</a></p></li>
@@ -150,7 +147,7 @@
 
 <p>It should be noted that you do not have to match these parts exactly. Everything can be changed except for the resistor values. Try to get as many parts as you can from one distributer. Pay close attention to the actual size of the parts, because you could end up buying something that won&rsquo;t fit (like the first push button I bought).</p>
 
-<h4 id="schematic:b64f2c142a9badebbb2bab01f34518de">Schematic</h4>
+<h4 id="schematic">Schematic</h4>
 
 
 
@@ -177,7 +174,7 @@
 
 <p>You can ignore the atmega328p chip on the right and just hook up your arduino to the pins I specified. Unless you know what you&rsquo;re doing, then you can do what you want.</p>
 
-<h4 id="assembly:b64f2c142a9badebbb2bab01f34518de">Assembly</h4>
+<h4 id="assembly">Assembly</h4>
 
 
 
@@ -289,17 +286,17 @@
 
 <p>Finally, I used cable tie wraps to prevent the wires from being pulled on.</p>
 
-<h4 id="code:b64f2c142a9badebbb2bab01f34518de">Code</h4>
+<h4 id="code">Code</h4>
 
 <p>Get it here: <a href="/downloads/wp-content/uploads/2009/12/sketch_boduino.pde">sketch_boduino.pde</a>.</p>
 
 <p>It is important to note that this code outputs a PAL signal. This seemed to work on all my TVs and the projector. I couldn&rsquo;t for the life of me get any NTSC code to work. I&rsquo;ve downloaded about 5 people&rsquo;s code and even tried to do it myself following the specification. All I got was a blue screen (no signal).</p>
 
-<h4 id="conclusion:b64f2c142a9badebbb2bab01f34518de">Conclusion</h4>
+<h4 id="conclusion">Conclusion</h4>
 
 <p>I know the information here isn&rsquo;t well thought out or presented. I did not plan on publishing this device when I was making it, so I took pictures after it was all together. But, you should get an idea of how everything works and how it was put together. I&rsquo;ll be happy to answer any questions that anyone would have.</p>
 
-<h4 id="known-bugs:b64f2c142a9badebbb2bab01f34518de">Known bugs</h4>
+<h4 id="known-bugs">Known bugs</h4>
 
 <ul>
 <li><p>If you hook boduino up to a TV, you can see the vertical refresh line. I didn&rsquo;t care to fix this because it is absolutely invisible on the projector. Any thoughts would be appreciated.</p></li>
@@ -309,7 +306,7 @@
 <li><p>Sometimes when you switch to blackout, the projector will start to search as if it lost a signal. This is very rare and when it happens it quickly goes back to being blacked out. I don&rsquo;t think the projector likes interrupting an NTSC signal with a PAL one. Luckily the projector was designed well enough not to complain most of the time.</p></li>
 </ul>
 
-<h4 id="notes:b64f2c142a9badebbb2bab01f34518de">Notes</h4>
+<h4 id="notes">Notes</h4>
 
 <ul>
 <li><p>I used 1 RCA jack and a cut RCA cable. I suggest you use 2 RCA jacks and just use a male-to-male RCA cable. That way you can support any kind of female/male input/output RCA. In my design, the female RCA is the output and the male RCA is input (yes, that is backwards from the norm).</p></li>
@@ -319,7 +316,7 @@
 <li><p>It would be cool if boduino could support both PAL and NTSC signals. I might have to look at the <a href="http://www.batsocks.co.uk/products/Other/TellyMate.htm">tellymate</a> code to achieve this.</p></li>
 </ul>
 
-<p>
+
 
 
 
@@ -336,10 +333,7 @@
         
     </figcaption>
     
-</figure>
-
-</p>
-</p>
+</figure></p>
 
         <div class="post-tags">
           

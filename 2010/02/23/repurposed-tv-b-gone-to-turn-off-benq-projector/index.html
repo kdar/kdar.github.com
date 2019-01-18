@@ -10,13 +10,12 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="Repurposed tv-b-gone to turn off benq projector | Kevin Darlington">
   <meta property="og:url" content="http://blog.kevindarlington.com/2010/02/23/repurposed-tv-b-gone-to-turn-off-benq-projector/">
-  <meta property="og:description" content="At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn&rsquo;t only annoying for me, but I&rsquo;m sure it was distracting for the church members.
-">
+  <meta property="og:description" content="At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn&rsquo;t only annoying for me, but I&rsquo;m sure it was distracting for the church members.">
   
   
   <meta property="og:site_name" content="Kevin Darlington">
 
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.54-DEV" />
 
   <title>
     
@@ -80,7 +79,7 @@
       <h1 class="ui inverted header">
         Kevin Darlington
       </h1>
-      <h2 class="ui inverted header">Hello World!</h2>
+      <h2 class="ui inverted header"></h2>
     </div>
   </div>
 </div>
@@ -104,9 +103,7 @@
         </div>
       </header>
       <div class="post-content">
-        <p>
-
-<p>At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn&rsquo;t only annoying for me, but I&rsquo;m sure it was distracting for the church members.</p>
+        <p><p>At church, we have a projector that is close to the ceiling and far away from the audio/video booth. The remote control that came with the projector does not have a very far range. I have to get out of the booth and walk close to the back row and keep moving the remote until I get the projector to turn off or on. It wasn&rsquo;t only annoying for me, but I&rsquo;m sure it was distracting for the church members.</p>
 
 <p>The solution to this problem is an easy one: build a more powerful remote. The first order of business was whether I would build one from scratch or if I was going to modify something else on the market. Since the IR LEDs that I wanted were out of stock at mouser (and I dislike digikey&rsquo;s shipping price), I decided to just buy a <a href="http://www.adafruit.com/index.php?main_page=product_info&amp;cPath=20&amp;products_id=73&amp;zenid=bac5d01d94a94bb0fa1075e8e3f6bdbc">tv-b-gone kit</a> from <a href="http://www.adafruit.com/">adafruit</a>.</p>
 
@@ -195,7 +192,7 @@
 
 
 
-<p>
+
 
 
 
@@ -218,16 +215,15 @@
     
 </figure>
 
-</p>
 
-<h4 id="code:19369726bc1084012797880118e0d562">Code</h4>
+
+<h4 id="code">Code</h4>
 
 <p>I changed the code up a bit from the original firmware. I removed some unnecessary delays and LED blinks, and I obviously removed the rest of the TV codes. I used <a href="http://www.atmel.com/dyn/products/tools_card.asp?tool_id=2725">AVRStudio</a> to write the firmware and <a href="http://www.ladyada.net/make/usbtinyisp/index.html">USBtinyISP</a> to program it.</p>
 
 <p>Inside the zip, I include an analysis folder which contains the IR code for my projector. &ldquo;analysis/ir.txt&rdquo; is the more interesting file.</p>
 
-<p><a href="/downloads/wp-content/uploads/2010/02/church_benq.zip">church_benq.zip</a></p>
-</p>
+<p><a href="/downloads/wp-content/uploads/2010/02/church_benq.zip">church_benq.zip</a></p></p>
 
         <div class="post-tags">
           

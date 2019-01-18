@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Kevin Darlington</title>
+    <link>http://blog.kevindarlington.com/tags/</link>
+    <description>Recent content in Tags on Kevin Darlington</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Kevin Darlington, 2015</copyright>
+    <lastBuildDate>Tue, 16 Mar 2010 03:22:20 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.kevindarlington.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arduino</title>
+      <link>http://blog.kevindarlington.com/tags/arduino/</link>
+      <pubDate>Tue, 16 Mar 2010 03:22:20 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arm</title>
+      <link>http://blog.kevindarlington.com/tags/arm/</link>
+      <pubDate>Sat, 27 Feb 2010 02:04:29 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/arm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Avr</title>
+      <link>http://blog.kevindarlington.com/tags/avr/</link>
+      <pubDate>Tue, 23 Feb 2010 01:21:35 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/avr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Counter Strike</title>
+      <link>http://blog.kevindarlington.com/tags/counter-strike/</link>
+      <pubDate>Wed, 02 Dec 2009 20:31:25 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/counter-strike/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electronics</title>
+      <link>http://blog.kevindarlington.com/tags/electronics/</link>
+      <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extractor</title>
+      <link>http://blog.kevindarlington.com/tags/extractor/</link>
+      <pubDate>Tue, 01 Dec 2009 23:43:54 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/extractor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fume</title>
+      <link>http://blog.kevindarlington.com/tags/fume/</link>
+      <pubDate>Tue, 01 Dec 2009 23:43:54 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/fume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Half Life</title>
+      <link>http://blog.kevindarlington.com/tags/half-life/</link>
+      <pubDate>Wed, 02 Dec 2009 20:31:25 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/half-life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microcontrollers</title>
+      <link>http://blog.kevindarlington.com/tags/microcontrollers/</link>
+      <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/microcontrollers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pic</title>
+      <link>http://blog.kevindarlington.com/tags/pic/</link>
+      <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/pic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pic24h</title>
+      <link>http://blog.kevindarlington.com/tags/pic24h/</link>
+      <pubDate>Tue, 06 Apr 2010 13:44:46 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/pic24h/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>http://blog.kevindarlington.com/tags/programming/</link>
+      <pubDate>Sun, 13 Jun 2010 21:42:10 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://blog.kevindarlington.com/tags/python/</link>
+      <pubDate>Sun, 13 Jun 2010 21:42:10 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rcon</title>
+      <link>http://blog.kevindarlington.com/tags/rcon/</link>
+      <pubDate>Wed, 02 Dec 2009 20:31:25 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/rcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sanguino</title>
+      <link>http://blog.kevindarlington.com/tags/sanguino/</link>
+      <pubDate>Tue, 16 Mar 2010 03:22:20 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/sanguino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solder</title>
+      <link>http://blog.kevindarlington.com/tags/solder/</link>
+      <pubDate>Tue, 01 Dec 2009 23:43:54 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/solder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stm32</title>
+      <link>http://blog.kevindarlington.com/tags/stm32/</link>
+      <pubDate>Sat, 27 Feb 2010 02:04:29 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/stm32/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>http://blog.kevindarlington.com/tags/tools/</link>
+      <pubDate>Fri, 12 Feb 2010 03:07:27 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wow</title>
+      <link>http://blog.kevindarlington.com/tags/wow/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.kevindarlington.com/tags/wow/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

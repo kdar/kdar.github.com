@@ -10,13 +10,12 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="Rconsoft - HL1 chat command rcon tool | Kevin Darlington">
   <meta property="og:url" content="http://blog.kevindarlington.com/2009/12/02/rconsoft-hl1-chat-command-rcon-tool/">
-  <meta property="og:description" content="A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us.
-">
+  <meta property="og:description" content="A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us.">
   
   
   <meta property="og:site_name" content="Kevin Darlington">
 
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.54-DEV" />
 
   <title>
     
@@ -80,7 +79,7 @@
       <h1 class="ui inverted header">
         Kevin Darlington
       </h1>
-      <h2 class="ui inverted header">Hello World!</h2>
+      <h2 class="ui inverted header"></h2>
     </div>
   </div>
 </div>
@@ -104,19 +103,17 @@
         </div>
       </header>
       <div class="post-content">
-        <p>
-
-<p>A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us.</p>
+        <p><p>A long time ago (a few years), I used to play a lot of counter-strike with a few friends. We used to do a lot of scrimmages and matches (cal-m). One thing we were tired of was having to find a scrim via IRC. My brilliant friend, James, decided to make a tool that would automatically find scrims for us.</p>
 
 <p>He didn&rsquo;t just do that, but he made it so you could type commands inside the game chat and have the bot/program do what he wanted. It did other things as well, like getting the CAL info of the players, restarting the round, doing lo3, etc&hellip;</p>
 
 <p>Around this time I started getting into python and decided to remake his rcon.pl (yes, it was perl). I turned it into what is now known as rconsoft, with a pluggable architecture and more features.</p>
 
-<h4 id="what-it-does:1d0e710f67ccf5111f2305b437be6f37">What it does</h4>
+<h4 id="what-it-does">What it does</h4>
 
 <p>The program allows you to type commands in the half-life/counter-strike chat. You can do stuff like .lo3 and have the server do the live on three sequence, .k <player> and kick the player from the server, or .id <player> and get the player&rsquo;s league information.</p>
 
-<h4 id="how-it-works:1d0e710f67ccf5111f2305b437be6f37">How it works</h4>
+<h4 id="how-it-works">How it works</h4>
 
 <p>In the HL rcon protocol there is something called logaddress. This allows you to add an ip/port to the log address list, and the real-time server log will be sent to this ip/port via UDP. Here are a few examples of what is sent:</p>
 
@@ -136,7 +133,7 @@
 
 <p>So, what rconsoft does is log into the rcon of the server, set up the logaddress, and receive this log information. Since you can see chat text, it is trivial to have your program respond to commands in the chat. So you can type something like &ldquo;.lo3&rdquo;, and rconsoft will do the live on three sequence. All without having to minimize your game!</p>
 
-<h4 id="features:1d0e710f67ccf5111f2305b437be6f37">Features</h4>
+<h4 id="features">Features</h4>
 
 <ul>
 <li><p>Rconsoft was built with plugins in mind. All the commands that rconsoft supports are implemented in these plugins. The plugins are also very simple.</p></li>
@@ -158,7 +155,7 @@
 
 <p>There may be more features, but this list was compiled off the top of my head. The feature list was going to grow as James and I had a lot of ideas for it (like score tracking). However, I no longer play counter-strike anymore so I don&rsquo;t have an interest in expanding it.</p>
 
-<h4 id="commands:1d0e710f67ccf5111f2305b437be6f37">Commands</h4>
+<h4 id="commands">Commands</h4>
 
 <p>You can look in the plugins directory and in the corresponding source files to find the commands rconsoft supports. I never got around to making a help system. All these commands are typed in the chat with the prefix &ldquo;.&rdquo;.</p>
 
@@ -270,20 +267,19 @@
 
 <p>There could be more but this is what I saw from browsing the source code. I was also working on a plugin that would track the team scores and output them. I ran into some problems because of how the protocol does it.</p>
 
-<h4 id="source:1d0e710f67ccf5111f2305b437be6f37">Source</h4>
+<h4 id="source">Source</h4>
 
 <p>The source code is free for anyone to use and hack. If you decide to fork the repository and add stuff, let me know so I can marvel in your magnificence.</p>
 
 <p>Get it here: <a href="http://github.com/kdar/rconsoft">http://github.com/kdar/rconsoft</a>.</p>
 
-<h4 id="notes:1d0e710f67ccf5111f2305b437be6f37">Notes</h4>
+<h4 id="notes">Notes</h4>
 
 <p>I mainly ran this on ubuntu linux. It <em>should</em> work on windows but there is no guarantee.</p>
 
 <p>I&rsquo;m sorry if there are bugs in the program. I don&rsquo;t really have time to dedicate myself to fix it nor do I have a server to test it on. It worked perfectly the last time I was using it.</p>
 
-<p>I&rsquo;m happy to answer questions that people may have. I&rsquo;ll provide as much guidance as I can.</p>
-</p>
+<p>I&rsquo;m happy to answer questions that people may have. I&rsquo;ll provide as much guidance as I can.</p></p>
 
         <div class="post-tags">
           

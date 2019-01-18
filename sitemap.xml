@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://blog.kevindarlington.com/</loc>
-    <lastmod>2013-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://blog.kevindarlington.com/2013/10/04/calculate-the-cost-of-leveling-a-wow-profession-via-the-auction-house/</loc>
@@ -95,6 +90,143 @@
   <url>
     <loc>http://blog.kevindarlington.com/2009/12/01/high-performance-diy-fume-extractor/</loc>
     <lastmod>2009-12-01T23:43:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/arduino/</loc>
+    <lastmod>2010-03-16T03:22:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/arm/</loc>
+    <lastmod>2010-02-27T02:04:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/avr/</loc>
+    <lastmod>2010-02-23T01:21:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/counter-strike/</loc>
+    <lastmod>2009-12-02T20:31:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/electronics/</loc>
+    <lastmod>2010-04-06T13:44:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/extractor/</loc>
+    <lastmod>2009-12-01T23:43:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/fume/</loc>
+    <lastmod>2009-12-01T23:43:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/half-life/</loc>
+    <lastmod>2009-12-02T20:31:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/</loc>
+    <lastmod>2013-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/microcontrollers/</loc>
+    <lastmod>2010-04-06T13:44:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/pic/</loc>
+    <lastmod>2010-04-06T13:44:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/pic24h/</loc>
+    <lastmod>2010-04-06T13:44:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/post/</loc>
+    <lastmod>2013-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/programming/</loc>
+    <lastmod>2010-06-13T21:42:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/python/</loc>
+    <lastmod>2010-06-13T21:42:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/rcon/</loc>
+    <lastmod>2009-12-02T20:31:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/sanguino/</loc>
+    <lastmod>2010-03-16T03:22:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/solder/</loc>
+    <lastmod>2009-12-01T23:43:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/stm32/</loc>
+    <lastmod>2010-02-27T02:04:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/</loc>
+    <lastmod>2010-03-16T03:22:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/tools/</loc>
+    <lastmod>2010-02-12T03:07:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kevindarlington.com/tags/wow/</loc>
+    <lastmod>2013-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
